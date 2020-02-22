@@ -15,3 +15,5 @@ remote:      https://github.com/beniciosa68/MBA-USP-DS/pull/new/<nome_da_atualiz
 
 Opção -> Create Pull Request
 Opção -> Merge
+
+git branch
