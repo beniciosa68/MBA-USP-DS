@@ -17,3 +17,5 @@ Opção -> Create Pull Request
 Opção -> Merge
 
 git branch
+
+git checkout master
