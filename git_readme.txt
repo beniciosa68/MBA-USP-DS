@@ -6,7 +6,8 @@ git status
 
 git add --all
 
-git commit -a
+git commit -a ou
+git commit -m <label> (para não aparecer o arquivo de aprovação)
 
 git push --set-upstream origin <nome_da_atualizao>
 ou
