@@ -6,7 +6,8 @@ git status
 
 git add --all
 
-git commit -a
+git commit -a ou
+git commit -m
 
 git push --set-upstream origin <nome_da_atualizao>
 ou
