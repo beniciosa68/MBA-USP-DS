@@ -1,0 +1,1508 @@
+,Province.State,Country.Region,Lat,Long,date,cases,type
+1,,Japan,35.6762,139.6503,01/22/2020,2,confirmed
+2,,South Korea,37.5665,126.978,01/22/2020,1,confirmed
+3,,Thailand,13.7563,100.5018,01/22/2020,2,confirmed
+4,Anhui,Mainland China,31.82571,117.2264,01/22/2020,1,confirmed
+5,Beijing,Mainland China,40.18238,116.4142,01/22/2020,14,confirmed
+6,Chongqing,Mainland China,30.05718,107.874,01/22/2020,6,confirmed
+7,Fujian,Mainland China,26.07783,117.9895,01/22/2020,1,confirmed
+8,Guangdong,Mainland China,23.33841,113.422,01/22/2020,26,confirmed
+9,Guangxi,Mainland China,23.82908,108.7881,01/22/2020,2,confirmed
+10,Guizhou,Mainland China,26.81536,106.8748,01/22/2020,1,confirmed
+11,Hainan,Mainland China,19.19673,109.7455,01/22/2020,4,confirmed
+12,Hebei,Mainland China,38.0428,114.5149,01/22/2020,1,confirmed
+13,Henan,Mainland China,33.88202,113.614,01/22/2020,5,confirmed
+14,Hubei,Mainland China,30.97564,112.2707,01/22/2020,444,confirmed
+15,Hunan,Mainland China,27.61041,111.7088,01/22/2020,4,confirmed
+16,Jiangsu,Mainland China,32.97027,119.464,01/22/2020,1,confirmed
+17,Jiangxi,Mainland China,27.61401,115.7221,01/22/2020,2,confirmed
+18,Liaoning,Mainland China,41.29284,122.6086,01/22/2020,2,confirmed
+19,Macau,Macau,22.1987,113.5439,01/22/2020,1,confirmed
+20,Ningxia,Mainland China,37.26923,106.1655,01/22/2020,1,confirmed
+21,"Seattle, WA",US,47.7511,-120.74,01/22/2020,1,confirmed
+22,Shandong,Mainland China,36.34377,118.1529,01/22/2020,2,confirmed
+23,Shanghai,Mainland China,31.20327,121.4554,01/22/2020,9,confirmed
+24,Shanxi,Mainland China,37.57769,112.2922,01/22/2020,1,confirmed
+25,Sichuan,Mainland China,30.61714,102.7103,01/22/2020,5,confirmed
+26,Taiwan,Taiwan,23.6978,120.9605,01/22/2020,1,confirmed
+27,Tianjin,Mainland China,39.29362,117.333,01/22/2020,4,confirmed
+28,Yunnan,Mainland China,24.97411,101.4868,01/22/2020,1,confirmed
+29,Zhejiang,Mainland China,29.18251,120.0985,01/22/2020,10,confirmed
+30,Hubei,Mainland China,30.97564,112.2707,01/22/2020,17,death
+31,Hubei,Mainland China,30.97564,112.2707,01/22/2020,28,recovered
+32,,Japan,35.6762,139.6503,01/23/2020,-1,confirmed
+33,,Singapore,1.3521,103.8198,01/23/2020,1,confirmed
+34,,Thailand,13.7563,100.5018,01/23/2020,1,confirmed
+35,,Vietnam,21.0278,105.8342,01/23/2020,2,confirmed
+36,Anhui,Mainland China,31.82571,117.2264,01/23/2020,8,confirmed
+37,Beijing,Mainland China,40.18238,116.4142,01/23/2020,8,confirmed
+38,Chongqing,Mainland China,30.05718,107.874,01/23/2020,3,confirmed
+39,Fujian,Mainland China,26.07783,117.9895,01/23/2020,4,confirmed
+40,Gansu,Mainland China,36.0611,103.8343,01/23/2020,2,confirmed
+41,Guangdong,Mainland China,23.33841,113.422,01/23/2020,6,confirmed
+42,Guangxi,Mainland China,23.82908,108.7881,01/23/2020,3,confirmed
+43,Guizhou,Mainland China,26.81536,106.8748,01/23/2020,2,confirmed
+44,Hainan,Mainland China,19.19673,109.7455,01/23/2020,1,confirmed
+45,Heilongjiang,Mainland China,47.862,127.7622,01/23/2020,2,confirmed
+46,Hong Kong,Hong Kong,22.3193,114.1694,01/23/2020,2,confirmed
+47,Hunan,Mainland China,27.61041,111.7088,01/23/2020,5,confirmed
+48,Jiangsu,Mainland China,32.97027,119.464,01/23/2020,4,confirmed
+49,Jiangxi,Mainland China,27.61401,115.7221,01/23/2020,5,confirmed
+50,Jilin,Mainland China,43.66657,126.1917,01/23/2020,1,confirmed
+51,Liaoning,Mainland China,41.29284,122.6086,01/23/2020,1,confirmed
+52,Macau,Macau,22.1987,113.5439,01/23/2020,1,confirmed
+53,Shaanxi,Mainland China,35.19165,108.8701,01/23/2020,3,confirmed
+54,Shandong,Mainland China,36.34377,118.1529,01/23/2020,4,confirmed
+55,Shanghai,Mainland China,31.20327,121.4554,01/23/2020,7,confirmed
+56,Sichuan,Mainland China,30.61714,102.7103,01/23/2020,3,confirmed
+57,Xinjiang,Mainland China,41.11981,85.17822,01/23/2020,2,confirmed
+58,Yunnan,Mainland China,24.97411,101.4868,01/23/2020,1,confirmed
+59,Zhejiang,Mainland China,29.18251,120.0985,01/23/2020,17,confirmed
+60,Hebei,Mainland China,38.0428,114.5149,01/23/2020,1,death
+61,Guangdong,Mainland China,23.33841,113.422,01/23/2020,2,recovered
+62,,France,46.2276,2.2137,01/24/2020,2,confirmed
+63,,Japan,35.6762,139.6503,01/24/2020,1,confirmed
+64,,Singapore,1.3521,103.8198,01/24/2020,2,confirmed
+65,,South Korea,37.5665,126.978,01/24/2020,1,confirmed
+66,,Thailand,13.7563,100.5018,01/24/2020,2,confirmed
+67,Anhui,Mainland China,31.82571,117.2264,01/24/2020,6,confirmed
+68,Beijing,Mainland China,40.18238,116.4142,01/24/2020,14,confirmed
+69,"Chicago, IL",US,40.6331,-89.3985,01/24/2020,1,confirmed
+70,Chongqing,Mainland China,30.05718,107.874,01/24/2020,18,confirmed
+71,Fujian,Mainland China,26.07783,117.9895,01/24/2020,5,confirmed
+72,Guangdong,Mainland China,23.33841,113.422,01/24/2020,21,confirmed
+73,Guangxi,Mainland China,23.82908,108.7881,01/24/2020,18,confirmed
+74,Hainan,Mainland China,19.19673,109.7455,01/24/2020,3,confirmed
+75,Hebei,Mainland China,38.0428,114.5149,01/24/2020,1,confirmed
+76,Heilongjiang,Mainland China,47.862,127.7622,01/24/2020,2,confirmed
+77,Henan,Mainland China,33.88202,113.614,01/24/2020,4,confirmed
+78,Hubei,Mainland China,30.97564,112.2707,01/24/2020,105,confirmed
+79,Hunan,Mainland China,27.61041,111.7088,01/24/2020,15,confirmed
+80,Inner Mongolia,Mainland China,44.09448,113.9456,01/24/2020,1,confirmed
+81,Jiangsu,Mainland China,32.97027,119.464,01/24/2020,4,confirmed
+82,Jiangxi,Mainland China,27.61401,115.7221,01/24/2020,11,confirmed
+83,Jilin,Mainland China,43.66657,126.1917,01/24/2020,2,confirmed
+84,Liaoning,Mainland China,41.29284,122.6086,01/24/2020,1,confirmed
+85,Ningxia,Mainland China,37.26923,106.1655,01/24/2020,1,confirmed
+86,Shaanxi,Mainland China,35.19165,108.8701,01/24/2020,2,confirmed
+87,Shandong,Mainland China,36.34377,118.1529,01/24/2020,9,confirmed
+88,Shanghai,Mainland China,31.20327,121.4554,01/24/2020,4,confirmed
+89,Sichuan,Mainland China,30.61714,102.7103,01/24/2020,7,confirmed
+90,Taiwan,Taiwan,23.6978,120.9605,01/24/2020,2,confirmed
+91,Tianjin,Mainland China,39.29362,117.333,01/24/2020,4,confirmed
+92,Yunnan,Mainland China,24.97411,101.4868,01/24/2020,3,confirmed
+93,Zhejiang,Mainland China,29.18251,120.0985,01/24/2020,16,confirmed
+94,Heilongjiang,Mainland China,47.862,127.7622,01/24/2020,1,death
+95,Hubei,Mainland China,30.97564,112.2707,01/24/2020,7,death
+96,Beijing,Mainland China,40.18238,116.4142,01/24/2020,1,recovered
+97,Hubei,Mainland China,30.97564,112.2707,01/24/2020,3,recovered
+98,Shanghai,Mainland China,31.20327,121.4554,01/24/2020,1,recovered
+99,Zhejiang,Mainland China,29.18251,120.0985,01/24/2020,1,recovered
+100,,France,46.2276,2.2137,01/25/2020,1,confirmed
+101,,Malaysia,4.2105,101.9758,01/25/2020,3,confirmed
+102,,Nepal,28.3949,84.124,01/25/2020,1,confirmed
+103,,Thailand,13.7563,100.5018,01/25/2020,2,confirmed
+104,Anhui,Mainland China,31.82571,117.2264,01/25/2020,24,confirmed
+105,Beijing,Mainland China,40.18238,116.4142,01/25/2020,5,confirmed
+106,Chongqing,Mainland China,30.05718,107.874,01/25/2020,30,confirmed
+107,Fujian,Mainland China,26.07783,117.9895,01/25/2020,8,confirmed
+108,Gansu,Mainland China,36.0611,103.8343,01/25/2020,2,confirmed
+109,Guangdong,Mainland China,23.33841,113.422,01/25/2020,25,confirmed
+110,Guizhou,Mainland China,26.81536,106.8748,01/25/2020,1,confirmed
+111,Hainan,Mainland China,19.19673,109.7455,01/25/2020,11,confirmed
+112,Hebei,Mainland China,38.0428,114.5149,01/25/2020,6,confirmed
+113,Heilongjiang,Mainland China,47.862,127.7622,01/25/2020,5,confirmed
+114,Henan,Mainland China,33.88202,113.614,01/25/2020,23,confirmed
+115,Hong Kong,Hong Kong,22.3193,114.1694,01/25/2020,3,confirmed
+116,Hubei,Mainland China,30.97564,112.2707,01/25/2020,212,confirmed
+117,Hunan,Mainland China,27.61041,111.7088,01/25/2020,19,confirmed
+118,Inner Mongolia,Mainland China,44.09448,113.9456,01/25/2020,6,confirmed
+119,Jiangsu,Mainland China,32.97027,119.464,01/25/2020,9,confirmed
+120,Jilin,Mainland China,43.66657,126.1917,01/25/2020,1,confirmed
+121,Liaoning,Mainland China,41.29284,122.6086,01/25/2020,13,confirmed
+122,Ningxia,Mainland China,37.26923,106.1655,01/25/2020,1,confirmed
+123,Qinghai,Mainland China,35.65945,96.02564,01/25/2020,1,confirmed
+124,Shaanxi,Mainland China,35.19165,108.8701,01/25/2020,10,confirmed
+125,Shandong,Mainland China,36.34377,118.1529,01/25/2020,12,confirmed
+126,Shanghai,Mainland China,31.20327,121.4554,01/25/2020,13,confirmed
+127,Shanxi,Mainland China,37.57769,112.2922,01/25/2020,5,confirmed
+128,Sichuan,Mainland China,30.61714,102.7103,01/25/2020,13,confirmed
+129,Tianjin,Mainland China,39.29362,117.333,01/25/2020,2,confirmed
+130,Xinjiang,Mainland China,41.11981,85.17822,01/25/2020,1,confirmed
+131,Yunnan,Mainland China,24.97411,101.4868,01/25/2020,6,confirmed
+132,Zhejiang,Mainland China,29.18251,120.0985,01/25/2020,19,confirmed
+133,Hubei,Mainland China,30.97564,112.2707,01/25/2020,16,death
+134,Beijing,Mainland China,40.18238,116.4142,01/25/2020,1,recovered
+135,Hubei,Mainland China,30.97564,112.2707,01/25/2020,1,recovered
+136,Jiangsu,Mainland China,32.97027,119.464,01/25/2020,1,recovered
+137,,Japan,35.6762,139.6503,01/26/2020,2,confirmed
+138,,Malaysia,4.2105,101.9758,01/26/2020,1,confirmed
+139,,Singapore,1.3521,103.8198,01/26/2020,1,confirmed
+140,,South Korea,37.5665,126.978,01/26/2020,1,confirmed
+141,,Thailand,13.7563,100.5018,01/26/2020,1,confirmed
+142,Anhui,Mainland China,31.82571,117.2264,01/26/2020,21,confirmed
+143,Beijing,Mainland China,40.18238,116.4142,01/26/2020,27,confirmed
+144,Chongqing,Mainland China,30.05718,107.874,01/26/2020,18,confirmed
+145,Fujian,Mainland China,26.07783,117.9895,01/26/2020,17,confirmed
+146,Gansu,Mainland China,36.0611,103.8343,01/26/2020,3,confirmed
+147,Guangdong,Mainland China,23.33841,113.422,01/26/2020,33,confirmed
+148,Guangxi,Mainland China,23.82908,108.7881,01/26/2020,13,confirmed
+149,Guizhou,Mainland China,26.81536,106.8748,01/26/2020,1,confirmed
+150,Hainan,Mainland China,19.19673,109.7455,01/26/2020,3,confirmed
+151,Hebei,Mainland China,38.0428,114.5149,01/26/2020,5,confirmed
+152,Heilongjiang,Mainland China,47.862,127.7622,01/26/2020,6,confirmed
+153,Henan,Mainland China,33.88202,113.614,01/26/2020,51,confirmed
+154,Hong Kong,Hong Kong,22.3193,114.1694,01/26/2020,3,confirmed
+155,Hubei,Mainland China,30.97564,112.2707,01/26/2020,297,confirmed
+156,Hunan,Mainland China,27.61041,111.7088,01/26/2020,26,confirmed
+157,Jiangsu,Mainland China,32.97027,119.464,01/26/2020,15,confirmed
+158,Jiangxi,Mainland China,27.61401,115.7221,01/26/2020,18,confirmed
+159,Liaoning,Mainland China,41.29284,122.6086,01/26/2020,4,confirmed
+160,"Los Angeles, CA",US,34.0522,-118.2437,01/26/2020,1,confirmed
+161,Macau,Macau,22.1987,113.5439,01/26/2020,3,confirmed
+162,New South Wales,Australia,-33.8688,151.2093,01/26/2020,3,confirmed
+163,Ningxia,Mainland China,37.26923,106.1655,01/26/2020,1,confirmed
+164,"Orange, CA",US,33.7879,-117.8531,01/26/2020,1,confirmed
+165,Shaanxi,Mainland China,35.19165,108.8701,01/26/2020,7,confirmed
+166,Shandong,Mainland China,36.34377,118.1529,01/26/2020,19,confirmed
+167,Shanghai,Mainland China,31.20327,121.4554,01/26/2020,7,confirmed
+168,Shanxi,Mainland China,37.57769,112.2922,01/26/2020,3,confirmed
+169,Sichuan,Mainland China,30.61714,102.7103,01/26/2020,16,confirmed
+170,Taiwan,Taiwan,23.6978,120.9605,01/26/2020,1,confirmed
+171,"Tempe, AZ",US,34.0489,-111.094,01/26/2020,1,confirmed
+172,Tianjin,Mainland China,39.29362,117.333,01/26/2020,4,confirmed
+173,"Toronto, ON",Canada,43.6532,-79.3832,01/26/2020,1,confirmed
+174,Victoria,Australia,-37.8136,144.9631,01/26/2020,1,confirmed
+175,Xinjiang,Mainland China,41.11981,85.17822,01/26/2020,1,confirmed
+176,Yunnan,Mainland China,24.97411,101.4868,01/26/2020,5,confirmed
+177,Zhejiang,Mainland China,29.18251,120.0985,01/26/2020,42,confirmed
+178,Henan,Mainland China,33.88202,113.614,01/26/2020,1,death
+179,Hubei,Mainland China,30.97564,112.2707,01/26/2020,12,death
+180,Shanghai,Mainland China,31.20327,121.4554,01/26/2020,1,death
+181,,Japan,35.6762,139.6503,01/26/2020,1,recovered
+182,,Thailand,13.7563,100.5018,01/26/2020,2,recovered
+183,Hubei,Mainland China,30.97564,112.2707,01/26/2020,10,recovered
+184,,Cambodia,12.5657,104.991,01/27/2020,1,confirmed
+185,,Germany,51.1657,10.4515,01/27/2020,1,confirmed
+186,,Singapore,1.3521,103.8198,01/27/2020,1,confirmed
+187,,South Korea,37.5665,126.978,01/27/2020,1,confirmed
+188,,Sri Lanka,7.8731,80.7718,01/27/2020,1,confirmed
+189,Anhui,Mainland China,31.82571,117.2264,01/27/2020,10,confirmed
+190,Beijing,Mainland China,40.18238,116.4142,01/27/2020,12,confirmed
+191,Chongqing,Mainland China,30.05718,107.874,01/27/2020,35,confirmed
+192,Fujian,Mainland China,26.07783,117.9895,01/27/2020,24,confirmed
+193,Gansu,Mainland China,36.0611,103.8343,01/27/2020,7,confirmed
+194,Guangdong,Mainland China,23.33841,113.422,01/27/2020,40,confirmed
+195,Guangxi,Mainland China,23.82908,108.7881,01/27/2020,10,confirmed
+196,Guizhou,Mainland China,26.81536,106.8748,01/27/2020,2,confirmed
+197,Hainan,Mainland China,19.19673,109.7455,01/27/2020,11,confirmed
+198,Hebei,Mainland China,38.0428,114.5149,01/27/2020,5,confirmed
+199,Heilongjiang,Mainland China,47.862,127.7622,01/27/2020,6,confirmed
+200,Henan,Mainland China,33.88202,113.614,01/27/2020,45,confirmed
+201,Hubei,Mainland China,30.97564,112.2707,01/27/2020,365,confirmed
+202,Hunan,Mainland China,27.61041,111.7088,01/27/2020,31,confirmed
+203,Inner Mongolia,Mainland China,44.09448,113.9456,01/27/2020,4,confirmed
+204,Jiangsu,Mainland China,32.97027,119.464,01/27/2020,14,confirmed
+205,Jiangxi,Mainland China,27.61401,115.7221,01/27/2020,36,confirmed
+206,Jilin,Mainland China,43.66657,126.1917,01/27/2020,2,confirmed
+207,Liaoning,Mainland China,41.29284,122.6086,01/27/2020,6,confirmed
+208,Macau,Macau,22.1987,113.5439,01/27/2020,1,confirmed
+209,New South Wales,Australia,-33.8688,151.2093,01/27/2020,1,confirmed
+210,Ningxia,Mainland China,37.26923,106.1655,01/27/2020,3,confirmed
+211,Qinghai,Mainland China,35.65945,96.02564,01/27/2020,5,confirmed
+212,Shaanxi,Mainland China,35.19165,108.8701,01/27/2020,13,confirmed
+213,Shandong,Mainland China,36.34377,118.1529,01/27/2020,29,confirmed
+214,Shanghai,Mainland China,31.20327,121.4554,01/27/2020,13,confirmed
+215,Shanxi,Mainland China,37.57769,112.2922,01/27/2020,4,confirmed
+216,Sichuan,Mainland China,30.61714,102.7103,01/27/2020,25,confirmed
+217,Taiwan,Taiwan,23.6978,120.9605,01/27/2020,1,confirmed
+218,Tianjin,Mainland China,39.29362,117.333,01/27/2020,9,confirmed
+219,Xinjiang,Mainland China,41.11981,85.17822,01/27/2020,1,confirmed
+220,Yunnan,Mainland China,24.97411,101.4868,01/27/2020,10,confirmed
+221,Zhejiang,Mainland China,29.18251,120.0985,01/27/2020,24,confirmed
+222,Beijing,Mainland China,40.18238,116.4142,01/27/2020,1,death
+223,Hainan,Mainland China,19.19673,109.7455,01/27/2020,1,death
+224,Hubei,Mainland China,30.97564,112.2707,01/27/2020,24,death
+225,Guangdong,Mainland China,23.33841,113.422,01/27/2020,2,recovered
+226,Hubei,Mainland China,30.97564,112.2707,01/27/2020,3,recovered
+227,Jiangxi,Mainland China,27.61401,115.7221,01/27/2020,2,recovered
+228,Shanghai,Mainland China,31.20327,121.4554,01/27/2020,2,recovered
+229,,France,46.2276,2.2137,01/28/2020,1,confirmed
+230,,Germany,51.1657,10.4515,01/28/2020,3,confirmed
+231,,Japan,35.6762,139.6503,01/28/2020,3,confirmed
+232,,Singapore,1.3521,103.8198,01/28/2020,2,confirmed
+233,,Thailand,13.7563,100.5018,01/28/2020,6,confirmed
+234,Anhui,Mainland China,31.82571,117.2264,01/28/2020,36,confirmed
+235,Beijing,Mainland China,40.18238,116.4142,01/28/2020,11,confirmed
+236,British Columbia,Canada,49.2827,-123.121,01/28/2020,1,confirmed
+237,Chongqing,Mainland China,30.05718,107.874,01/28/2020,22,confirmed
+238,Fujian,Mainland China,26.07783,117.9895,01/28/2020,21,confirmed
+239,Gansu,Mainland China,36.0611,103.8343,01/28/2020,5,confirmed
+240,Guangdong,Mainland China,23.33841,113.422,01/28/2020,56,confirmed
+241,Guangxi,Mainland China,23.82908,108.7881,01/28/2020,5,confirmed
+242,Guizhou,Mainland China,26.81536,106.8748,01/28/2020,2,confirmed
+243,Hainan,Mainland China,19.19673,109.7455,01/28/2020,7,confirmed
+244,Hebei,Mainland China,38.0428,114.5149,01/28/2020,15,confirmed
+245,Heilongjiang,Mainland China,47.862,127.7622,01/28/2020,12,confirmed
+246,Henan,Mainland China,33.88202,113.614,01/28/2020,40,confirmed
+247,Hubei,Mainland China,30.97564,112.2707,01/28/2020,2131,confirmed
+248,Hunan,Mainland China,27.61041,111.7088,01/28/2020,43,confirmed
+249,Inner Mongolia,Mainland China,44.09448,113.9456,01/28/2020,4,confirmed
+250,Jiangsu,Mainland China,32.97027,119.464,01/28/2020,23,confirmed
+251,Jiangxi,Mainland China,27.61401,115.7221,01/28/2020,37,confirmed
+252,Jilin,Mainland China,43.66657,126.1917,01/28/2020,2,confirmed
+253,Liaoning,Mainland China,41.29284,122.6086,01/28/2020,7,confirmed
+254,Macau,Macau,22.1987,113.5439,01/28/2020,1,confirmed
+255,Ningxia,Mainland China,37.26923,106.1655,01/28/2020,4,confirmed
+256,Shaanxi,Mainland China,35.19165,108.8701,01/28/2020,11,confirmed
+257,Shandong,Mainland China,36.34377,118.1529,01/28/2020,20,confirmed
+258,Shanghai,Mainland China,31.20327,121.4554,01/28/2020,13,confirmed
+259,Shanxi,Mainland China,37.57769,112.2922,01/28/2020,14,confirmed
+260,Sichuan,Mainland China,30.61714,102.7103,01/28/2020,21,confirmed
+261,Taiwan,Taiwan,23.6978,120.9605,01/28/2020,3,confirmed
+262,Tianjin,Mainland China,39.29362,117.333,01/28/2020,1,confirmed
+263,Xinjiang,Mainland China,41.11981,85.17822,01/28/2020,5,confirmed
+264,Yunnan,Mainland China,24.97411,101.4868,01/28/2020,18,confirmed
+265,Zhejiang,Mainland China,29.18251,120.0985,01/28/2020,45,confirmed
+266,Hubei,Mainland China,30.97564,112.2707,01/28/2020,49,death
+267,,Thailand,13.7563,100.5018,01/28/2020,3,recovered
+268,Beijing,Mainland China,40.18238,116.4142,01/28/2020,2,recovered
+269,Guangxi,Mainland China,23.82908,108.7881,01/28/2020,2,recovered
+270,Hubei,Mainland China,30.97564,112.2707,01/28/2020,35,recovered
+271,Jiangxi,Mainland China,27.61401,115.7221,01/28/2020,1,recovered
+272,Shanghai,Mainland China,31.20327,121.4554,01/28/2020,1,recovered
+273,Zhejiang,Mainland China,29.18251,120.0985,01/28/2020,2,recovered
+274,,Finland,61.9241,25.7482,01/29/2020,1,confirmed
+275,,France,46.2276,2.2137,01/29/2020,1,confirmed
+276,,Malaysia,4.2105,101.9758,01/29/2020,3,confirmed
+277,,United Arab Emirates,23.4241,53.8478,01/29/2020,4,confirmed
+278,Anhui,Mainland China,31.82571,117.2264,01/29/2020,46,confirmed
+279,Beijing,Mainland China,40.18238,116.4142,01/29/2020,20,confirmed
+280,Chongqing,Mainland China,30.05718,107.874,01/29/2020,15,confirmed
+281,Fujian,Mainland China,26.07783,117.9895,01/29/2020,4,confirmed
+282,Gansu,Mainland China,36.0611,103.8343,01/29/2020,5,confirmed
+283,Guangdong,Mainland China,23.33841,113.422,01/29/2020,70,confirmed
+284,Guangxi,Mainland China,23.82908,108.7881,01/29/2020,7,confirmed
+285,Hainan,Mainland China,19.19673,109.7455,01/29/2020,3,confirmed
+286,Hebei,Mainland China,38.0428,114.5149,01/29/2020,15,confirmed
+287,Heilongjiang,Mainland China,47.862,127.7622,01/29/2020,5,confirmed
+288,Henan,Mainland China,33.88202,113.614,01/29/2020,38,confirmed
+289,Hong Kong,Hong Kong,22.3193,114.1694,01/29/2020,2,confirmed
+290,Hunan,Mainland China,27.61041,111.7088,01/29/2020,78,confirmed
+291,Inner Mongolia,Mainland China,44.09448,113.9456,01/29/2020,1,confirmed
+292,Jiangsu,Mainland China,32.97027,119.464,01/29/2020,29,confirmed
+293,Jilin,Mainland China,43.66657,126.1917,01/29/2020,1,confirmed
+294,Liaoning,Mainland China,41.29284,122.6086,01/29/2020,5,confirmed
+295,Ningxia,Mainland China,37.26923,106.1655,01/29/2020,1,confirmed
+296,Queensland,Australia,-27.4698,153.0251,01/29/2020,1,confirmed
+297,Shaanxi,Mainland China,35.19165,108.8701,01/29/2020,10,confirmed
+298,Shandong,Mainland China,36.34377,118.1529,01/29/2020,35,confirmed
+299,Shanghai,Mainland China,31.20327,121.4554,01/29/2020,30,confirmed
+300,Sichuan,Mainland China,30.61714,102.7103,01/29/2020,18,confirmed
+301,Tianjin,Mainland China,39.29362,117.333,01/29/2020,3,confirmed
+302,Xinjiang,Mainland China,41.11981,85.17822,01/29/2020,3,confirmed
+303,Yunnan,Mainland China,24.97411,101.4868,01/29/2020,11,confirmed
+304,Zhejiang,Mainland China,29.18251,120.0985,01/29/2020,123,confirmed
+305,Henan,Mainland China,33.88202,113.614,01/29/2020,1,death
+306,Sichuan,Mainland China,30.61714,102.7103,01/29/2020,1,death
+307,Anhui,Mainland China,31.82571,117.2264,01/29/2020,2,recovered
+308,Chongqing,Mainland China,30.05718,107.874,01/29/2020,1,recovered
+309,Guangdong,Mainland China,23.33841,113.422,01/29/2020,1,recovered
+310,Guizhou,Mainland China,26.81536,106.8748,01/29/2020,1,recovered
+311,Henan,Mainland China,33.88202,113.614,01/29/2020,1,recovered
+312,Hubei,Mainland China,30.97564,112.2707,01/29/2020,8,recovered
+313,Liaoning,Mainland China,41.29284,122.6086,01/29/2020,1,recovered
+314,Shandong,Mainland China,36.34377,118.1529,01/29/2020,1,recovered
+315,Shanghai,Mainland China,31.20327,121.4554,01/29/2020,1,recovered
+316,Shanxi,Mainland China,37.57769,112.2922,01/29/2020,1,recovered
+317,Sichuan,Mainland China,30.61714,102.7103,01/29/2020,1,recovered
+318,,India,20.5937,78.9629,01/30/2020,1,confirmed
+319,,Japan,35.6762,139.6503,01/30/2020,4,confirmed
+320,,Malaysia,4.2105,101.9758,01/30/2020,1,confirmed
+321,,Philippines,12.8797,121.774,01/30/2020,1,confirmed
+322,,Singapore,1.3521,103.8198,01/30/2020,3,confirmed
+323,Anhui,Mainland China,31.82571,117.2264,01/30/2020,48,confirmed
+324,Beijing,Mainland China,40.18238,116.4142,01/30/2020,3,confirmed
+325,Chongqing,Mainland China,30.05718,107.874,01/30/2020,35,confirmed
+326,Fujian,Mainland China,26.07783,117.9895,01/30/2020,17,confirmed
+327,Gansu,Mainland China,36.0611,103.8343,01/30/2020,2,confirmed
+328,Guangdong,Mainland China,23.33841,113.422,01/30/2020,77,confirmed
+329,Guangxi,Mainland China,23.82908,108.7881,01/30/2020,20,confirmed
+330,Guizhou,Mainland China,26.81536,106.8748,01/30/2020,3,confirmed
+331,Hainan,Mainland China,19.19673,109.7455,01/30/2020,3,confirmed
+332,Hebei,Mainland China,38.0428,114.5149,01/30/2020,17,confirmed
+333,Heilongjiang,Mainland China,47.862,127.7622,01/30/2020,6,confirmed
+334,Henan,Mainland China,33.88202,113.614,01/30/2020,72,confirmed
+335,Hubei,Mainland China,30.97564,112.2707,01/30/2020,1349,confirmed
+336,Hunan,Mainland China,27.61041,111.7088,01/30/2020,56,confirmed
+337,Inner Mongolia,Mainland China,44.09448,113.9456,01/30/2020,3,confirmed
+338,Jiangsu,Mainland China,32.97027,119.464,01/30/2020,30,confirmed
+339,Jiangxi,Mainland China,27.61401,115.7221,01/30/2020,53,confirmed
+340,Jilin,Mainland China,43.66657,126.1917,01/30/2020,5,confirmed
+341,Liaoning,Mainland China,41.29284,122.6086,01/30/2020,2,confirmed
+342,Ningxia,Mainland China,37.26923,106.1655,01/30/2020,5,confirmed
+343,Qinghai,Mainland China,35.65945,96.02564,01/30/2020,2,confirmed
+344,Queensland,Australia,-27.4698,153.0251,01/30/2020,2,confirmed
+345,Shaanxi,Mainland China,35.19165,108.8701,01/30/2020,7,confirmed
+346,Shandong,Mainland China,36.34377,118.1529,01/30/2020,28,confirmed
+347,Shanghai,Mainland China,31.20327,121.4554,01/30/2020,16,confirmed
+348,Shanxi,Mainland China,37.57769,112.2922,01/30/2020,8,confirmed
+349,Sichuan,Mainland China,30.61714,102.7103,01/30/2020,34,confirmed
+350,Taiwan,Taiwan,23.6978,120.9605,01/30/2020,1,confirmed
+351,Tianjin,Mainland China,39.29362,117.333,01/30/2020,4,confirmed
+352,Tibet,Mainland China,30.1534,88.7879,01/30/2020,1,confirmed
+353,Victoria,Australia,-37.8136,144.9631,01/30/2020,1,confirmed
+354,Xinjiang,Mainland China,41.11981,85.17822,01/30/2020,1,confirmed
+355,Yunnan,Mainland China,24.97411,101.4868,01/30/2020,15,confirmed
+356,Zhejiang,Mainland China,29.18251,120.0985,01/30/2020,132,confirmed
+357,Heilongjiang,Mainland China,47.862,127.7622,01/30/2020,1,death
+358,Hubei,Mainland China,30.97564,112.2707,01/30/2020,37,death
+359,Guangdong,Mainland China,23.33841,113.422,01/30/2020,5,recovered
+360,Hainan,Mainland China,19.19673,109.7455,01/30/2020,1,recovered
+361,Henan,Mainland China,33.88202,113.614,01/30/2020,1,recovered
+362,Hubei,Mainland China,30.97564,112.2707,01/30/2020,2,recovered
+363,Hunan,Mainland China,27.61041,111.7088,01/30/2020,2,recovered
+364,Jiangxi,Mainland China,27.61401,115.7221,01/30/2020,2,recovered
+365,Jilin,Mainland China,43.66657,126.1917,01/30/2020,1,recovered
+366,New South Wales,Australia,-33.8688,151.2093,01/30/2020,2,recovered
+367,Zhejiang,Mainland China,29.18251,120.0985,01/30/2020,1,recovered
+368,,Germany,51.1657,10.4515,01/31/2020,1,confirmed
+369,,Italy,41.8719,12.5674,01/31/2020,2,confirmed
+370,,Japan,35.6762,139.6503,01/31/2020,4,confirmed
+371,,Russia,61.524,105.3188,01/31/2020,2,confirmed
+372,,Singapore,1.3521,103.8198,01/31/2020,3,confirmed
+373,,South Korea,37.5665,126.978,01/31/2020,7,confirmed
+374,,Sweden,60.1282,18.6435,01/31/2020,1,confirmed
+375,,Thailand,13.7563,100.5018,01/31/2020,5,confirmed
+376,,UK,55.3781,-3.436,01/31/2020,2,confirmed
+377,Anhui,Mainland China,31.82571,117.2264,01/31/2020,37,confirmed
+378,Beijing,Mainland China,40.18238,116.4142,01/31/2020,25,confirmed
+379,"Chicago, IL",US,40.6331,-89.3985,01/31/2020,1,confirmed
+380,Chongqing,Mainland China,30.05718,107.874,01/31/2020,29,confirmed
+381,Fujian,Mainland China,26.07783,117.9895,01/31/2020,19,confirmed
+382,Gansu,Mainland China,36.0611,103.8343,01/31/2020,3,confirmed
+383,Guangdong,Mainland China,23.33841,113.422,01/31/2020,82,confirmed
+384,Guangxi,Mainland China,23.82908,108.7881,01/31/2020,9,confirmed
+385,Guizhou,Mainland China,26.81536,106.8748,01/31/2020,17,confirmed
+386,Hainan,Mainland China,19.19673,109.7455,01/31/2020,6,confirmed
+387,Hebei,Mainland China,38.0428,114.5149,01/31/2020,17,confirmed
+388,Heilongjiang,Mainland China,47.862,127.7622,01/31/2020,15,confirmed
+389,Henan,Mainland China,33.88202,113.614,01/31/2020,74,confirmed
+390,Hong Kong,Hong Kong,22.3193,114.1694,01/31/2020,2,confirmed
+391,Hubei,Mainland China,30.97564,112.2707,01/31/2020,903,confirmed
+392,Hunan,Mainland China,27.61041,111.7088,01/31/2020,55,confirmed
+393,Inner Mongolia,Mainland China,44.09448,113.9456,01/31/2020,1,confirmed
+394,Jiangsu,Mainland China,32.97027,119.464,01/31/2020,39,confirmed
+395,Jiangxi,Mainland China,27.61401,115.7221,01/31/2020,78,confirmed
+396,Liaoning,Mainland China,41.29284,122.6086,01/31/2020,7,confirmed
+397,"London, ON",Canada,42.9849,-81.2453,01/31/2020,1,confirmed
+398,Ningxia,Mainland China,37.26923,106.1655,01/31/2020,4,confirmed
+399,Queensland,Australia,-27.4698,153.0251,01/31/2020,-1,confirmed
+400,"Santa Clara, CA",US,37.3541,-121.9552,01/31/2020,1,confirmed
+401,Shaanxi,Mainland China,35.19165,108.8701,01/31/2020,24,confirmed
+402,Shandong,Mainland China,36.34377,118.1529,01/31/2020,26,confirmed
+403,Shanghai,Mainland China,31.20327,121.4554,01/31/2020,23,confirmed
+404,Shanxi,Mainland China,37.57769,112.2922,01/31/2020,4,confirmed
+405,Sichuan,Mainland China,30.61714,102.7103,01/31/2020,35,confirmed
+406,Taiwan,Taiwan,23.6978,120.9605,01/31/2020,1,confirmed
+407,Tianjin,Mainland China,39.29362,117.333,01/31/2020,1,confirmed
+408,"Toronto, ON",Canada,43.6532,-79.3832,01/31/2020,1,confirmed
+409,Victoria,Australia,-37.8136,144.9631,01/31/2020,1,confirmed
+410,Xinjiang,Mainland China,41.11981,85.17822,01/31/2020,3,confirmed
+411,Yunnan,Mainland China,24.97411,101.4868,01/31/2020,13,confirmed
+412,Zhejiang,Mainland China,29.18251,120.0985,01/31/2020,110,confirmed
+413,Hubei,Mainland China,30.97564,112.2707,01/31/2020,42,death
+414,Anhui,Mainland China,31.82571,117.2264,01/31/2020,1,recovered
+415,Beijing,Mainland China,40.18238,116.4142,01/31/2020,1,recovered
+416,Guangdong,Mainland China,23.33841,113.422,01/31/2020,1,recovered
+417,Guizhou,Mainland China,26.81536,106.8748,01/31/2020,1,recovered
+418,Henan,Mainland China,33.88202,113.614,01/31/2020,1,recovered
+419,Hubei,Mainland China,30.97564,112.2707,01/31/2020,51,recovered
+420,Inner Mongolia,Mainland China,44.09448,113.9456,01/31/2020,1,recovered
+421,Jiangsu,Mainland China,32.97027,119.464,01/31/2020,4,recovered
+422,Jiangxi,Mainland China,27.61401,115.7221,01/31/2020,2,recovered
+423,Shandong,Mainland China,36.34377,118.1529,01/31/2020,1,recovered
+424,Shanghai,Mainland China,31.20327,121.4554,01/31/2020,4,recovered
+425,Yunnan,Mainland China,24.97411,101.4868,01/31/2020,1,recovered
+426,Zhejiang,Mainland China,29.18251,120.0985,01/31/2020,10,recovered
+427,,France,46.2276,2.2137,02/01/2020,1,confirmed
+428,,Germany,51.1657,10.4515,02/01/2020,3,confirmed
+429,,Japan,35.6762,139.6503,02/01/2020,5,confirmed
+430,,Singapore,1.3521,103.8198,02/01/2020,3,confirmed
+431,,South Korea,37.5665,126.978,02/01/2020,1,confirmed
+432,,Spain,40.4637,-3.7492,02/01/2020,1,confirmed
+433,,Vietnam,21.0278,105.8342,02/01/2020,4,confirmed
+434,Anhui,Mainland China,31.82571,117.2264,02/01/2020,60,confirmed
+435,Beijing,Mainland China,40.18238,116.4142,02/01/2020,29,confirmed
+436,"Boston, MA",US,42.3601,-71.0589,02/01/2020,1,confirmed
+437,Chongqing,Mainland China,30.05718,107.874,02/01/2020,36,confirmed
+438,Fujian,Mainland China,26.07783,117.9895,02/01/2020,24,confirmed
+439,Gansu,Mainland China,36.0611,103.8343,02/01/2020,11,confirmed
+440,Guangdong,Mainland China,23.33841,113.422,02/01/2020,99,confirmed
+441,Guangxi,Mainland China,23.82908,108.7881,02/01/2020,13,confirmed
+442,Hainan,Mainland China,19.19673,109.7455,02/01/2020,10,confirmed
+443,Hebei,Mainland China,38.0428,114.5149,02/01/2020,14,confirmed
+444,Heilongjiang,Mainland China,47.862,127.7622,02/01/2020,21,confirmed
+445,Henan,Mainland China,33.88202,113.614,02/01/2020,70,confirmed
+446,Hong Kong,Hong Kong,22.3193,114.1694,02/01/2020,1,confirmed
+447,Hubei,Mainland China,30.97564,112.2707,02/01/2020,1347,confirmed
+448,Hunan,Mainland China,27.61041,111.7088,02/01/2020,57,confirmed
+449,Inner Mongolia,Mainland China,44.09448,113.9456,02/01/2020,3,confirmed
+450,Jiangsu,Mainland China,32.97027,119.464,02/01/2020,34,confirmed
+451,Jiangxi,Mainland China,27.61401,115.7221,02/01/2020,46,confirmed
+452,Jilin,Mainland China,43.66657,126.1917,02/01/2020,3,confirmed
+453,Liaoning,Mainland China,41.29284,122.6086,02/01/2020,16,confirmed
+454,Ningxia,Mainland China,37.26923,106.1655,02/01/2020,5,confirmed
+455,Qinghai,Mainland China,35.65945,96.02564,02/01/2020,1,confirmed
+456,Queensland,Australia,-27.4698,153.0251,02/01/2020,1,confirmed
+457,Shaanxi,Mainland China,35.19165,108.8701,02/01/2020,14,confirmed
+458,Shandong,Mainland China,36.34377,118.1529,02/01/2020,22,confirmed
+459,Shanghai,Mainland China,31.20327,121.4554,02/01/2020,34,confirmed
+460,Shanxi,Mainland China,37.57769,112.2922,02/01/2020,8,confirmed
+461,Sichuan,Mainland China,30.61714,102.7103,02/01/2020,30,confirmed
+462,South Australia,Australia,-34.9285,138.6007,02/01/2020,1,confirmed
+463,Tianjin,Mainland China,39.29362,117.333,02/01/2020,9,confirmed
+464,Victoria,Australia,-37.8136,144.9631,02/01/2020,1,confirmed
+465,Xinjiang,Mainland China,41.11981,85.17822,02/01/2020,1,confirmed
+466,Yunnan,Mainland China,24.97411,101.4868,02/01/2020,10,confirmed
+467,Zhejiang,Mainland China,29.18251,120.0985,02/01/2020,61,confirmed
+468,Chongqing,Mainland China,30.05718,107.874,02/01/2020,1,death
+469,Hubei,Mainland China,30.97564,112.2707,02/01/2020,45,death
+470,,Vietnam,21.0278,105.8342,02/01/2020,1,recovered
+471,Anhui,Mainland China,31.82571,117.2264,02/01/2020,2,recovered
+472,Beijing,Mainland China,40.18238,116.4142,02/01/2020,4,recovered
+473,Chongqing,Mainland China,30.05718,107.874,02/01/2020,2,recovered
+474,Guangdong,Mainland China,23.33841,113.422,02/01/2020,3,recovered
+475,Heilongjiang,Mainland China,47.862,127.7622,02/01/2020,2,recovered
+476,Hubei,Mainland China,30.97564,112.2707,02/01/2020,27,recovered
+477,Hunan,Mainland China,27.61041,111.7088,02/01/2020,6,recovered
+478,Jiangsu,Mainland China,32.97027,119.464,02/01/2020,1,recovered
+479,Jiangxi,Mainland China,27.61401,115.7221,02/01/2020,2,recovered
+480,Shandong,Mainland China,36.34377,118.1529,02/01/2020,1,recovered
+481,Shanghai,Mainland China,31.20327,121.4554,02/01/2020,1,recovered
+482,Sichuan,Mainland China,30.61714,102.7103,02/01/2020,2,recovered
+483,Yunnan,Mainland China,24.97411,101.4868,02/01/2020,1,recovered
+484,Zhejiang,Mainland China,29.18251,120.0985,02/01/2020,7,recovered
+485,,Germany,51.1657,10.4515,02/02/2020,2,confirmed
+486,,India,20.5937,78.9629,02/02/2020,1,confirmed
+487,,Philippines,12.8797,121.774,02/02/2020,1,confirmed
+488,,Singapore,1.3521,103.8198,02/02/2020,2,confirmed
+489,,South Korea,37.5665,126.978,02/02/2020,3,confirmed
+490,,United Arab Emirates,23.4241,53.8478,02/02/2020,1,confirmed
+491,Anhui,Mainland China,31.82571,117.2264,02/02/2020,43,confirmed
+492,Beijing,Mainland China,40.18238,116.4142,02/02/2020,23,confirmed
+493,Chongqing,Mainland China,30.05718,107.874,02/02/2020,53,confirmed
+494,Fujian,Mainland China,26.07783,117.9895,02/02/2020,15,confirmed
+495,Gansu,Mainland China,36.0611,103.8343,02/02/2020,11,confirmed
+496,Guangdong,Mainland China,23.33841,113.422,02/02/2020,97,confirmed
+497,Guangxi,Mainland China,23.82908,108.7881,02/02/2020,11,confirmed
+498,Guizhou,Mainland China,26.81536,106.8748,02/02/2020,9,confirmed
+499,Hainan,Mainland China,19.19673,109.7455,02/02/2020,2,confirmed
+500,Hebei,Mainland China,38.0428,114.5149,02/02/2020,8,confirmed
+501,Heilongjiang,Mainland China,47.862,127.7622,02/02/2020,15,confirmed
+502,Henan,Mainland China,33.88202,113.614,02/02/2020,71,confirmed
+503,Hong Kong,Hong Kong,22.3193,114.1694,02/02/2020,2,confirmed
+504,Hubei,Mainland China,30.97564,112.2707,02/02/2020,4024,confirmed
+505,Hunan,Mainland China,27.61041,111.7088,02/02/2020,74,confirmed
+506,Inner Mongolia,Mainland China,44.09448,113.9456,02/02/2020,4,confirmed
+507,Jiangsu,Mainland China,32.97027,119.464,02/02/2020,34,confirmed
+508,Jiangxi,Mainland China,27.61401,115.7221,02/02/2020,47,confirmed
+509,Jilin,Mainland China,43.66657,126.1917,02/02/2020,6,confirmed
+510,Liaoning,Mainland China,41.29284,122.6086,02/02/2020,6,confirmed
+511,Macau,Macau,22.1987,113.5439,02/02/2020,1,confirmed
+512,Ningxia,Mainland China,37.26923,106.1655,02/02/2020,2,confirmed
+513,Qinghai,Mainland China,35.65945,96.02564,02/02/2020,2,confirmed
+514,Queensland,Australia,-27.4698,153.0251,02/02/2020,-1,confirmed
+515,Shaanxi,Mainland China,35.19165,108.8701,02/02/2020,15,confirmed
+516,Shandong,Mainland China,36.34377,118.1529,02/02/2020,24,confirmed
+517,Shanghai,Mainland China,31.20327,121.4554,02/02/2020,13,confirmed
+518,Shanxi,Mainland China,37.57769,112.2922,02/02/2020,19,confirmed
+519,Sichuan,Mainland China,30.61714,102.7103,02/02/2020,24,confirmed
+520,South Australia,Australia,-34.9285,138.6007,02/02/2020,1,confirmed
+521,Tianjin,Mainland China,39.29362,117.333,02/02/2020,7,confirmed
+522,Xinjiang,Mainland China,41.11981,85.17822,02/02/2020,3,confirmed
+523,Yunnan,Mainland China,24.97411,101.4868,02/02/2020,12,confirmed
+524,Zhejiang,Mainland China,29.18251,120.0985,02/02/2020,62,confirmed
+525,,Philippines,12.8797,121.774,02/02/2020,1,death
+526,Chongqing,Mainland China,30.05718,107.874,02/02/2020,1,death
+527,Hubei,Mainland China,30.97564,112.2707,02/02/2020,101,death
+528,Anhui,Mainland China,31.82571,117.2264,02/02/2020,2,recovered
+529,Chongqing,Mainland China,30.05718,107.874,02/02/2020,4,recovered
+530,Gansu,Mainland China,36.0611,103.8343,02/02/2020,3,recovered
+531,Guangdong,Mainland China,23.33841,113.422,02/02/2020,1,recovered
+532,Hainan,Mainland China,19.19673,109.7455,02/02/2020,3,recovered
+533,Hebei,Mainland China,38.0428,114.5149,02/02/2020,3,recovered
+534,Henan,Mainland China,33.88202,113.614,02/02/2020,7,recovered
+535,Hubei,Mainland China,30.97564,112.2707,02/02/2020,127,recovered
+536,Hunan,Mainland China,27.61041,111.7088,02/02/2020,8,recovered
+537,Jiangsu,Mainland China,32.97027,119.464,02/02/2020,1,recovered
+538,Jiangxi,Mainland China,27.61401,115.7221,02/02/2020,3,recovered
+539,Shandong,Mainland China,36.34377,118.1529,02/02/2020,3,recovered
+540,Shanxi,Mainland China,37.57769,112.2922,02/02/2020,2,recovered
+541,Sichuan,Mainland China,30.61714,102.7103,02/02/2020,8,recovered
+542,Tianjin,Mainland China,39.29362,117.333,02/02/2020,1,recovered
+543,Yunnan,Mainland China,24.97411,101.4868,02/02/2020,1,recovered
+544,Zhejiang,Mainland China,29.18251,120.0985,02/02/2020,11,recovered
+545,,Germany,51.1657,10.4515,02/03/2020,2,confirmed
+546,,India,20.5937,78.9629,02/03/2020,1,confirmed
+547,,Vietnam,21.0278,105.8342,02/03/2020,2,confirmed
+548,Anhui,Mainland China,31.82571,117.2264,02/03/2020,68,confirmed
+549,Beijing,Mainland China,40.18238,116.4142,02/03/2020,21,confirmed
+550,Chongqing,Mainland China,30.05718,107.874,02/03/2020,37,confirmed
+551,Fujian,Mainland China,26.07783,117.9895,02/03/2020,20,confirmed
+552,Gansu,Mainland China,36.0611,103.8343,02/03/2020,4,confirmed
+553,Guangdong,Mainland China,23.33841,113.422,02/03/2020,93,confirmed
+554,Guangxi,Mainland China,23.82908,108.7881,02/03/2020,16,confirmed
+555,Guizhou,Mainland China,26.81536,106.8748,02/03/2020,8,confirmed
+556,Hainan,Mainland China,19.19673,109.7455,02/03/2020,8,confirmed
+557,Hebei,Mainland China,38.0428,114.5149,02/03/2020,9,confirmed
+558,Heilongjiang,Mainland China,47.862,127.7622,02/03/2020,26,confirmed
+559,Henan,Mainland China,33.88202,113.614,02/03/2020,73,confirmed
+560,Hubei,Mainland China,30.97564,112.2707,02/03/2020,2345,confirmed
+561,Hunan,Mainland China,27.61041,111.7088,02/03/2020,58,confirmed
+562,Inner Mongolia,Mainland China,44.09448,113.9456,02/03/2020,7,confirmed
+563,Jiangsu,Mainland China,32.97027,119.464,02/03/2020,35,confirmed
+564,Jiangxi,Mainland China,27.61401,115.7221,02/03/2020,58,confirmed
+565,Jilin,Mainland China,43.66657,126.1917,02/03/2020,8,confirmed
+566,Liaoning,Mainland China,41.29284,122.6086,02/03/2020,4,confirmed
+567,Ningxia,Mainland China,37.26923,106.1655,02/03/2020,3,confirmed
+568,Qinghai,Mainland China,35.65945,96.02564,02/03/2020,2,confirmed
+569,"San Benito, CA",US,36.5761,-120.9876,02/03/2020,2,confirmed
+570,"Santa Clara, CA",US,37.3541,-121.9552,02/03/2020,1,confirmed
+571,Shaanxi,Mainland China,35.19165,108.8701,02/03/2020,12,confirmed
+572,Shandong,Mainland China,36.34377,118.1529,02/03/2020,29,confirmed
+573,Shanghai,Mainland China,31.20327,121.4554,02/03/2020,21,confirmed
+574,Shanxi,Mainland China,37.57769,112.2922,02/03/2020,8,confirmed
+575,Sichuan,Mainland China,30.61714,102.7103,02/03/2020,23,confirmed
+576,Tianjin,Mainland China,39.29362,117.333,02/03/2020,12,confirmed
+577,Xinjiang,Mainland China,41.11981,85.17822,02/03/2020,3,confirmed
+578,Yunnan,Mainland China,24.97411,101.4868,02/03/2020,12,confirmed
+579,Zhejiang,Mainland China,29.18251,120.0985,02/03/2020,63,confirmed
+580,Hubei,Mainland China,30.97564,112.2707,02/03/2020,64,death
+581,Anhui,Mainland China,31.82571,117.2264,02/03/2020,7,recovered
+582,Beijing,Mainland China,40.18238,116.4142,02/03/2020,3,recovered
+583,Chongqing,Mainland China,30.05718,107.874,02/03/2020,2,recovered
+584,Fujian,Mainland China,26.07783,117.9895,02/03/2020,1,recovered
+585,Guangdong,Mainland China,23.33841,113.422,02/03/2020,6,recovered
+586,Guangxi,Mainland China,23.82908,108.7881,02/03/2020,5,recovered
+587,Henan,Mainland China,33.88202,113.614,02/03/2020,6,recovered
+588,Hubei,Mainland China,30.97564,112.2707,02/03/2020,91,recovered
+589,Hunan,Mainland China,27.61041,111.7088,02/03/2020,6,recovered
+590,Jiangsu,Mainland China,32.97027,119.464,02/03/2020,1,recovered
+591,Jiangxi,Mainland China,27.61401,115.7221,02/03/2020,6,recovered
+592,Ningxia,Mainland China,37.26923,106.1655,02/03/2020,1,recovered
+593,Shandong,Mainland China,36.34377,118.1529,02/03/2020,1,recovered
+594,Shanxi,Mainland China,37.57769,112.2922,02/03/2020,-1,recovered
+595,Sichuan,Mainland China,30.61714,102.7103,02/03/2020,3,recovered
+596,Yunnan,Mainland China,24.97411,101.4868,02/03/2020,2,recovered
+597,Zhejiang,Mainland China,29.18251,120.0985,02/03/2020,11,recovered
+598,,Belgium,50.5039,4.4699,02/04/2020,1,confirmed
+599,,Japan,35.6762,139.6503,02/04/2020,2,confirmed
+600,,Malaysia,4.2105,101.9758,02/04/2020,2,confirmed
+601,,Singapore,1.3521,103.8198,02/04/2020,6,confirmed
+602,,South Korea,37.5665,126.978,02/04/2020,1,confirmed
+603,,Thailand,13.7563,100.5018,02/04/2020,6,confirmed
+604,Anhui,Mainland China,31.82571,117.2264,02/04/2020,72,confirmed
+605,Beijing,Mainland China,40.18238,116.4142,02/04/2020,16,confirmed
+606,Chongqing,Mainland China,30.05718,107.874,02/04/2020,29,confirmed
+607,Fujian,Mainland China,26.07783,117.9895,02/04/2020,15,confirmed
+608,Gansu,Mainland China,36.0611,103.8343,02/04/2020,2,confirmed
+609,Guangdong,Mainland China,23.33841,113.422,02/04/2020,88,confirmed
+610,Guangxi,Mainland China,23.82908,108.7881,02/04/2020,12,confirmed
+611,Guizhou,Mainland China,26.81536,106.8748,02/04/2020,12,confirmed
+612,Hainan,Mainland China,19.19673,109.7455,02/04/2020,8,confirmed
+613,Hebei,Mainland China,38.0428,114.5149,02/04/2020,13,confirmed
+614,Heilongjiang,Mainland China,47.862,127.7622,02/04/2020,34,confirmed
+615,Henan,Mainland China,33.88202,113.614,02/04/2020,109,confirmed
+616,Hong Kong,Hong Kong,22.3193,114.1694,02/04/2020,2,confirmed
+617,Hubei,Mainland China,30.97564,112.2707,02/04/2020,3156,confirmed
+618,Hunan,Mainland China,27.61041,111.7088,02/04/2020,72,confirmed
+619,Inner Mongolia,Mainland China,44.09448,113.9456,02/04/2020,1,confirmed
+620,Jiangsu,Mainland China,32.97027,119.464,02/04/2020,37,confirmed
+621,Jiangxi,Mainland China,27.61401,115.7221,02/04/2020,85,confirmed
+622,Jilin,Mainland China,43.66657,126.1917,02/04/2020,11,confirmed
+623,Liaoning,Mainland China,41.29284,122.6086,02/04/2020,7,confirmed
+624,Macau,Macau,22.1987,113.5439,02/04/2020,2,confirmed
+625,Ningxia,Mainland China,37.26923,106.1655,02/04/2020,3,confirmed
+626,Qinghai,Mainland China,35.65945,96.02564,02/04/2020,2,confirmed
+627,Queensland,Australia,-27.4698,153.0251,02/04/2020,1,confirmed
+628,Shaanxi,Mainland China,35.19165,108.8701,02/04/2020,14,confirmed
+629,Shandong,Mainland China,36.34377,118.1529,02/04/2020,16,confirmed
+630,Shanghai,Mainland China,31.20327,121.4554,02/04/2020,16,confirmed
+631,Shanxi,Mainland China,37.57769,112.2922,02/04/2020,7,confirmed
+632,Sichuan,Mainland China,30.61714,102.7103,02/04/2020,28,confirmed
+633,Taiwan,Taiwan,23.6978,120.9605,02/04/2020,1,confirmed
+634,Tianjin,Mainland China,39.29362,117.333,02/04/2020,7,confirmed
+635,Xinjiang,Mainland China,41.11981,85.17822,02/04/2020,5,confirmed
+636,Yunnan,Mainland China,24.97411,101.4868,02/04/2020,5,confirmed
+637,Zhejiang,Mainland China,29.18251,120.0985,02/04/2020,105,confirmed
+638,Hong Kong,Hong Kong,22.3193,114.1694,02/04/2020,1,death
+639,Hubei,Mainland China,30.97564,112.2707,02/04/2020,65,death
+640,Anhui,Mainland China,31.82571,117.2264,02/04/2020,6,recovered
+641,Beijing,Mainland China,40.18238,116.4142,02/04/2020,11,recovered
+642,Fujian,Mainland China,26.07783,117.9895,02/04/2020,2,recovered
+643,Gansu,Mainland China,36.0611,103.8343,02/04/2020,1,recovered
+644,Guangdong,Mainland China,23.33841,113.422,02/04/2020,9,recovered
+645,Guangxi,Mainland China,23.82908,108.7881,02/04/2020,3,recovered
+646,Hainan,Mainland China,19.19673,109.7455,02/04/2020,1,recovered
+647,Hebei,Mainland China,38.0428,114.5149,02/04/2020,1,recovered
+648,Heilongjiang,Mainland China,47.862,127.7622,02/04/2020,2,recovered
+649,Henan,Mainland China,33.88202,113.614,02/04/2020,11,recovered
+650,Hubei,Mainland China,30.97564,112.2707,02/04/2020,136,recovered
+651,Hunan,Mainland China,27.61041,111.7088,02/04/2020,9,recovered
+652,Jiangsu,Mainland China,32.97027,119.464,02/04/2020,4,recovered
+653,Jiangxi,Mainland China,27.61401,115.7221,02/04/2020,2,recovered
+654,Liaoning,Mainland China,41.29284,122.6086,02/04/2020,1,recovered
+655,Shaanxi,Mainland China,35.19165,108.8701,02/04/2020,2,recovered
+656,Shandong,Mainland China,36.34377,118.1529,02/04/2020,4,recovered
+657,Shanghai,Mainland China,31.20327,121.4554,02/04/2020,2,recovered
+658,Shanxi,Mainland China,37.57769,112.2922,02/04/2020,2,recovered
+659,Tianjin,Mainland China,39.29362,117.333,02/04/2020,1,recovered
+660,Zhejiang,Mainland China,29.18251,120.0985,02/04/2020,19,recovered
+661,,Malaysia,4.2105,101.9758,02/05/2020,2,confirmed
+662,,Singapore,1.3521,103.8198,02/05/2020,4,confirmed
+663,,South Korea,37.5665,126.978,02/05/2020,3,confirmed
+664,Anhui,Mainland China,31.82571,117.2264,02/05/2020,50,confirmed
+665,Beijing,Mainland China,40.18238,116.4142,02/05/2020,25,confirmed
+666,British Columbia,Canada,49.2827,-123.121,02/05/2020,1,confirmed
+667,Chongqing,Mainland China,30.05718,107.874,02/05/2020,23,confirmed
+668,Fujian,Mainland China,26.07783,117.9895,02/05/2020,11,confirmed
+669,Gansu,Mainland China,36.0611,103.8343,02/05/2020,5,confirmed
+670,Guangdong,Mainland China,23.33841,113.422,02/05/2020,82,confirmed
+671,Guangxi,Mainland China,23.82908,108.7881,02/05/2020,11,confirmed
+672,Guizhou,Mainland China,26.81536,106.8748,02/05/2020,6,confirmed
+673,Hainan,Mainland China,19.19673,109.7455,02/05/2020,19,confirmed
+674,Hebei,Mainland China,38.0428,114.5149,02/05/2020,9,confirmed
+675,Heilongjiang,Mainland China,47.862,127.7622,02/05/2020,35,confirmed
+676,Henan,Mainland China,33.88202,113.614,02/05/2020,89,confirmed
+677,Hong Kong,Hong Kong,22.3193,114.1694,02/05/2020,4,confirmed
+678,Hubei,Mainland China,30.97564,112.2707,02/05/2020,2987,confirmed
+679,Hunan,Mainland China,27.61041,111.7088,02/05/2020,68,confirmed
+680,Inner Mongolia,Mainland China,44.09448,113.9456,02/05/2020,7,confirmed
+681,Jiangsu,Mainland China,32.97027,119.464,02/05/2020,33,confirmed
+682,Jiangxi,Mainland China,27.61401,115.7221,02/05/2020,72,confirmed
+683,Jilin,Mainland China,43.66657,126.1917,02/05/2020,12,confirmed
+684,Liaoning,Mainland China,41.29284,122.6086,02/05/2020,8,confirmed
+685,"Madison, WI",US,43.0731,-89.4012,02/05/2020,1,confirmed
+686,Qinghai,Mainland China,35.65945,96.02564,02/05/2020,2,confirmed
+687,Shaanxi,Mainland China,35.19165,108.8701,02/05/2020,23,confirmed
+688,Shandong,Mainland China,36.34377,118.1529,02/05/2020,32,confirmed
+689,Shanghai,Mainland China,31.20327,121.4554,02/05/2020,24,confirmed
+690,Sichuan,Mainland China,30.61714,102.7103,02/05/2020,19,confirmed
+691,Tianjin,Mainland China,39.29362,117.333,02/05/2020,2,confirmed
+692,Xinjiang,Mainland China,41.11981,85.17822,02/05/2020,3,confirmed
+693,Yunnan,Mainland China,24.97411,101.4868,02/05/2020,6,confirmed
+694,Zhejiang,Mainland China,29.18251,120.0985,02/05/2020,66,confirmed
+695,Guizhou,Mainland China,26.81536,106.8748,02/05/2020,1,death
+696,Hubei,Mainland China,30.97564,112.2707,02/05/2020,70,death
+697,Tianjin,Mainland China,39.29362,117.333,02/05/2020,1,death
+698,Anhui,Mainland China,31.82571,117.2264,02/05/2020,3,recovered
+699,Beijing,Mainland China,40.18238,116.4142,02/05/2020,1,recovered
+700,Chongqing,Mainland China,30.05718,107.874,02/05/2020,6,recovered
+701,Fujian,Mainland China,26.07783,117.9895,02/05/2020,8,recovered
+702,Gansu,Mainland China,36.0611,103.8343,02/05/2020,2,recovered
+703,Guangdong,Mainland China,23.33841,113.422,02/05/2020,19,recovered
+704,Guangxi,Mainland China,23.82908,108.7881,02/05/2020,3,recovered
+705,Guizhou,Mainland China,26.81536,106.8748,02/05/2020,7,recovered
+706,Hebei,Mainland China,38.0428,114.5149,02/05/2020,2,recovered
+707,Heilongjiang,Mainland China,47.862,127.7622,02/05/2020,3,recovered
+708,Henan,Mainland China,33.88202,113.614,02/05/2020,20,recovered
+709,Hubei,Mainland China,30.97564,112.2707,02/05/2020,111,recovered
+710,Hunan,Mainland China,27.61041,111.7088,02/05/2020,23,recovered
+711,Inner Mongolia,Mainland China,44.09448,113.9456,02/05/2020,2,recovered
+712,Jiangsu,Mainland China,32.97027,119.464,02/05/2020,11,recovered
+713,Jiangxi,Mainland China,27.61401,115.7221,02/05/2020,7,recovered
+714,Jilin,Mainland China,43.66657,126.1917,02/05/2020,1,recovered
+715,Liaoning,Mainland China,41.29284,122.6086,02/05/2020,2,recovered
+716,Qinghai,Mainland China,35.65945,96.02564,02/05/2020,3,recovered
+717,Shaanxi,Mainland China,35.19165,108.8701,02/05/2020,4,recovered
+718,Shandong,Mainland China,36.34377,118.1529,02/05/2020,4,recovered
+719,Shanghai,Mainland China,31.20327,121.4554,02/05/2020,3,recovered
+720,Shanxi,Mainland China,37.57769,112.2922,02/05/2020,1,recovered
+721,Sichuan,Mainland China,30.61714,102.7103,02/05/2020,10,recovered
+722,Zhejiang,Mainland China,29.18251,120.0985,02/05/2020,16,recovered
+723,,Japan,35.6762,139.6503,02/06/2020,23,confirmed
+724,,South Korea,37.5665,126.978,02/06/2020,4,confirmed
+725,,Vietnam,21.0278,105.8342,02/06/2020,2,confirmed
+726,Anhui,Mainland China,31.82571,117.2264,02/06/2020,61,confirmed
+727,Beijing,Mainland China,40.18238,116.4142,02/06/2020,21,confirmed
+728,Chongqing,Mainland China,30.05718,107.874,02/06/2020,22,confirmed
+729,Fujian,Mainland China,26.07783,117.9895,02/06/2020,10,confirmed
+730,Guangdong,Mainland China,23.33841,113.422,02/06/2020,75,confirmed
+731,Guangxi,Mainland China,23.82908,108.7881,02/06/2020,18,confirmed
+732,Guizhou,Mainland China,26.81536,106.8748,02/06/2020,7,confirmed
+733,Hainan,Mainland China,19.19673,109.7455,02/06/2020,7,confirmed
+734,Hebei,Mainland China,38.0428,114.5149,02/06/2020,22,confirmed
+735,Heilongjiang,Mainland China,47.862,127.7622,02/06/2020,37,confirmed
+736,Henan,Mainland China,33.88202,113.614,02/06/2020,87,confirmed
+737,Hong Kong,Hong Kong,22.3193,114.1694,02/06/2020,3,confirmed
+738,Hubei,Mainland China,30.97564,112.2707,02/06/2020,2447,confirmed
+739,Hunan,Mainland China,27.61041,111.7088,02/06/2020,50,confirmed
+740,Inner Mongolia,Mainland China,44.09448,113.9456,02/06/2020,4,confirmed
+741,Jiangsu,Mainland China,32.97027,119.464,02/06/2020,32,confirmed
+742,Jiangxi,Mainland China,27.61401,115.7221,02/06/2020,52,confirmed
+743,Jilin,Mainland China,43.66657,126.1917,02/06/2020,5,confirmed
+744,Liaoning,Mainland China,41.29284,122.6086,02/06/2020,5,confirmed
+745,Ningxia,Mainland China,37.26923,106.1655,02/06/2020,6,confirmed
+746,Qinghai,Mainland China,35.65945,96.02564,02/06/2020,1,confirmed
+747,Queensland,Australia,-27.4698,153.0251,02/06/2020,1,confirmed
+748,Shaanxi,Mainland China,35.19165,108.8701,02/06/2020,8,confirmed
+749,Shandong,Mainland China,36.34377,118.1529,02/06/2020,40,confirmed
+750,Shanghai,Mainland China,31.20327,121.4554,02/06/2020,14,confirmed
+751,Shanxi,Mainland China,37.57769,112.2922,02/06/2020,15,confirmed
+752,Sichuan,Mainland China,30.61714,102.7103,02/06/2020,20,confirmed
+753,Taiwan,Taiwan,23.6978,120.9605,02/06/2020,5,confirmed
+754,Tianjin,Mainland China,39.29362,117.333,02/06/2020,10,confirmed
+755,Xinjiang,Mainland China,41.11981,85.17822,02/06/2020,4,confirmed
+756,Yunnan,Mainland China,24.97411,101.4868,02/06/2020,5,confirmed
+757,Zhejiang,Mainland China,29.18251,120.0985,02/06/2020,59,confirmed
+758,Heilongjiang,Mainland China,47.862,127.7622,02/06/2020,1,death
+759,Hubei,Mainland China,30.97564,112.2707,02/06/2020,69,death
+760,Anhui,Mainland China,31.82571,117.2264,02/06/2020,11,recovered
+761,Beijing,Mainland China,40.18238,116.4142,02/06/2020,7,recovered
+762,Chongqing,Mainland China,30.05718,107.874,02/06/2020,9,recovered
+763,Fujian,Mainland China,26.07783,117.9895,02/06/2020,3,recovered
+764,Guangdong,Mainland China,23.33841,113.422,02/06/2020,20,recovered
+765,Guangxi,Mainland China,23.82908,108.7881,02/06/2020,1,recovered
+766,Guizhou,Mainland China,26.81536,106.8748,02/06/2020,-3,recovered
+767,Hainan,Mainland China,19.19673,109.7455,02/06/2020,3,recovered
+768,Hebei,Mainland China,38.0428,114.5149,02/06/2020,7,recovered
+769,Heilongjiang,Mainland China,47.862,127.7622,02/06/2020,1,recovered
+770,Henan,Mainland China,33.88202,113.614,02/06/2020,9,recovered
+771,Hubei,Mainland China,30.97564,112.2707,02/06/2020,184,recovered
+772,Hunan,Mainland China,27.61041,111.7088,02/06/2020,27,recovered
+773,Inner Mongolia,Mainland China,44.09448,113.9456,02/06/2020,1,recovered
+774,Jiangsu,Mainland China,32.97027,119.464,02/06/2020,11,recovered
+775,Jiangxi,Mainland China,27.61401,115.7221,02/06/2020,10,recovered
+776,Jilin,Mainland China,43.66657,126.1917,02/06/2020,2,recovered
+777,Liaoning,Mainland China,41.29284,122.6086,02/06/2020,1,recovered
+778,Macau,Macau,22.1987,113.5439,02/06/2020,1,recovered
+779,Shaanxi,Mainland China,35.19165,108.8701,02/06/2020,3,recovered
+780,Shandong,Mainland China,36.34377,118.1529,02/06/2020,12,recovered
+781,Shanghai,Mainland China,31.20327,121.4554,02/06/2020,10,recovered
+782,Shanxi,Mainland China,37.57769,112.2922,02/06/2020,7,recovered
+783,Sichuan,Mainland China,30.61714,102.7103,02/06/2020,7,recovered
+784,Taiwan,Taiwan,23.6978,120.9605,02/06/2020,1,recovered
+785,Yunnan,Mainland China,24.97411,101.4868,02/06/2020,2,recovered
+786,Zhejiang,Mainland China,29.18251,120.0985,02/06/2020,16,recovered
+787,,Germany,51.1657,10.4515,02/07/2020,1,confirmed
+788,,Italy,41.8719,12.5674,02/07/2020,1,confirmed
+789,,Japan,35.6762,139.6503,02/07/2020,-20,confirmed
+790,,Philippines,12.8797,121.774,02/07/2020,1,confirmed
+791,,Singapore,1.3521,103.8198,02/07/2020,2,confirmed
+792,,South Korea,37.5665,126.978,02/07/2020,1,confirmed
+793,,UK,55.3781,-3.436,02/07/2020,1,confirmed
+794,Anhui,Mainland China,31.82571,117.2264,02/07/2020,74,confirmed
+795,Beijing,Mainland China,40.18238,116.4142,02/07/2020,23,confirmed
+796,British Columbia,Canada,49.2827,-123.121,02/07/2020,2,confirmed
+797,Chongqing,Mainland China,30.05718,107.874,02/07/2020,15,confirmed
+798,Diamond Princess cruise ship,Others,35.4437,129.638,02/07/2020,61,confirmed
+799,Fujian,Mainland China,26.07783,117.9895,02/07/2020,9,confirmed
+800,Gansu,Mainland China,36.0611,103.8343,02/07/2020,5,confirmed
+801,Guangdong,Mainland China,23.33841,113.422,02/07/2020,64,confirmed
+802,Guangxi,Mainland China,23.82908,108.7881,02/07/2020,4,confirmed
+803,Guizhou,Mainland China,26.81536,106.8748,02/07/2020,10,confirmed
+804,Hainan,Mainland China,19.19673,109.7455,02/07/2020,11,confirmed
+805,Hebei,Mainland China,38.0428,114.5149,02/07/2020,15,confirmed
+806,Heilongjiang,Mainland China,47.862,127.7622,02/07/2020,50,confirmed
+807,Henan,Mainland China,33.88202,113.614,02/07/2020,63,confirmed
+808,Hong Kong,Hong Kong,22.3193,114.1694,02/07/2020,1,confirmed
+809,Hubei,Mainland China,30.97564,112.2707,02/07/2020,2841,confirmed
+810,Hunan,Mainland China,27.61041,111.7088,02/07/2020,61,confirmed
+811,Inner Mongolia,Mainland China,44.09448,113.9456,02/07/2020,4,confirmed
+812,Jiangsu,Mainland China,32.97027,119.464,02/07/2020,35,confirmed
+813,Jiangxi,Mainland China,27.61401,115.7221,02/07/2020,61,confirmed
+814,Jilin,Mainland China,43.66657,126.1917,02/07/2020,6,confirmed
+815,Liaoning,Mainland China,41.29284,122.6086,02/07/2020,5,confirmed
+816,Ningxia,Mainland China,37.26923,106.1655,02/07/2020,3,confirmed
+817,Queensland,Australia,-27.4698,153.0251,02/07/2020,1,confirmed
+818,Shaanxi,Mainland China,35.19165,108.8701,02/07/2020,11,confirmed
+819,Shandong,Mainland China,36.34377,118.1529,02/07/2020,39,confirmed
+820,Shanghai,Mainland China,31.20327,121.4554,02/07/2020,20,confirmed
+821,Shanxi,Mainland China,37.57769,112.2922,02/07/2020,8,confirmed
+822,Sichuan,Mainland China,30.61714,102.7103,02/07/2020,23,confirmed
+823,Tianjin,Mainland China,39.29362,117.333,02/07/2020,2,confirmed
+824,Xinjiang,Mainland China,41.11981,85.17822,02/07/2020,3,confirmed
+825,Yunnan,Mainland China,24.97411,101.4868,02/07/2020,5,confirmed
+826,Zhejiang,Mainland China,29.18251,120.0985,02/07/2020,52,confirmed
+827,Guangdong,Mainland China,23.33841,113.422,02/07/2020,1,death
+828,Hainan,Mainland China,19.19673,109.7455,02/07/2020,1,death
+829,Henan,Mainland China,33.88202,113.614,02/07/2020,1,death
+830,Hubei,Mainland China,30.97564,112.2707,02/07/2020,81,death
+831,Jilin,Mainland China,43.66657,126.1917,02/07/2020,1,death
+832,,Malaysia,4.2105,101.9758,02/07/2020,1,recovered
+833,,South Korea,37.5665,126.978,02/07/2020,1,recovered
+834,Anhui,Mainland China,31.82571,117.2264,02/07/2020,13,recovered
+835,Beijing,Mainland China,40.18238,116.4142,02/07/2020,2,recovered
+836,Chongqing,Mainland China,30.05718,107.874,02/07/2020,7,recovered
+837,Fujian,Mainland China,26.07783,117.9895,02/07/2020,6,recovered
+838,Gansu,Mainland China,36.0611,103.8343,02/07/2020,3,recovered
+839,Guangdong,Mainland China,23.33841,113.422,02/07/2020,19,recovered
+840,Guangxi,Mainland China,23.82908,108.7881,02/07/2020,3,recovered
+841,Hainan,Mainland China,19.19673,109.7455,02/07/2020,2,recovered
+842,Hebei,Mainland China,38.0428,114.5149,02/07/2020,9,recovered
+843,Heilongjiang,Mainland China,47.862,127.7622,02/07/2020,4,recovered
+844,Henan,Mainland China,33.88202,113.614,02/07/2020,30,recovered
+845,Hubei,Mainland China,30.97564,112.2707,02/07/2020,298,recovered
+846,Hunan,Mainland China,27.61041,111.7088,02/07/2020,31,recovered
+847,Inner Mongolia,Mainland China,44.09448,113.9456,02/07/2020,1,recovered
+848,Jiangsu,Mainland China,32.97027,119.464,02/07/2020,9,recovered
+849,Jiangxi,Mainland China,27.61401,115.7221,02/07/2020,8,recovered
+850,Liaoning,Mainland China,41.29284,122.6086,02/07/2020,2,recovered
+851,Ningxia,Mainland China,37.26923,106.1655,02/07/2020,4,recovered
+852,Shaanxi,Mainland China,35.19165,108.8701,02/07/2020,8,recovered
+853,Shandong,Mainland China,36.34377,118.1529,02/07/2020,10,recovered
+854,Shanghai,Mainland China,31.20327,121.4554,02/07/2020,5,recovered
+855,Shanxi,Mainland China,37.57769,112.2922,02/07/2020,3,recovered
+856,Sichuan,Mainland China,30.61714,102.7103,02/07/2020,11,recovered
+857,Yunnan,Mainland China,24.97411,101.4868,02/07/2020,5,recovered
+858,Zhejiang,Mainland China,29.18251,120.0985,02/07/2020,29,recovered
+859,,France,46.2276,2.2137,02/08/2020,5,confirmed
+860,,Malaysia,4.2105,101.9758,02/08/2020,4,confirmed
+861,,Singapore,1.3521,103.8198,02/08/2020,3,confirmed
+862,,Thailand,13.7563,100.5018,02/08/2020,7,confirmed
+863,,United Arab Emirates,23.4241,53.8478,02/08/2020,2,confirmed
+864,,Vietnam,21.0278,105.8342,02/08/2020,3,confirmed
+865,Anhui,Mainland China,31.82571,117.2264,02/08/2020,68,confirmed
+866,Beijing,Mainland China,40.18238,116.4142,02/08/2020,18,confirmed
+867,Chongqing,Mainland China,30.05718,107.874,02/08/2020,2,confirmed
+868,Fujian,Mainland China,26.07783,117.9895,02/08/2020,15,confirmed
+869,Gansu,Mainland China,36.0611,103.8343,02/08/2020,12,confirmed
+870,Guangdong,Mainland China,23.33841,113.422,02/08/2020,61,confirmed
+871,Guangxi,Mainland China,23.82908,108.7881,02/08/2020,11,confirmed
+872,Guizhou,Mainland China,26.81536,106.8748,02/08/2020,8,confirmed
+873,Hainan,Mainland China,19.19673,109.7455,02/08/2020,7,confirmed
+874,Hebei,Mainland China,38.0428,114.5149,02/08/2020,23,confirmed
+875,Heilongjiang,Mainland China,47.862,127.7622,02/08/2020,18,confirmed
+876,Henan,Mainland China,33.88202,113.614,02/08/2020,67,confirmed
+877,Hong Kong,Hong Kong,22.3193,114.1694,02/08/2020,1,confirmed
+878,Hubei,Mainland China,30.97564,112.2707,02/08/2020,2147,confirmed
+879,Hunan,Mainland China,27.61041,111.7088,02/08/2020,31,confirmed
+880,Inner Mongolia,Mainland China,44.09448,113.9456,02/08/2020,2,confirmed
+881,Jiangsu,Mainland China,32.97027,119.464,02/08/2020,31,confirmed
+882,Jiangxi,Mainland China,27.61401,115.7221,02/08/2020,37,confirmed
+883,Jilin,Mainland China,43.66657,126.1917,02/08/2020,4,confirmed
+884,Liaoning,Mainland China,41.29284,122.6086,02/08/2020,6,confirmed
+885,Ningxia,Mainland China,37.26923,106.1655,02/08/2020,2,confirmed
+886,Shaanxi,Mainland China,35.19165,108.8701,02/08/2020,11,confirmed
+887,Shandong,Mainland China,36.34377,118.1529,02/08/2020,30,confirmed
+888,Shanghai,Mainland China,31.20327,121.4554,02/08/2020,9,confirmed
+889,Shanxi,Mainland China,37.57769,112.2922,02/08/2020,11,confirmed
+890,Sichuan,Mainland China,30.61714,102.7103,02/08/2020,20,confirmed
+891,Taiwan,Taiwan,23.6978,120.9605,02/08/2020,1,confirmed
+892,Tianjin,Mainland China,39.29362,117.333,02/08/2020,7,confirmed
+893,Xinjiang,Mainland China,41.11981,85.17822,02/08/2020,3,confirmed
+894,Zhejiang,Mainland China,29.18251,120.0985,02/08/2020,42,confirmed
+895,Beijing,Mainland China,40.18238,116.4142,02/08/2020,1,death
+896,Gansu,Mainland China,36.0611,103.8343,02/08/2020,1,death
+897,Heilongjiang,Mainland China,47.862,127.7622,02/08/2020,2,death
+898,Henan,Mainland China,33.88202,113.614,02/08/2020,1,death
+899,Hubei,Mainland China,30.97564,112.2707,02/08/2020,81,death
+900,Hunan,Mainland China,27.61041,111.7088,02/08/2020,1,death
+901,,Singapore,1.3521,103.8198,02/08/2020,2,recovered
+902,,Sri Lanka,7.8731,80.7718,02/08/2020,1,recovered
+903,,Thailand,13.7563,100.5018,02/08/2020,5,recovered
+904,Anhui,Mainland China,31.82571,117.2264,02/08/2020,12,recovered
+905,Beijing,Mainland China,40.18238,116.4142,02/08/2020,1,recovered
+906,Chongqing,Mainland China,30.05718,107.874,02/08/2020,8,recovered
+907,Fujian,Mainland China,26.07783,117.9895,02/08/2020,4,recovered
+908,Gansu,Mainland China,36.0611,103.8343,02/08/2020,3,recovered
+909,Guangdong,Mainland China,23.33841,113.422,02/08/2020,24,recovered
+910,Guizhou,Mainland China,26.81536,106.8748,02/08/2020,1,recovered
+911,Hainan,Mainland China,19.19673,109.7455,02/08/2020,4,recovered
+912,Hebei,Mainland China,38.0428,114.5149,02/08/2020,8,recovered
+913,Heilongjiang,Mainland China,47.862,127.7622,02/08/2020,1,recovered
+914,Henan,Mainland China,33.88202,113.614,02/08/2020,30,recovered
+915,Hubei,Mainland China,30.97564,112.2707,02/08/2020,324,recovered
+916,Hunan,Mainland China,27.61041,111.7088,02/08/2020,44,recovered
+917,Jiangsu,Mainland China,32.97027,119.464,02/08/2020,8,recovered
+918,Jiangxi,Mainland China,27.61401,115.7221,02/08/2020,10,recovered
+919,Liaoning,Mainland China,41.29284,122.6086,02/08/2020,1,recovered
+920,Ningxia,Mainland China,37.26923,106.1655,02/08/2020,10,recovered
+921,Shaanxi,Mainland China,35.19165,108.8701,02/08/2020,3,recovered
+922,Shandong,Mainland China,36.34377,118.1529,02/08/2020,7,recovered
+923,Shanghai,Mainland China,31.20327,121.4554,02/08/2020,11,recovered
+924,Shanxi,Mainland China,37.57769,112.2922,02/08/2020,6,recovered
+925,Sichuan,Mainland China,30.61714,102.7103,02/08/2020,18,recovered
+926,Tianjin,Mainland China,39.29362,117.333,02/08/2020,2,recovered
+927,Yunnan,Mainland China,24.97411,101.4868,02/08/2020,5,recovered
+928,Zhejiang,Mainland China,29.18251,120.0985,02/08/2020,52,recovered
+929,,Germany,51.1657,10.4515,02/09/2020,1,confirmed
+930,,Japan,35.6762,139.6503,02/09/2020,1,confirmed
+931,,Singapore,1.3521,103.8198,02/09/2020,7,confirmed
+932,,South Korea,37.5665,126.978,02/09/2020,1,confirmed
+933,,Spain,40.4637,-3.7492,02/09/2020,1,confirmed
+934,Anhui,Mainland China,31.82571,117.2264,02/09/2020,46,confirmed
+935,Beijing,Mainland China,40.18238,116.4142,02/09/2020,11,confirmed
+936,Chongqing,Mainland China,30.05718,107.874,02/09/2020,40,confirmed
+937,Diamond Princess cruise ship,Others,35.4437,129.638,02/09/2020,3,confirmed
+938,Fujian,Mainland China,26.07783,117.9895,02/09/2020,11,confirmed
+939,Gansu,Mainland China,36.0611,103.8343,02/09/2020,4,confirmed
+940,Guangdong,Mainland China,23.33841,113.422,02/09/2020,36,confirmed
+941,Guangxi,Mainland China,23.82908,108.7881,02/09/2020,12,confirmed
+942,Guizhou,Mainland China,26.81536,106.8748,02/09/2020,10,confirmed
+943,Hainan,Mainland China,19.19673,109.7455,02/09/2020,7,confirmed
+944,Hebei,Mainland China,38.0428,114.5149,02/09/2020,11,confirmed
+945,Heilongjiang,Mainland China,47.862,127.7622,02/09/2020,12,confirmed
+946,Henan,Mainland China,33.88202,113.614,02/09/2020,52,confirmed
+947,Hong Kong,Hong Kong,22.3193,114.1694,02/09/2020,3,confirmed
+948,Hubei,Mainland China,30.97564,112.2707,02/09/2020,2531,confirmed
+949,Hunan,Mainland China,27.61041,111.7088,02/09/2020,35,confirmed
+950,Inner Mongolia,Mainland China,44.09448,113.9456,02/09/2020,2,confirmed
+951,Jiangsu,Mainland China,32.97027,119.464,02/09/2020,29,confirmed
+952,Jiangxi,Mainland China,27.61401,115.7221,02/09/2020,42,confirmed
+953,Jilin,Mainland China,43.66657,126.1917,02/09/2020,9,confirmed
+954,Liaoning,Mainland China,41.29284,122.6086,02/09/2020,2,confirmed
+955,Shaanxi,Mainland China,35.19165,108.8701,02/09/2020,13,confirmed
+956,Shandong,Mainland China,36.34377,118.1529,02/09/2020,28,confirmed
+957,Shanghai,Mainland China,31.20327,121.4554,02/09/2020,7,confirmed
+958,Shanxi,Mainland China,37.57769,112.2922,02/09/2020,4,confirmed
+959,Sichuan,Mainland China,30.61714,102.7103,02/09/2020,22,confirmed
+960,Taiwan,Taiwan,23.6978,120.9605,02/09/2020,1,confirmed
+961,Tianjin,Mainland China,39.29362,117.333,02/09/2020,3,confirmed
+962,Xinjiang,Mainland China,41.11981,85.17822,02/09/2020,3,confirmed
+963,Yunnan,Mainland China,24.97411,101.4868,02/09/2020,3,confirmed
+964,Zhejiang,Mainland China,29.18251,120.0985,02/09/2020,27,confirmed
+965,Anhui,Mainland China,31.82571,117.2264,02/09/2020,1,death
+966,Gansu,Mainland China,36.0611,103.8343,02/09/2020,1,death
+967,Guangxi,Mainland China,23.82908,108.7881,02/09/2020,1,death
+968,Hainan,Mainland China,19.19673,109.7455,02/09/2020,1,death
+969,Hebei,Mainland China,38.0428,114.5149,02/09/2020,1,death
+970,Heilongjiang,Mainland China,47.862,127.7622,02/09/2020,1,death
+971,Henan,Mainland China,33.88202,113.614,02/09/2020,2,death
+972,Hubei,Mainland China,30.97564,112.2707,02/09/2020,91,death
+973,Shandong,Mainland China,36.34377,118.1529,02/09/2020,1,death
+974,,South Korea,37.5665,126.978,02/09/2020,2,recovered
+975,Anhui,Mainland China,31.82571,117.2264,02/09/2020,13,recovered
+976,Beijing,Mainland China,40.18238,116.4142,02/09/2020,3,recovered
+977,"Chicago, IL",US,40.6331,-89.3985,02/09/2020,2,recovered
+978,Chongqing,Mainland China,30.05718,107.874,02/09/2020,12,recovered
+979,Fujian,Mainland China,26.07783,117.9895,02/09/2020,11,recovered
+980,Gansu,Mainland China,36.0611,103.8343,02/09/2020,4,recovered
+981,Guangdong,Mainland China,23.33841,113.422,02/09/2020,29,recovered
+982,Guangxi,Mainland China,23.82908,108.7881,02/09/2020,1,recovered
+983,Hainan,Mainland China,19.19673,109.7455,02/09/2020,5,recovered
+984,Hebei,Mainland China,38.0428,114.5149,02/09/2020,4,recovered
+985,Heilongjiang,Mainland China,47.862,127.7622,02/09/2020,1,recovered
+986,Henan,Mainland China,33.88202,113.614,02/09/2020,37,recovered
+987,Hubei,Mainland China,30.97564,112.2707,02/09/2020,356,recovered
+988,Hunan,Mainland China,27.61041,111.7088,02/09/2020,30,recovered
+989,Jiangsu,Mainland China,32.97027,119.464,02/09/2020,20,recovered
+990,Jiangxi,Mainland China,27.61401,115.7221,02/09/2020,18,recovered
+991,Jilin,Mainland China,43.66657,126.1917,02/09/2020,8,recovered
+992,Liaoning,Mainland China,41.29284,122.6086,02/09/2020,4,recovered
+993,Ningxia,Mainland China,37.26923,106.1655,02/09/2020,-2,recovered
+994,"Seattle, WA",US,47.7511,-120.74,02/09/2020,1,recovered
+995,Shaanxi,Mainland China,35.19165,108.8701,02/09/2020,5,recovered
+996,Shandong,Mainland China,36.34377,118.1529,02/09/2020,19,recovered
+997,Shanghai,Mainland China,31.20327,121.4554,02/09/2020,3,recovered
+998,Shanxi,Mainland China,37.57769,112.2922,02/09/2020,4,recovered
+999,Sichuan,Mainland China,30.61714,102.7103,02/09/2020,11,recovered
+1000,Yunnan,Mainland China,24.97411,101.4868,02/09/2020,1,recovered
+1001,Zhejiang,Mainland China,29.18251,120.0985,02/09/2020,26,recovered
+1002,,Malaysia,4.2105,101.9758,02/10/2020,2,confirmed
+1003,,Singapore,1.3521,103.8198,02/10/2020,5,confirmed
+1004,,South Korea,37.5665,126.978,02/10/2020,2,confirmed
+1005,,UK,55.3781,-3.436,02/10/2020,5,confirmed
+1006,,United Arab Emirates,23.4241,53.8478,02/10/2020,1,confirmed
+1007,,Vietnam,21.0278,105.8342,02/10/2020,1,confirmed
+1008,Anhui,Mainland China,31.82571,117.2264,02/10/2020,51,confirmed
+1009,Beijing,Mainland China,40.18238,116.4142,02/10/2020,11,confirmed
+1010,Chongqing,Mainland China,30.05718,107.874,02/10/2020,18,confirmed
+1011,Diamond Princess cruise ship,Others,35.4437,129.638,02/10/2020,71,confirmed
+1012,Fujian,Mainland China,26.07783,117.9895,02/10/2020,11,confirmed
+1013,Guangdong,Mainland China,23.33841,113.422,02/10/2020,28,confirmed
+1014,Guangxi,Mainland China,23.82908,108.7881,02/10/2020,15,confirmed
+1015,Guizhou,Mainland China,26.81536,106.8748,02/10/2020,10,confirmed
+1016,Hainan,Mainland China,19.19673,109.7455,02/10/2020,7,confirmed
+1017,Hebei,Mainland China,38.0428,114.5149,02/10/2020,12,confirmed
+1018,Heilongjiang,Mainland China,47.862,127.7622,02/10/2020,24,confirmed
+1019,Henan,Mainland China,33.88202,113.614,02/10/2020,40,confirmed
+1020,Hong Kong,Hong Kong,22.3193,114.1694,02/10/2020,9,confirmed
+1021,Hubei,Mainland China,30.97564,112.2707,02/10/2020,2097,confirmed
+1022,Hunan,Mainland China,27.61041,111.7088,02/10/2020,41,confirmed
+1023,Inner Mongolia,Mainland China,44.09448,113.9456,02/10/2020,4,confirmed
+1024,Jiangsu,Mainland China,32.97027,119.464,02/10/2020,24,confirmed
+1025,Jiangxi,Mainland China,27.61401,115.7221,02/10/2020,31,confirmed
+1026,Jilin,Mainland China,43.66657,126.1917,02/10/2020,2,confirmed
+1027,Liaoning,Mainland China,41.29284,122.6086,02/10/2020,1,confirmed
+1028,Ningxia,Mainland China,37.26923,106.1655,02/10/2020,4,confirmed
+1029,Shaanxi,Mainland China,35.19165,108.8701,02/10/2020,5,confirmed
+1030,Shandong,Mainland China,36.34377,118.1529,02/10/2020,22,confirmed
+1031,Shanghai,Mainland China,31.20327,121.4554,02/10/2020,6,confirmed
+1032,Sichuan,Mainland China,30.61714,102.7103,02/10/2020,19,confirmed
+1033,Tianjin,Mainland China,39.29362,117.333,02/10/2020,4,confirmed
+1034,Xinjiang,Mainland China,41.11981,85.17822,02/10/2020,4,confirmed
+1035,Yunnan,Mainland China,24.97411,101.4868,02/10/2020,8,confirmed
+1036,Zhejiang,Mainland China,29.18251,120.0985,02/10/2020,17,confirmed
+1037,Anhui,Mainland China,31.82571,117.2264,02/10/2020,2,death
+1038,Heilongjiang,Mainland China,47.862,127.7622,02/10/2020,1,death
+1039,Hubei,Mainland China,30.97564,112.2707,02/10/2020,103,death
+1040,Jiangxi,Mainland China,27.61401,115.7221,02/10/2020,1,death
+1041,,Japan,35.6762,139.6503,02/10/2020,3,recovered
+1042,Anhui,Mainland China,31.82571,117.2264,02/10/2020,16,recovered
+1043,Beijing,Mainland China,40.18238,116.4142,02/10/2020,7,recovered
+1044,Chongqing,Mainland China,30.05718,107.874,02/10/2020,15,recovered
+1045,Fujian,Mainland China,26.07783,117.9895,02/10/2020,4,recovered
+1046,Gansu,Mainland China,36.0611,103.8343,02/10/2020,1,recovered
+1047,Guangdong,Mainland China,23.33841,113.422,02/10/2020,26,recovered
+1048,Guangxi,Mainland China,23.82908,108.7881,02/10/2020,6,recovered
+1049,Guizhou,Mainland China,26.81536,106.8748,02/10/2020,3,recovered
+1050,Hebei,Mainland China,38.0428,114.5149,02/10/2020,7,recovered
+1051,Heilongjiang,Mainland China,47.862,127.7622,02/10/2020,16,recovered
+1052,Henan,Mainland China,33.88202,113.614,02/10/2020,38,recovered
+1053,Hubei,Mainland China,30.97564,112.2707,02/10/2020,427,recovered
+1054,Hunan,Mainland China,27.61041,111.7088,02/10/2020,22,recovered
+1055,Jiangsu,Mainland China,32.97027,119.464,02/10/2020,10,recovered
+1056,Jiangxi,Mainland China,27.61401,115.7221,02/10/2020,32,recovered
+1057,Jilin,Mainland China,43.66657,126.1917,02/10/2020,1,recovered
+1058,Liaoning,Mainland China,41.29284,122.6086,02/10/2020,1,recovered
+1059,Shaanxi,Mainland China,35.19165,108.8701,02/10/2020,5,recovered
+1060,Shandong,Mainland China,36.34377,118.1529,02/10/2020,3,recovered
+1061,Shanghai,Mainland China,31.20327,121.4554,02/10/2020,4,recovered
+1062,Sichuan,Mainland China,30.61714,102.7103,02/10/2020,9,recovered
+1063,Tianjin,Mainland China,39.29362,117.333,02/10/2020,4,recovered
+1064,Yunnan,Mainland China,24.97411,101.4868,02/10/2020,1,recovered
+1065,Zhejiang,Mainland China,29.18251,120.0985,02/10/2020,41,recovered
+1066,,Germany,51.1657,10.4515,02/11/2020,2,confirmed
+1067,,Singapore,1.3521,103.8198,02/11/2020,2,confirmed
+1068,,South Korea,37.5665,126.978,02/11/2020,1,confirmed
+1069,,Thailand,13.7563,100.5018,02/11/2020,1,confirmed
+1070,,Vietnam,21.0278,105.8342,02/11/2020,1,confirmed
+1071,Anhui,Mainland China,31.82571,117.2264,02/11/2020,30,confirmed
+1072,Beijing,Mainland China,40.18238,116.4142,02/11/2020,5,confirmed
+1073,Chongqing,Mainland China,30.05718,107.874,02/11/2020,19,confirmed
+1074,Fujian,Mainland China,26.07783,117.9895,02/11/2020,6,confirmed
+1075,Gansu,Mainland China,36.0611,103.8343,02/11/2020,3,confirmed
+1076,Guangdong,Mainland China,23.33841,113.422,02/11/2020,18,confirmed
+1077,Guangxi,Mainland China,23.82908,108.7881,02/11/2020,5,confirmed
+1078,Guizhou,Mainland China,26.81536,106.8748,02/11/2020,18,confirmed
+1079,Hainan,Mainland China,19.19673,109.7455,02/11/2020,6,confirmed
+1080,Hebei,Mainland China,38.0428,114.5149,02/11/2020,21,confirmed
+1081,Heilongjiang,Mainland China,47.862,127.7622,02/11/2020,29,confirmed
+1082,Henan,Mainland China,33.88202,113.614,02/11/2020,32,confirmed
+1083,Hong Kong,Hong Kong,22.3193,114.1694,02/11/2020,11,confirmed
+1084,Hubei,Mainland China,30.97564,112.2707,02/11/2020,1638,confirmed
+1085,Hunan,Mainland China,27.61041,111.7088,02/11/2020,33,confirmed
+1086,Jiangsu,Mainland China,32.97027,119.464,02/11/2020,23,confirmed
+1087,Jiangxi,Mainland China,27.61401,115.7221,02/11/2020,33,confirmed
+1088,Jilin,Mainland China,43.66657,126.1917,02/11/2020,1,confirmed
+1089,Liaoning,Mainland China,41.29284,122.6086,02/11/2020,3,confirmed
+1090,Ningxia,Mainland China,37.26923,106.1655,02/11/2020,4,confirmed
+1091,"San Diego County, CA",US,32.7157,-117.1611,02/11/2020,1,confirmed
+1092,Shaanxi,Mainland China,35.19165,108.8701,02/11/2020,6,confirmed
+1093,Shandong,Mainland China,36.34377,118.1529,02/11/2020,21,confirmed
+1094,Shanghai,Mainland China,31.20327,121.4554,02/11/2020,4,confirmed
+1095,Shanxi,Mainland China,37.57769,112.2922,02/11/2020,5,confirmed
+1096,Sichuan,Mainland China,30.61714,102.7103,02/11/2020,12,confirmed
+1097,Tianjin,Mainland China,39.29362,117.333,02/11/2020,11,confirmed
+1098,Xinjiang,Mainland China,41.11981,85.17822,02/11/2020,6,confirmed
+1099,Yunnan,Mainland China,24.97411,101.4868,02/11/2020,4,confirmed
+1100,Zhejiang,Mainland China,29.18251,120.0985,02/11/2020,25,confirmed
+1101,Anhui,Mainland China,31.82571,117.2264,02/11/2020,1,death
+1102,Beijing,Mainland China,40.18238,116.4142,02/11/2020,1,death
+1103,Chongqing,Mainland China,30.05718,107.874,02/11/2020,1,death
+1104,Heilongjiang,Mainland China,47.862,127.7622,02/11/2020,1,death
+1105,Henan,Mainland China,33.88202,113.614,02/11/2020,1,death
+1106,Hubei,Mainland China,30.97564,112.2707,02/11/2020,94,death
+1107,Tianjin,Mainland China,39.29362,117.333,02/11/2020,1,death
+1108,,Japan,35.6762,139.6503,02/11/2020,5,recovered
+1109,,Malaysia,4.2105,101.9758,02/11/2020,2,recovered
+1110,,Singapore,1.3521,103.8198,02/11/2020,7,recovered
+1111,,Vietnam,21.0278,105.8342,02/11/2020,5,recovered
+1112,Anhui,Mainland China,31.82571,117.2264,02/11/2020,17,recovered
+1113,Beijing,Mainland China,40.18238,116.4142,02/11/2020,4,recovered
+1114,Chongqing,Mainland China,30.05718,107.874,02/11/2020,13,recovered
+1115,Fujian,Mainland China,26.07783,117.9895,02/11/2020,6,recovered
+1116,Gansu,Mainland China,36.0611,103.8343,02/11/2020,7,recovered
+1117,Guangdong,Mainland China,23.33841,113.422,02/11/2020,45,recovered
+1118,Guangxi,Mainland China,23.82908,108.7881,02/11/2020,9,recovered
+1119,Guizhou,Mainland China,26.81536,106.8748,02/11/2020,7,recovered
+1120,Hainan,Mainland China,19.19673,109.7455,02/11/2020,1,recovered
+1121,Hebei,Mainland China,38.0428,114.5149,02/11/2020,7,recovered
+1122,Heilongjiang,Mainland China,47.862,127.7622,02/11/2020,-2,recovered
+1123,Henan,Mainland China,33.88202,113.614,02/11/2020,27,recovered
+1124,Hubei,Mainland China,30.97564,112.2707,02/11/2020,417,recovered
+1125,Hunan,Mainland China,27.61041,111.7088,02/11/2020,39,recovered
+1126,Jiangsu,Mainland China,32.97027,119.464,02/11/2020,12,recovered
+1127,Jiangxi,Mainland China,27.61401,115.7221,02/11/2020,23,recovered
+1128,Jilin,Mainland China,43.66657,126.1917,02/11/2020,5,recovered
+1129,Liaoning,Mainland China,41.29284,122.6086,02/11/2020,6,recovered
+1130,Ningxia,Mainland China,37.26923,106.1655,02/11/2020,9,recovered
+1131,Qinghai,Mainland China,35.65945,96.02564,02/11/2020,2,recovered
+1132,Shaanxi,Mainland China,35.19165,108.8701,02/11/2020,2,recovered
+1133,Shandong,Mainland China,36.34377,118.1529,02/11/2020,14,recovered
+1134,Shanghai,Mainland China,31.20327,121.4554,02/11/2020,4,recovered
+1135,Shanxi,Mainland China,37.57769,112.2922,02/11/2020,5,recovered
+1136,Sichuan,Mainland China,30.61714,102.7103,02/11/2020,5,recovered
+1137,Tianjin,Mainland China,39.29362,117.333,02/11/2020,2,recovered
+1138,Xinjiang,Mainland China,41.11981,85.17822,02/11/2020,3,recovered
+1139,Yunnan,Mainland China,24.97411,101.4868,02/11/2020,1,recovered
+1140,Zhejiang,Mainland China,29.18251,120.0985,02/11/2020,28,recovered
+1141,,Japan,35.6762,139.6503,02/12/2020,2,confirmed
+1142,,Singapore,1.3521,103.8198,02/12/2020,3,confirmed
+1143,,UK,55.3781,-3.436,02/12/2020,1,confirmed
+1144,Anhui,Mainland China,31.82571,117.2264,02/12/2020,29,confirmed
+1145,Beijing,Mainland China,40.18238,116.4142,02/12/2020,10,confirmed
+1146,Chongqing,Mainland China,30.05718,107.874,02/12/2020,13,confirmed
+1147,Diamond Princess cruise ship,Others,35.4437,129.638,02/12/2020,40,confirmed
+1148,Fujian,Mainland China,26.07783,117.9895,02/12/2020,5,confirmed
+1149,Gansu,Mainland China,36.0611,103.8343,02/12/2020,1,confirmed
+1150,Guangdong,Mainland China,23.33841,113.422,02/12/2020,42,confirmed
+1151,Guangxi,Mainland China,23.82908,108.7881,02/12/2020,7,confirmed
+1152,Guizhou,Mainland China,26.81536,106.8748,02/12/2020,6,confirmed
+1153,Hainan,Mainland China,19.19673,109.7455,02/12/2020,13,confirmed
+1154,Hebei,Mainland China,38.0428,114.5149,02/12/2020,12,confirmed
+1155,Heilongjiang,Mainland China,47.862,127.7622,02/12/2020,18,confirmed
+1156,Henan,Mainland China,33.88202,113.614,02/12/2020,30,confirmed
+1157,Hong Kong,Hong Kong,22.3193,114.1694,02/12/2020,1,confirmed
+1158,Hunan,Mainland China,27.61041,111.7088,02/12/2020,34,confirmed
+1159,Inner Mongolia,Mainland China,44.09448,113.9456,02/12/2020,2,confirmed
+1160,Jiangsu,Mainland China,32.97027,119.464,02/12/2020,28,confirmed
+1161,Jiangxi,Mainland China,27.61401,115.7221,02/12/2020,40,confirmed
+1162,Jilin,Mainland China,43.66657,126.1917,02/12/2020,2,confirmed
+1163,Liaoning,Mainland China,41.29284,122.6086,02/12/2020,5,confirmed
+1164,Ningxia,Mainland China,37.26923,106.1655,02/12/2020,5,confirmed
+1165,Shaanxi,Mainland China,35.19165,108.8701,02/12/2020,6,confirmed
+1166,Shandong,Mainland China,36.34377,118.1529,02/12/2020,10,confirmed
+1167,Shanghai,Mainland China,31.20327,121.4554,02/12/2020,8,confirmed
+1168,Shanxi,Mainland China,37.57769,112.2922,02/12/2020,2,confirmed
+1169,Sichuan,Mainland China,30.61714,102.7103,02/12/2020,19,confirmed
+1170,Tianjin,Mainland China,39.29362,117.333,02/12/2020,6,confirmed
+1171,Xinjiang,Mainland China,41.11981,85.17822,02/12/2020,4,confirmed
+1172,Yunnan,Mainland China,24.97411,101.4868,02/12/2020,1,confirmed
+1173,Zhejiang,Mainland China,29.18251,120.0985,02/12/2020,14,confirmed
+1174,Hainan,Mainland China,19.19673,109.7455,02/12/2020,1,death
+1175,Henan,Mainland China,33.88202,113.614,02/12/2020,1,death
+1176,Hunan,Mainland China,27.61041,111.7088,02/12/2020,1,death
+1177,Liaoning,Mainland China,41.29284,122.6086,02/12/2020,1,death
+1178,Shandong,Mainland China,36.34377,118.1529,02/12/2020,1,death
+1179,,Cambodia,12.5657,104.991,02/12/2020,1,recovered
+1180,,Finland,61.9241,25.7482,02/12/2020,1,recovered
+1181,,France,46.2276,2.2137,02/12/2020,2,recovered
+1182,,Nepal,28.3949,84.124,02/12/2020,1,recovered
+1183,,Philippines,12.8797,121.774,02/12/2020,1,recovered
+1184,,Russia,61.524,105.3188,02/12/2020,2,recovered
+1185,,Singapore,1.3521,103.8198,02/12/2020,6,recovered
+1186,,South Korea,37.5665,126.978,02/12/2020,4,recovered
+1187,,UK,55.3781,-3.436,02/12/2020,1,recovered
+1188,,United Arab Emirates,23.4241,53.8478,02/12/2020,1,recovered
+1189,Anhui,Mainland China,31.82571,117.2264,02/12/2020,22,recovered
+1190,Beijing,Mainland China,40.18238,116.4142,02/12/2020,8,recovered
+1191,Chongqing,Mainland China,30.05718,107.874,02/12/2020,23,recovered
+1192,Fujian,Mainland China,26.07783,117.9895,02/12/2020,8,recovered
+1193,Gansu,Mainland China,36.0611,103.8343,02/12/2020,7,recovered
+1194,Guangdong,Mainland China,23.33841,113.422,02/12/2020,63,recovered
+1195,Guangxi,Mainland China,23.82908,108.7881,02/12/2020,-1,recovered
+1196,Guizhou,Mainland China,26.81536,106.8748,02/12/2020,1,recovered
+1197,Hainan,Mainland China,19.19673,109.7455,02/12/2020,7,recovered
+1198,Hebei,Mainland China,38.0428,114.5149,02/12/2020,6,recovered
+1199,Heilongjiang,Mainland China,47.862,127.7622,02/12/2020,3,recovered
+1200,Henan,Mainland China,33.88202,113.614,02/12/2020,28,recovered
+1201,Hong Kong,Hong Kong,22.3193,114.1694,02/12/2020,1,recovered
+1202,Hubei,Mainland China,30.97564,112.2707,02/12/2020,47,recovered
+1203,Hunan,Mainland China,27.61041,111.7088,02/12/2020,57,recovered
+1204,Inner Mongolia,Mainland China,44.09448,113.9456,02/12/2020,1,recovered
+1205,Jiangsu,Mainland China,32.97027,119.464,02/12/2020,32,recovered
+1206,Jiangxi,Mainland China,27.61401,115.7221,02/12/2020,24,recovered
+1207,Jilin,Mainland China,43.66657,126.1917,02/12/2020,4,recovered
+1208,Liaoning,Mainland China,41.29284,122.6086,02/12/2020,1,recovered
+1209,"London, ON",Canada,42.9849,-81.2453,02/12/2020,1,recovered
+1210,Macau,Macau,22.1987,113.5439,02/12/2020,1,recovered
+1211,Ningxia,Mainland China,37.26923,106.1655,02/12/2020,2,recovered
+1212,Qinghai,Mainland China,35.65945,96.02564,02/12/2020,4,recovered
+1213,Shaanxi,Mainland China,35.19165,108.8701,02/12/2020,11,recovered
+1214,Shandong,Mainland China,36.34377,118.1529,02/12/2020,12,recovered
+1215,Shanghai,Mainland China,31.20327,121.4554,02/12/2020,5,recovered
+1216,Shanxi,Mainland China,37.57769,112.2922,02/12/2020,3,recovered
+1217,Sichuan,Mainland China,30.61714,102.7103,02/12/2020,7,recovered
+1218,Tianjin,Mainland China,39.29362,117.333,02/12/2020,1,recovered
+1219,Tibet,Mainland China,30.1534,88.7879,02/12/2020,1,recovered
+1220,Yunnan,Mainland China,24.97411,101.4868,02/12/2020,6,recovered
+1221,Zhejiang,Mainland China,29.18251,120.0985,02/12/2020,51,recovered
+1222,,Malaysia,4.2105,101.9758,02/13/2020,1,confirmed
+1223,,Singapore,1.3521,103.8198,02/13/2020,8,confirmed
+1224,,Vietnam,21.0278,105.8342,02/13/2020,1,confirmed
+1225,Anhui,Mainland China,31.82571,117.2264,02/13/2020,21,confirmed
+1226,Beijing,Mainland China,40.18238,116.4142,02/13/2020,14,confirmed
+1227,Chongqing,Mainland China,30.05718,107.874,02/13/2020,11,confirmed
+1228,Fujian,Mainland China,26.07783,117.9895,02/13/2020,7,confirmed
+1229,Gansu,Mainland China,36.0611,103.8343,02/13/2020,3,confirmed
+1230,Guangdong,Mainland China,23.33841,113.422,02/13/2020,22,confirmed
+1231,Guizhou,Mainland China,26.81536,106.8748,02/13/2020,2,confirmed
+1232,Hebei,Mainland China,38.0428,114.5149,02/13/2020,14,confirmed
+1233,Heilongjiang,Mainland China,47.862,127.7622,02/13/2020,17,confirmed
+1234,Henan,Mainland China,33.88202,113.614,02/13/2020,34,confirmed
+1235,Hong Kong,Hong Kong,22.3193,114.1694,02/13/2020,3,confirmed
+1236,Hubei,Mainland China,30.97564,112.2707,02/13/2020,14840,confirmed
+1237,Hunan,Mainland China,27.61041,111.7088,02/13/2020,22,confirmed
+1238,Inner Mongolia,Mainland China,44.09448,113.9456,02/13/2020,1,confirmed
+1239,Jiangsu,Mainland China,32.97027,119.464,02/13/2020,27,confirmed
+1240,Jiangxi,Mainland China,27.61401,115.7221,02/13/2020,28,confirmed
+1241,Jilin,Mainland China,43.66657,126.1917,02/13/2020,1,confirmed
+1242,Liaoning,Mainland China,41.29284,122.6086,02/13/2020,1,confirmed
+1243,Ningxia,Mainland China,37.26923,106.1655,02/13/2020,6,confirmed
+1244,"San Antonio, TX",US,29.4241,-98.4936,02/13/2020,1,confirmed
+1245,"San Diego County, CA",US,32.7157,-117.1611,02/13/2020,1,confirmed
+1246,Shaanxi,Mainland China,35.19165,108.8701,02/13/2020,4,confirmed
+1247,Shandong,Mainland China,36.34377,118.1529,02/13/2020,12,confirmed
+1248,Shanghai,Mainland China,31.20327,121.4554,02/13/2020,4,confirmed
+1249,Sichuan,Mainland China,30.61714,102.7103,02/13/2020,15,confirmed
+1250,Tianjin,Mainland China,39.29362,117.333,02/13/2020,7,confirmed
+1251,Xinjiang,Mainland China,41.11981,85.17822,02/13/2020,4,confirmed
+1252,Yunnan,Mainland China,24.97411,101.4868,02/13/2020,2,confirmed
+1253,Zhejiang,Mainland China,29.18251,120.0985,02/13/2020,14,confirmed
+1254,,Japan,35.6762,139.6503,02/13/2020,1,death
+1255,Anhui,Mainland China,31.82571,117.2264,02/13/2020,1,death
+1256,Chongqing,Mainland China,30.05718,107.874,02/13/2020,1,death
+1257,Guangdong,Mainland China,23.33841,113.422,02/13/2020,1,death
+1258,Guangxi,Mainland China,23.82908,108.7881,02/13/2020,1,death
+1259,Hebei,Mainland China,38.0428,114.5149,02/13/2020,1,death
+1260,Heilongjiang,Mainland China,47.862,127.7622,02/13/2020,1,death
+1261,Henan,Mainland China,33.88202,113.614,02/13/2020,2,death
+1262,Hubei,Mainland China,30.97564,112.2707,02/13/2020,242,death
+1263,Tianjin,Mainland China,39.29362,117.333,02/13/2020,1,death
+1264,Xinjiang,Mainland China,41.11981,85.17822,02/13/2020,1,death
+1265,,Germany,51.1657,10.4515,02/13/2020,1,recovered
+1266,,Thailand,13.7563,100.5018,02/13/2020,2,recovered
+1267,,Vietnam,21.0278,105.8342,02/13/2020,1,recovered
+1268,Anhui,Mainland China,31.82571,117.2264,02/13/2020,30,recovered
+1269,Beijing,Mainland China,40.18238,116.4142,02/13/2020,13,recovered
+1270,Chongqing,Mainland China,30.05718,107.874,02/13/2020,26,recovered
+1271,Fujian,Mainland China,26.07783,117.9895,02/13/2020,4,recovered
+1272,Gansu,Mainland China,36.0611,103.8343,02/13/2020,8,recovered
+1273,Guangdong,Mainland China,23.33841,113.422,02/13/2020,39,recovered
+1274,Guangxi,Mainland China,23.82908,108.7881,02/13/2020,1,recovered
+1275,Guizhou,Mainland China,26.81536,106.8748,02/13/2020,9,recovered
+1276,Hainan,Mainland China,19.19673,109.7455,02/13/2020,3,recovered
+1277,Hebei,Mainland China,38.0428,114.5149,02/13/2020,14,recovered
+1278,Heilongjiang,Mainland China,47.862,127.7622,02/13/2020,2,recovered
+1279,Henan,Mainland China,33.88202,113.614,02/13/2020,50,recovered
+1280,Hubei,Mainland China,30.97564,112.2707,02/13/2020,773,recovered
+1281,Hunan,Mainland China,27.61041,111.7088,02/13/2020,35,recovered
+1282,Jiangsu,Mainland China,32.97027,119.464,02/13/2020,14,recovered
+1283,Jiangxi,Mainland China,27.61401,115.7221,02/13/2020,18,recovered
+1284,Jilin,Mainland China,43.66657,126.1917,02/13/2020,2,recovered
+1285,Liaoning,Mainland China,41.29284,122.6086,02/13/2020,2,recovered
+1286,Macau,Macau,22.1987,113.5439,02/13/2020,1,recovered
+1287,New South Wales,Australia,-33.8688,151.2093,02/13/2020,2,recovered
+1288,Qinghai,Mainland China,35.65945,96.02564,02/13/2020,2,recovered
+1289,Shaanxi,Mainland China,35.19165,108.8701,02/13/2020,3,recovered
+1290,Shandong,Mainland China,36.34377,118.1529,02/13/2020,13,recovered
+1291,Shanghai,Mainland China,31.20327,121.4554,02/13/2020,5,recovered
+1292,Shanxi,Mainland China,37.57769,112.2922,02/13/2020,3,recovered
+1293,Sichuan,Mainland China,30.61714,102.7103,02/13/2020,12,recovered
+1294,Tianjin,Mainland China,39.29362,117.333,02/13/2020,10,recovered
+1295,Victoria,Australia,-37.8136,144.9631,02/13/2020,4,recovered
+1296,Xinjiang,Mainland China,41.11981,85.17822,02/13/2020,3,recovered
+1297,Yunnan,Mainland China,24.97411,101.4868,02/13/2020,1,recovered
+1298,Zhejiang,Mainland China,29.18251,120.0985,02/13/2020,39,recovered
+1299,,Egypt,26.8206,30.8025,02/14/2020,1,confirmed
+1300,,Japan,35.6762,139.6503,02/14/2020,1,confirmed
+1301,,Singapore,1.3521,103.8198,02/14/2020,9,confirmed
+1302,Anhui,Mainland China,31.82571,117.2264,02/14/2020,24,confirmed
+1303,Beijing,Mainland China,40.18238,116.4142,02/14/2020,6,confirmed
+1304,Chongqing,Mainland China,30.05718,107.874,02/14/2020,8,confirmed
+1305,Diamond Princess cruise ship,Others,35.4437,129.638,02/14/2020,43,confirmed
+1306,Fujian,Mainland China,26.07783,117.9895,02/14/2020,2,confirmed
+1307,Guangdong,Mainland China,23.33841,113.422,02/14/2020,20,confirmed
+1308,Guangxi,Mainland China,23.82908,108.7881,02/14/2020,4,confirmed
+1309,Guizhou,Mainland China,26.81536,106.8748,02/14/2020,5,confirmed
+1310,Hainan,Mainland China,19.19673,109.7455,02/14/2020,2,confirmed
+1311,Hebei,Mainland China,38.0428,114.5149,02/14/2020,18,confirmed
+1312,Heilongjiang,Mainland China,47.862,127.7622,02/14/2020,24,confirmed
+1313,Henan,Mainland China,33.88202,113.614,02/14/2020,15,confirmed
+1314,Hong Kong,Hong Kong,22.3193,114.1694,02/14/2020,3,confirmed
+1315,Hubei,Mainland China,30.97564,112.2707,02/14/2020,6200,confirmed
+1316,Hunan,Mainland China,27.61041,111.7088,02/14/2020,20,confirmed
+1317,Inner Mongolia,Mainland China,44.09448,113.9456,02/14/2020,4,confirmed
+1318,Jiangsu,Mainland China,32.97027,119.464,02/14/2020,23,confirmed
+1319,Jiangxi,Mainland China,27.61401,115.7221,02/14/2020,28,confirmed
+1320,Jilin,Mainland China,43.66657,126.1917,02/14/2020,2,confirmed
+1321,Liaoning,Mainland China,41.29284,122.6086,02/14/2020,2,confirmed
+1322,Ningxia,Mainland China,37.26923,106.1655,02/14/2020,3,confirmed
+1323,Shaanxi,Mainland China,35.19165,108.8701,02/14/2020,1,confirmed
+1324,Shandong,Mainland China,36.34377,118.1529,02/14/2020,14,confirmed
+1325,Shanghai,Mainland China,31.20327,121.4554,02/14/2020,3,confirmed
+1326,Shanxi,Mainland China,37.57769,112.2922,02/14/2020,1,confirmed
+1327,Sichuan,Mainland China,30.61714,102.7103,02/14/2020,12,confirmed
+1328,Tianjin,Mainland China,39.29362,117.333,02/14/2020,1,confirmed
+1329,Xinjiang,Mainland China,41.11981,85.17822,02/14/2020,2,confirmed
+1330,Yunnan,Mainland China,24.97411,101.4868,02/14/2020,6,confirmed
+1331,Zhejiang,Mainland China,29.18251,120.0985,02/14/2020,10,confirmed
+1332,Anhui,Mainland China,31.82571,117.2264,02/14/2020,1,death
+1333,Chongqing,Mainland China,30.05718,107.874,02/14/2020,1,death
+1334,Heilongjiang,Mainland China,47.862,127.7622,02/14/2020,2,death
+1335,Henan,Mainland China,33.88202,113.614,02/14/2020,1,death
+1336,Hubei,Mainland China,30.97564,112.2707,02/14/2020,147,death
+1337,,Singapore,1.3521,103.8198,02/14/2020,2,recovered
+1338,Anhui,Mainland China,31.82571,117.2264,02/14/2020,36,recovered
+1339,Beijing,Mainland China,40.18238,116.4142,02/14/2020,11,recovered
+1340,Chongqing,Mainland China,30.05718,107.874,02/14/2020,24,recovered
+1341,Fujian,Mainland China,26.07783,117.9895,02/14/2020,6,recovered
+1342,Guangdong,Mainland China,23.33841,113.422,02/14/2020,48,recovered
+1343,Guangxi,Mainland China,23.82908,108.7881,02/14/2020,3,recovered
+1344,Guizhou,Mainland China,26.81536,106.8748,02/14/2020,1,recovered
+1345,Hainan,Mainland China,19.19673,109.7455,02/14/2020,13,recovered
+1346,Hebei,Mainland China,38.0428,114.5149,02/14/2020,19,recovered
+1347,Heilongjiang,Mainland China,47.862,127.7622,02/14/2020,14,recovered
+1348,Henan,Mainland China,33.88202,113.614,02/14/2020,61,recovered
+1349,Hubei,Mainland China,30.97564,112.2707,02/14/2020,1315,recovered
+1350,Hunan,Mainland China,27.61041,111.7088,02/14/2020,25,recovered
+1351,Jiangsu,Mainland China,32.97027,119.464,02/14/2020,18,recovered
+1352,Jiangxi,Mainland China,27.61401,115.7221,02/14/2020,17,recovered
+1353,Jilin,Mainland China,43.66657,126.1917,02/14/2020,1,recovered
+1354,Liaoning,Mainland China,41.29284,122.6086,02/14/2020,7,recovered
+1355,Shaanxi,Mainland China,35.19165,108.8701,02/14/2020,8,recovered
+1356,Shandong,Mainland China,36.34377,118.1529,02/14/2020,31,recovered
+1357,Shanghai,Mainland China,31.20327,121.4554,02/14/2020,28,recovered
+1358,Shanxi,Mainland China,37.57769,112.2922,02/14/2020,2,recovered
+1359,Sichuan,Mainland China,30.61714,102.7103,02/14/2020,10,recovered
+1360,Taiwan,Taiwan,23.6978,120.9605,02/14/2020,1,recovered
+1361,Tianjin,Mainland China,39.29362,117.333,02/14/2020,10,recovered
+1362,Yunnan,Mainland China,24.97411,101.4868,02/14/2020,9,recovered
+1363,Zhejiang,Mainland China,29.18251,120.0985,02/14/2020,43,recovered
+1364,,France,46.2276,2.2137,02/15/2020,1,confirmed
+1365,,Japan,35.6762,139.6503,02/15/2020,14,confirmed
+1366,,Malaysia,4.2105,101.9758,02/15/2020,3,confirmed
+1367,,Singapore,1.3521,103.8198,02/15/2020,5,confirmed
+1368,Anhui,Mainland China,31.82571,117.2264,02/15/2020,16,confirmed
+1369,Beijing,Mainland China,40.18238,116.4142,02/15/2020,3,confirmed
+1370,Chongqing,Mainland China,30.05718,107.874,02/15/2020,7,confirmed
+1371,Diamond Princess cruise ship,Others,35.4437,129.638,02/15/2020,67,confirmed
+1372,Fujian,Mainland China,26.07783,117.9895,02/15/2020,4,confirmed
+1373,Guangdong,Mainland China,23.33841,113.422,02/15/2020,33,confirmed
+1374,Guangxi,Mainland China,23.82908,108.7881,02/15/2020,9,confirmed
+1375,Guizhou,Mainland China,26.81536,106.8748,02/15/2020,3,confirmed
+1376,Hainan,Mainland China,19.19673,109.7455,02/15/2020,3,confirmed
+1377,Hebei,Mainland China,38.0428,114.5149,02/15/2020,8,confirmed
+1378,Heilongjiang,Mainland China,47.862,127.7622,02/15/2020,6,confirmed
+1379,Henan,Mainland China,33.88202,113.614,02/15/2020,28,confirmed
+1380,Hubei,Mainland China,30.97564,112.2707,02/15/2020,1843,confirmed
+1381,Hunan,Mainland China,27.61041,111.7088,02/15/2020,13,confirmed
+1382,Inner Mongolia,Mainland China,44.09448,113.9456,02/15/2020,3,confirmed
+1383,Jiangsu,Mainland China,32.97027,119.464,02/15/2020,11,confirmed
+1384,Jiangxi,Mainland China,27.61401,115.7221,02/15/2020,13,confirmed
+1385,Jilin,Mainland China,43.66657,126.1917,02/15/2020,2,confirmed
+1386,Ningxia,Mainland China,37.26923,106.1655,02/15/2020,3,confirmed
+1387,Shaanxi,Mainland China,35.19165,108.8701,02/15/2020,2,confirmed
+1388,Shandong,Mainland China,36.34377,118.1529,02/15/2020,9,confirmed
+1389,Shanghai,Mainland China,31.20327,121.4554,02/15/2020,8,confirmed
+1390,Shanxi,Mainland China,37.57769,112.2922,02/15/2020,1,confirmed
+1391,Sichuan,Mainland China,30.61714,102.7103,02/15/2020,7,confirmed
+1392,Tianjin,Mainland China,39.29362,117.333,02/15/2020,2,confirmed
+1393,Xinjiang,Mainland China,41.11981,85.17822,02/15/2020,5,confirmed
+1394,Yunnan,Mainland China,24.97411,101.4868,02/15/2020,6,confirmed
+1395,Zhejiang,Mainland China,29.18251,120.0985,02/15/2020,7,confirmed
+1396,,France,46.2276,2.2137,02/15/2020,1,death
+1397,Beijing,Mainland China,40.18238,116.4142,02/15/2020,1,death
+1398,Henan,Mainland China,33.88202,113.614,02/15/2020,2,death
+1399,Hubei,Mainland China,30.97564,112.2707,02/15/2020,139,death
+1400,,France,46.2276,2.2137,02/15/2020,2,recovered
+1401,,Japan,35.6762,139.6503,02/15/2020,3,recovered
+1402,,Malaysia,4.2105,101.9758,02/15/2020,4,recovered
+1403,,Singapore,1.3521,103.8198,02/15/2020,1,recovered
+1404,,South Korea,37.5665,126.978,02/15/2020,2,recovered
+1405,,Spain,40.4637,-3.7492,02/15/2020,2,recovered
+1406,,United Arab Emirates,23.4241,53.8478,02/15/2020,2,recovered
+1407,Anhui,Mainland China,31.82571,117.2264,02/15/2020,28,recovered
+1408,Beijing,Mainland China,40.18238,116.4142,02/15/2020,18,recovered
+1409,Chongqing,Mainland China,30.05718,107.874,02/15/2020,32,recovered
+1410,Fujian,Mainland China,26.07783,117.9895,02/15/2020,8,recovered
+1411,Gansu,Mainland China,36.0611,103.8343,02/15/2020,10,recovered
+1412,Guangdong,Mainland China,23.33841,113.422,02/15/2020,48,recovered
+1413,Guangxi,Mainland China,23.82908,108.7881,02/15/2020,8,recovered
+1414,Guizhou,Mainland China,26.81536,106.8748,02/15/2020,13,recovered
+1415,Hainan,Mainland China,19.19673,109.7455,02/15/2020,-4,recovered
+1416,Hebei,Mainland China,38.0428,114.5149,02/15/2020,14,recovered
+1417,Heilongjiang,Mainland China,47.862,127.7622,02/15/2020,21,recovered
+1418,Henan,Mainland China,33.88202,113.614,02/15/2020,34,recovered
+1419,Hubei,Mainland China,30.97564,112.2707,02/15/2020,849,recovered
+1420,Hunan,Mainland China,27.61041,111.7088,02/15/2020,61,recovered
+1421,Inner Mongolia,Mainland China,44.09448,113.9456,02/15/2020,1,recovered
+1422,Jiangsu,Mainland China,32.97027,119.464,02/15/2020,29,recovered
+1423,Jiangxi,Mainland China,27.61401,115.7221,02/15/2020,23,recovered
+1424,Jilin,Mainland China,43.66657,126.1917,02/15/2020,1,recovered
+1425,Liaoning,Mainland China,41.29284,122.6086,02/15/2020,2,recovered
+1426,Ningxia,Mainland China,37.26923,106.1655,02/15/2020,9,recovered
+1427,Qinghai,Mainland China,35.65945,96.02564,02/15/2020,2,recovered
+1428,Shaanxi,Mainland China,35.19165,108.8701,02/15/2020,6,recovered
+1429,Shandong,Mainland China,36.34377,118.1529,02/15/2020,20,recovered
+1430,Shanghai,Mainland China,31.20327,121.4554,02/15/2020,34,recovered
+1431,Shanxi,Mainland China,37.57769,112.2922,02/15/2020,8,recovered
+1432,Sichuan,Mainland China,30.61714,102.7103,02/15/2020,5,recovered
+1433,Tianjin,Mainland China,39.29362,117.333,02/15/2020,6,recovered
+1434,Xinjiang,Mainland China,41.11981,85.17822,02/15/2020,4,recovered
+1435,Yunnan,Mainland China,24.97411,101.4868,02/15/2020,6,recovered
+1436,Zhejiang,Mainland China,29.18251,120.0985,02/15/2020,25,recovered
+1437,,Japan,35.6762,139.6503,02/16/2020,16,confirmed
+1438,,Singapore,1.3521,103.8198,02/16/2020,3,confirmed
+1439,,South Korea,37.5665,126.978,02/16/2020,1,confirmed
+1440,,Thailand,13.7563,100.5018,02/16/2020,1,confirmed
+1441,,United Arab Emirates,23.4241,53.8478,02/16/2020,1,confirmed
+1442,Anhui,Mainland China,31.82571,117.2264,02/16/2020,12,confirmed
+1443,Beijing,Mainland China,40.18238,116.4142,02/16/2020,5,confirmed
+1444,Chongqing,Mainland China,30.05718,107.874,02/16/2020,7,confirmed
+1445,Diamond Princess cruise ship,Others,35.4437,129.638,02/16/2020,70,confirmed
+1446,Fujian,Mainland China,26.07783,117.9895,02/16/2020,2,confirmed
+1447,Guangdong,Mainland China,23.33841,113.422,02/16/2020,22,confirmed
+1448,Guangxi,Mainland China,23.82908,108.7881,02/16/2020,2,confirmed
+1449,Guizhou,Mainland China,26.81536,106.8748,02/16/2020,1,confirmed
+1450,Hebei,Mainland China,38.0428,114.5149,02/16/2020,9,confirmed
+1451,Heilongjiang,Mainland China,47.862,127.7622,02/16/2020,20,confirmed
+1452,Henan,Mainland China,33.88202,113.614,02/16/2020,19,confirmed
+1453,Hong Kong,Hong Kong,22.3193,114.1694,02/16/2020,1,confirmed
+1454,Hubei,Mainland China,30.97564,112.2707,02/16/2020,1933,confirmed
+1455,Hunan,Mainland China,27.61041,111.7088,02/16/2020,3,confirmed
+1456,Inner Mongolia,Mainland China,44.09448,113.9456,02/16/2020,2,confirmed
+1457,Jiangsu,Mainland China,32.97027,119.464,02/16/2020,13,confirmed
+1458,Jiangxi,Mainland China,27.61401,115.7221,02/16/2020,12,confirmed
+1459,Jilin,Mainland China,43.66657,126.1917,02/16/2020,1,confirmed
+1460,Liaoning,Mainland China,41.29284,122.6086,02/16/2020,2,confirmed
+1461,Shaanxi,Mainland China,35.19165,108.8701,02/16/2020,4,confirmed
+1462,Shandong,Mainland China,36.34377,118.1529,02/16/2020,5,confirmed
+1463,Shanghai,Mainland China,31.20327,121.4554,02/16/2020,2,confirmed
+1464,Shanxi,Mainland China,37.57769,112.2922,02/16/2020,1,confirmed
+1465,Sichuan,Mainland China,30.61714,102.7103,02/16/2020,11,confirmed
+1466,Taiwan,Taiwan,23.6978,120.9605,02/16/2020,2,confirmed
+1467,Tianjin,Mainland China,39.29362,117.333,02/16/2020,2,confirmed
+1468,Xinjiang,Mainland China,41.11981,85.17822,02/16/2020,1,confirmed
+1469,Yunnan,Mainland China,24.97411,101.4868,02/16/2020,3,confirmed
+1470,Zhejiang,Mainland China,29.18251,120.0985,02/16/2020,5,confirmed
+1471,Hubei,Mainland China,30.97564,112.2707,02/16/2020,100,death
+1472,Hunan,Mainland China,27.61041,111.7088,02/16/2020,1,death
+1473,Sichuan,Mainland China,30.61714,102.7103,02/16/2020,2,death
+1474,Taiwan,Taiwan,23.6978,120.9605,02/16/2020,1,death
+1475,,India,20.5937,78.9629,02/16/2020,3,recovered
+1476,,Thailand,13.7563,100.5018,02/16/2020,2,recovered
+1477,,UK,55.3781,-3.436,02/16/2020,7,recovered
+1478,,United Arab Emirates,23.4241,53.8478,02/16/2020,1,recovered
+1479,Anhui,Mainland China,31.82571,117.2264,02/16/2020,34,recovered
+1480,Beijing,Mainland China,40.18238,116.4142,02/16/2020,10,recovered
+1481,Chongqing,Mainland China,30.05718,107.874,02/16/2020,23,recovered
+1482,Fujian,Mainland China,26.07783,117.9895,02/16/2020,11,recovered
+1483,Gansu,Mainland China,36.0611,103.8343,02/16/2020,5,recovered
+1484,Guangdong,Mainland China,23.33841,113.422,02/16/2020,55,recovered
+1485,Guangxi,Mainland China,23.82908,108.7881,02/16/2020,5,recovered
+1486,Guizhou,Mainland China,26.81536,106.8748,02/16/2020,5,recovered
+1487,Hainan,Mainland China,19.19673,109.7455,02/16/2020,13,recovered
+1488,Hebei,Mainland China,38.0428,114.5149,02/16/2020,4,recovered
+1489,Heilongjiang,Mainland China,47.862,127.7622,02/16/2020,11,recovered
+1490,Henan,Mainland China,33.88202,113.614,02/16/2020,49,recovered
+1491,Hong Kong,Hong Kong,22.3193,114.1694,02/16/2020,1,recovered
+1492,Hubei,Mainland China,30.97564,112.2707,02/16/2020,1016,recovered
+1493,Hunan,Mainland China,27.61041,111.7088,02/16/2020,39,recovered
+1494,Inner Mongolia,Mainland China,44.09448,113.9456,02/16/2020,1,recovered
+1495,Jiangsu,Mainland China,32.97027,119.464,02/16/2020,32,recovered
+1496,Jiangxi,Mainland China,27.61401,115.7221,02/16/2020,30,recovered
+1497,Jilin,Mainland China,43.66657,126.1917,02/16/2020,4,recovered
+1498,Liaoning,Mainland China,41.29284,122.6086,02/16/2020,9,recovered
+1499,Macau,Macau,22.1987,113.5439,02/16/2020,2,recovered
+1500,Shaanxi,Mainland China,35.19165,108.8701,02/16/2020,11,recovered
+1501,Shandong,Mainland China,36.34377,118.1529,02/16/2020,17,recovered
+1502,Shanghai,Mainland China,31.20327,121.4554,02/16/2020,16,recovered
+1503,Shanxi,Mainland China,37.57769,112.2922,02/16/2020,4,recovered
+1504,Sichuan,Mainland China,30.61714,102.7103,02/16/2020,12,recovered
+1505,Tianjin,Mainland China,39.29362,117.333,02/16/2020,8,recovered
+1506,Xinjiang,Mainland China,41.11981,85.17822,02/16/2020,2,recovered
+1507,Zhejiang,Mainland China,29.18251,120.0985,02/16/2020,28,recovered

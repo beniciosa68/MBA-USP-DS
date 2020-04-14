@@ -1,0 +1,32 @@
+﻿Sistema_Modelagem_predicao_analitica_desempenho_processamento_paralelo.pdf
+	http://bdtd.ibict.br/vufind/Record/CAMP_5c6fe450d0bb51b8a53be3a012a1bfc8
+	http://repositorio.unicamp.br/jspui/handle/REPOSIP/261811
+
+Desenvolvimento_modelo_sistema_multiagente_para_previsao_retorno_indices_de_acoes.pdf
+	http://bdtd.ibict.br/vufind/Record/UFSC_ad2b58f684c6bb8f76f667a59f1561a0
+	https://repositorio.ufsc.br/xmlui/handle/123456789/94103
+
+Modelagem_simulacao_secador_itermitente_fluxos_contracorrentes_frutos_cafeeiro.pdf
+	http://bdtd.ibict.br/vufind/Record/UFES_eb2d4b6236dcf4899fee50171e797c84
+	http://repositorio.ufes.br/handle/10/1689
+
+***
+Desenvolvimento_modelos_predicao_desempenho_programas_paralelos_MPI.pdf
+	https://repositorio.usp.br/item/001328203
+	https://teses.usp.br/teses/disponiveis/3/3141/tde-28082003-184400/pt-br.php
+	
+***
+Avaliacao_predicao_desempenho_programas paralelos_redes_estações_trabalho.pdf
+	https://teses.usp.br/teses/disponiveis/3/3141/tde-25012002-150022/pt-br.php
+
+
+Metodologia_desenvolvimento_programas_paralelos_eficientes_ambientes_homogeneos_heterogeneos.pdf
+	https://repositorio.usp.br/item/001696209
+	https://teses.usp.br/teses/disponiveis/3/3141/tde-29112016-085713/pt-br.php
+
+Modelagem_predicao_desempenho_primitivas_comunicacao_MPI.pdf
+	https://repositorio.usp.br/item/001328217
+	https://teses.usp.br/teses/disponiveis/3/3141/tde-26082003-113045/pt-br.php
+
+Contribution_High_Performance_Computing_Big_Data_Infrastructure_Convergence.pdf
+	https://hal.archives-ouvertes.fr/tel-02284996v2/document
