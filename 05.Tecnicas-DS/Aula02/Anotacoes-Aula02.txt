@@ -1,0 +1,169 @@
+Anotações em aula:
+
+Parte I:
+-------------------------------------------------------------------------------------------------
+Redundantes:
+-------------------------------------------------------------------------------------------------
+mostra os dados duplicados:
+
+	data[data.duplicated()] 
+
+tratando os duplicados:
+
+	data_drop = data.drop_duplicates(keep='first') -> mantem primeira
+	data_drop = data.drop_duplicates(keep='last') -> mantem ultima
+	data_drop = data.drop_duplicates(keep=False) -> remove todas
+
+procurar apenas um atributo duplicado:
+	data[data.duplicated(['Name'])]
+
+procurar uma pessoa especifica que está duplicada:
+	data[data['Name']=='Nome da pessoa']
+
+criar histograma:
+	data['Religion'].hist(xrot=45)
+
+-------------------------------------------------------------------------------------------------
+Desbalanceados:
+-------------------------------------------------------------------------------------------------
+primeiro tratamento, removendo dado errôneo e colocando NaN:
+	data.loc[data['Sex'] == 'P', 'Sex'] = np.nan
+
+calculando o desbalanceamento:
+	data['Sex'].describe()
+	proporcao = (freq/count)*100 = em %
+	proporcao = data['Sex'].describe()['freq']/data['Sex'].describe()['count'] 
+	
+	ai acha a proporção em %, ex: 75% = 1:3, ou seja, a cada 1 ocorrência do sexo M, temos 3 do sexo False, logo F (categoria majoritaria) domina o M (categoria minoritaria)
+
+
+Parte II:
+-------------------------------------------------------------------------------------------------
+Outliers com Desvio Padrao e Amplitude Inter-Quartil (IQR):
+-------------------------------------------------------------------------------------------------
+printar boxplot:
+	plt.figure(figsize=(8,4))
+	plt.subplot(121); data.boxplot(['total'])
+	plt.subplot(122); data.boxplot(['area'])
+
+desvio = [soma(raiz((xi - média)^2))]/n
+IQR = Q3-Q1 -> dados tem que estar ordenados
+
+Q1 = data['total'].quantile(0.25)
+Q3 = data['total'].quantile(0.75)
+
+selecionando outliers pelo IQR:
+	outlier = data[(data['total'] < Q1-(IQR*1.5)) | (data['total'] > Q3+(IQR*1.5))]
+
+selecionando inliers pelo IQR:
+	inlier = data[(data['total'] >= Q1-(IQR*1.5)) & (data['total'] <= Q3+(IQR*1.5))]
+
+selecionando outliers pelo desvio:
+	outlier = data[(data['total'] < media-(2*desvio)) | (data['total'] > media+(2*desvio))]
+
+selecionando inliers pelo desvio:
+	inlier = data[(data['total'] >= media-(2*desvio)) & (data['total'] <= media+(2*desvio))]
+
+verificar se a variavel é numerica:
+	for variaveis in data:
+		if np.issubdtype(data[variaveis].dtype, np.number)
+
+
+Parte III:
+-------------------------------------------------------------------------------------------------
+Outliers com Distribuição Normal
+-------------------------------------------------------------------------------------------------
+algoritmo:
+	1) estima parametros da distribuição
+	2) para cada ponto computo a probabilidade P de pertencer a região
+		a) se P < E (limiar threshold), considera ponto como outlier
+		b) senão é inlier
+
+-------------------------------------------------------------------------------------------------
+Agrupamento - DBSCAN - Density-Based Spatial Clustering of Applications with Noise
+-------------------------------------------------------------------------------------------------
+agrupamentos (clusters) isolados com poucos pontos tendem a indicar outliers
+
+pra usar o algoritmo, tenho que jogar os valores num array e transpor a matriz:
+	X1 = np.array(dc['campo1'])
+	X2 = np.array(dc['campo2'])
+	X = np.vstack((X1,X2)).T
+
+	db = DBSCAN(eps=valor_que_considero_limite, min_samples=5).fit(X)
+	clusters = db.labels_
+
+outlier serão os rotulos que estão com valor -1
+	outlier = list(clusters).count(-1)
+
+novidade vs outlier:
+outlier é qdo minhas base de dados já está contaminada e ai eu quero tratar esse valor.
+novidade é qdo esse dado ainda não está na minha base e eu vou inseri-lo, e daí sim, quero saber se ele é um outlier. Nesse caso, o dado é chamado de novidade.
+
+
+Parte IV:
+-------------------------------------------------------------------------------------------------
+Limpeza dos dados
+-------------------------------------------------------------------------------------------------
+primeira etapa do tratamento é identificar os tipos dos valores e se estão corretos:
+	for var in data:
+		print(data[var].dtype.name)
+		if np.issubdtype(data[var].dtype, np.number):
+			print(data[var].unique())
+
+segunda etapa é converter os dados. Neste caso, dados não númericos que deveriam ser numéricos:
+	data.loc[:,'campo1'] = pd.to_numeric(data.loc[:,'campo1'], downcast='integer', errors='coerce')    
+
+obs -> downcast: td que achar vai tentar int, 
+	-> errors: td que ele não conseguir converter para int ele vai forçar um NaN
+
+terceira etapa é remover os NaN:
+	data[data[var].notnull()]
+
+quarta etapa é tratar os duplicados:
+	data.drop_duplicates(keep='first')
+
+quinta etapa, plotar atributos em pares (x contra y) - (tipo a matriz de correlação):
+	X1 = np.array(data['campo1'])
+	X2 = np.array(data['campo2'])
+	plt.plot(X1,X2,'.')
+
+sexta etapa removendo outliers:
+	ex: IQR
+
+sétima etapa treinando o classificador e mostrando as acurácias:
+	ex: randomforest, acuracia e erro médio absoluto
+
+
+Parte V:
+-------------------------------------------------------------------------------------------------
+Limpeza dos dados - Preenchendo dados faltantes
+-------------------------------------------------------------------------------------------------
+verificar quantos são os dados faltantes:
+	data[var].isnull()
+
+preenchendo com regressão:
+	ver funcão da aula
+
+treinamos classificador com os dados preenchidos e verificamos acuracia, erro, etc.
+
+
+Parte VI:
+-------------------------------------------------------------------------------------------------
+Tratamento de desbalanceamentos - SMOTE
+-------------------------------------------------------------------------------------------------
+oversampling:
+cria dados artificiais nas classes minoritarias para tentar rebalancea-las com a classe majoritaria.
+ele combina pontos e deixa eles balanceados.
+	oversamp = over_sampling.SMOTE()
+	Xo,Yo = oversamp.fit_resample(X,Y)
+	
+undersampling:
+retira dados das classes maiores para equalizar com a classe minoritária.
+ele retira pontos e deixa eles balanceados:
+	undersamp = under_sampling.RandomUnderSampling()
+	Xu,Yu = undersamp.fit_resample(X,Y)
+
+overunder combine:
+combina os dois pra equilibrar. Aumenta um pouco os minoritarios e diminui o majoritario.
+	overrunder = combine.SMOTEENN(sampling_strategy='all')
+	Xc,Yc = overunder.fit_resample(X,Y)
