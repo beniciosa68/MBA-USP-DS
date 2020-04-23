@@ -1,0 +1,145 @@
+Anotações Aula 2 Estatística e Probabilidade
+
+Parte I:
+-------------------------------------------------------------------------------------------------
+Conceitos básicos
+-------------------------------------------------------------------------------------------------
+
+hipotese X -> 1 = acerta, 0 = erra
+
+		P(x=1) = p
+		P(X=0) = (1-p)
+	
+	se são indepentes:
+		P(X=0,...X=1) = p^(numero de X=1) (1-p)^(numero de X=0) ,ou seja,
+		
+		****P(A1 /\ A2 /\ A3 /\ A4) = P(A1) . P(A2) . P(A3) . P(A4)
+		
+		
+	condicional:
+		P(A2 | A1) -> probabilidade de A2 dado que A1 ocorreu.
+		
+		P(A2 | A1) = P(A2 /\ A1) / P(A1) -> vai ser a intersecção de A2 com A1 dividido pela probabilidade do evento que ocorreu P(A1). Assim:
+		
+		****P(A2 /\ A1) = P(A2 | A1) . P(A1)
+		
+		
+	se são independentes (pois saber que o segundo evento ocorreu não interfere em nada).
+		P(A1 | A2) = P(A1)
+		
+		P(A2 | A1) = P(A2)
+		
+		
+
+
+Experimento Aleatório: experimento cujo resultado não se conhece com certeza, mesmo que repetido exatamente da mesma forma.
+
+Espaço Amostral (Ômega): conjunto de elementos de todos os resultados possíveis do experimento. Discreto (numeral finito ou infinito) ou Contínuo.
+
+Evento: Qq subconjunto do espaço amostral (Ômega). 
+	
+	Eventos Mutualmente Exclusivos: se eles não tem intersecção, ou seja, intersecção igual a conjunto vazio.
+
+Variável Aleatória: Função que relaciona cada elemento do espaço amostral a um número real. X(w) = x. Discretas ou contínua, segue a classificação conforme o tipo de espaço amostral que usou para achar essa variável aleatória.
+
+
+Probabilidade: 
+
+Definição 1:
+Se o número de elementos Ômega são equiprováveis, a probabilidade de um evento A:
+				
+						P(A) = (num de elementos de A)/(num de elementos de Ômega)
+
+Definição 2:
+Quando os elmentos não são equiprováveis a probabilidade do evento A:
+						
+						P(A) = lim (num de vezes que ocorre A)/n
+					
+					onde n = número de repetições relativamente grande (tendendo ao infinito)
+
+
+Função de probabilidade ou função massa de probabilidade: atribuir a probabilidade da variável assumir cada um dos valores que ela pode assumir.
+
+Eventos independentes: A1 e A2 são independentes se a probabilidade de ambos ocorrerem são: P(A1 e A2) = P(A1) . P(A2)
+
+Função de distribuição conjunta: Probabilidade de termos alguns resultados conjuntamento, por ex, 4 probabilidades conjuntas ex: P(x1=0, x2=1, x3=1, x4=1)
+
+
+Parte II:
+-------------------------------------------------------------------------------------------------
+Conceitos básicos
+-------------------------------------------------------------------------------------------------
+
+
+f(x) -> função de probabilidade
+				0 <= f(xi) <=1
+				P(X = xi) = f(xi)
+				SOMA[fxi>0](f(xi)) = 1
+
+F(X) -> função de distribuição acumulada
+				F(X) = P(X <= x) = SOMA[xi<=x](f(xi))
+
+x=(x1,x2,x3,...,xn) -> função de distribuição conjunta
+				fX(x) = P(X = x)
+
+
+Função de distribuição acumulada: probabilidade de termos uma variável aleatória ser menor ou igual a alguma coisa. ex: P(Y<=2)
+
+Probabilidade condicional: probabilidade de A2 dado que A1 ocorreu P(A1|A2): 
+			
+					P(A1|A2) = P(A2 intersecção A1)/P(A1), se P(A1) > 0.
+				
+					P(A2 interseçção A1) = P(A2|A1).P(A1)
+					
+		Se A1 e A2 são independentes:
+					
+					P(A1|A2) = P(A1) e P(A2|A1) = P(A2)
+
+
+Partição: pega o espaço amostral Ômega e dividir em conjuntos (qtos vc quiser) de forma que eles são mutualmente exclusivos (não tem intersecção) e a união deles forma todo o Ômega.
+
+Fórmula da Probabilidade Total:
+
+					P(A) = P(B1) . P(A|B1) + P(B2) . P(A|B2) + ... + P(Bk) . P(A|Bk)
+
+Fórmula de Bayes:
+			
+					P(Bi | A) = P(A|Bi)P(Bi)/SOMA(P(A|Bi).P(Bi))
+
+
+Parte III:
+-------------------------------------------------------------------------------------------------
+Conceitos básicos
+-------------------------------------------------------------------------------------------------
+
+Esperança (ou valor esperado) - é a média teórica:
+
+					E(Y) = SOMA(yi . f(yi))
+
+Variância:
+
+					V(X) = E[(X - u)^2], em que u = E[X]
+						ou
+					V(X) = E(x^2) - E^2(X)
+
+Covariância:
+					Cov(X,Y) = E(X.Y) - E(X).E(Y)
+
+
+Correlação:
+					pXY = Cov(X,Y)/sqrt(V(X).V(Y))
+
+Se X e Y são dependentes:
+					V(X+Y) = V(X) + V(Y) +- 2.Cov(X,Y)
+
+
+
+Variáveis Contínuas:
+
+				Troca somatório por integral
+				
+				Integral(f(x)dx) = 1
+				
+				
+
+
