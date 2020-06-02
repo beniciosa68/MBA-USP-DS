@@ -1,0 +1,18 @@
+Atenção - só será permitido o envio uma vez.
+
+Os dados do arquivo Brain, em anexo, referem-se ao peso do cérebro (g), tamanho da cabeça (cm3) de 237 adultos, identificados por sexo e grupo etário. O estudo teve por objetivo verificar se:
+
+1) Há diferença no peso cerebral entre os sexos? E entre os grupos etários?
+
+2) O tamanho da cabeça é preditor do peso cerebral e, neste caso, há diferença nessa relação entre os sexos e entre os grupos etários?
+
+3) Estime o peso médio do cérebro de homens e de mulheres (pontual e intervalar).
+
+Interprete seus resultados e verifique se as suposições dos métodos são adequadas a estes dados.
+
+Se uma das suas respostas (aos itens 1, 2 ou 3) aplicar, além da estatística clássica, também a inferencial (de maneira adequada, claro), sua nota será acrescida de 1 ponto (ou seja, sua prova fica valendo 11 pontos).
+
+O formato de entrega será de dois arquivos: 
+
+1 PDF, com os resultados resumidos e comentados
+e outro em Jupyter Notebook, com os códigos usados para a obtenção dos resultados. Este notebook, deve ser comentado de forma a facilmente identificar os códigos de cada análise.
