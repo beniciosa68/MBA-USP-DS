@@ -1,0 +1,59 @@
+Ferramenta matemática ajuda a planejar isolamento intermitente em SP
+
+Modelo aponta momentos em que cada cidade poderia ter mais ou menos restrições
+
+Medidas de controle são fundamentais para resguardar o sistema de saúde diante da
+pandemia de Covid-19. O protocolo de distanciamento social têm sido adotado na maior parte
+dos países e também no Brasil. Pesquisadores unem esforços e utilizam a matemática para
+estudar algumas questões: Por quanto tempo o protocolo deve ser mantido para se evitar o
+colapso do sistema de saúde? Cientes de que a evolução da doença não se encontra no mesmo
+estágio em todas as cidades e que a capacidade hospitalar varia muito em cada região, deve-se
+implantar o mesmo protocolo de distanciamento de forma homogênea em todas cidades e no
+mesmo momento? Deve-se amenizar o protocolo também de forma homogênea em todo o
+estado?
+
+O grupo denominado ModCovid19, formado por uma parceria entre pesquisadores do
+Instituto de Ciências Matemáticas e de Computação, da USP São Carlos (ICMC), Instituto de
+Matemática, Estatística e Computação Científica, da Unicamp Campinas (IMECC), do Instituto
+de Matemática Pura e Aplicada do Rio de Janeiro (IMPA) e da Universidade Federal de Alagoas
+(UFAL), foi atrás das respostas e chegou a modelos matemáticos capazes de simular diversos
+fenômenos e comportamentos ligados à pandemia.
+
+Apoiados pelo Centro de Ciências Matemáticas Aplicadas à Indústria (CeMEAI) e com
+financiamento do Instituto Serrapilheira os professores Paulo J. S. Silva, do IMECC/Unicamp,
+Iiago Pereira e Luís Gustavo Nonato, do ICMC/USP desenvolveram um sistema que permite
+avaliar quando e com qual intensidade o protocolo de distanciamento deve ser implantado em
+cada cidade individualmente a fim de evitar o colapso do sistema da saúde. “O modelo leva em
+consideração fatores importantes na transmissão da infecção, como a proporção de pessoas
+que comutam diariamente entre cidades, a disponibilidade de leitos, além é claro, do número
+de casos de Covid-19 registrados em cada cidade”, comenta Luis Gustavo Nonato.
+
+0035 -
+
+SÃO JOSÉ DO RIO PRETO
+Osasco
+SÃO PAULO
+
+0.030 -
+
+0025 -
+
+0.020 -
+
+0015 -
+
+o
+
+Percentagem da População Infectada
+
+0.005 -
+
+ 
+
+SD a
+vo gy vo sy MM MM SL sv
+So 2 o e o o o! o
+
+«&
+EEE ES ESSE
+SS So Sa s
