@@ -1,0 +1,118 @@
+/* src/ppidd/test/ppidd_test.out $Revision: 2008.2 Patch(2008.2): ppidd_doc4 ppidd_doc6 $ */
+
+ PPIDD initialized 
+
+ Nprocs=   3   My proc=   0
+ Performing ppidd tests.
+ SUCCESSFUL TEST SHOULD END WITH ' All PPIDD tests successful.'
+
+ Checking whether C types match Fortran types:
+ The size (in bytes) of some C data types:
+ Size of C float:                    4 bytes
+ Size of C double:                   8 bytes
+ Size of C fortint:                  4 bytes
+ Size of C fortlogical:              4 bytes
+ The size (in bytes) of some Fortran data types:
+ Size of Fortran Real:               4 bytes
+ Size of Fortran Doule Precision:    8 bytes
+ Size of Fortran Integer:            4 bytes
+ Size of Fortran Logical:            4 bytes
+ All data types (Integer, Logical, and Double Precision) match between C and Fortran.
+
+ Starting PPIDD basic test with GA-size=   32.00 MB (  4194304 words),  Buffer size=   16.00 MB (  2097152 words)
+
+
+ (1) Array data are stored across distributed compute processes:
+ ppidd has created global array: ppiddarray
+ ppidd_create:     cpu=   0.0040 sec,  elapsed=   0.0200 sec,  wtime=   0.0107 sec
+ TIME FOR LATENCY TEST PPIDD_PUT=             0.47 SEC,  LATENCY=     23.74 MICROSEC
+ ppidd_put:         total latency time=   0.0014 sec,  nopr=    20
+ ppidd_put:        cpu=   0.7560 sec,  elapsed=   1.6700 sec,  wtime=   1.6650 sec,  speed=      576.56 MB/sec
+ ppidd_put:        cpu=   0.7560 sec,  elapsed=   1.6700 sec,  wtime=   1.6650 sec,  latency=     23.74 microsec, bandwidth=      577.06 MB/sec
+ TIME FOR LATENCY TEST PPIDD_GET=             0.48 SEC,  LATENCY=     23.83 MICROSEC
+ ppidd_get:         total latency time=   0.0014 sec,  nopr=    20
+ ppidd_get:        cpu=   0.8000 sec,  elapsed=   1.4300 sec,  wtime=   1.4248 sec,  speed=      673.80 MB/sec
+ ppidd_get:        cpu=   0.8000 sec,  elapsed=   1.4300 sec,  wtime=   1.4248 sec,  latency=     23.83 microsec, bandwidth=      674.48 MB/sec
+ TIME FOR LATENCY TEST PPIDD_ACC=             1.61 SEC,  LATENCY=     80.64 MICROSEC
+ ppidd_acc:         total latency time=   0.0048 sec,  nopr=    20
+ ppidd_acc:        cpu=   2.1161 sec,  elapsed=   4.0000 sec,  wtime=   3.9938 sec,  speed=      240.37 MB/sec
+ ppidd_acc:        cpu=   2.1161 sec,  elapsed=   4.0000 sec,  wtime=   3.9938 sec,  latency=     80.64 microsec, bandwidth=      240.66 MB/sec
+ ppidd_zero:       cpu=   0.1080 sec,  elapsed=   0.2100 sec,  wtime=   0.2116 sec
+ ppidd_destroy:    cpu=   0.0040 sec,  elapsed=   0.0100 sec,  wtime=   0.0034 sec
+
+ (2) Array data are stored on helper process:
+ ppidd has created global array: ppiddarray
+ ppidd_create:     cpu=   0.0000 sec,  elapsed=   0.0000 sec,  wtime=   0.0000 sec
+ TIME FOR LATENCY TEST PPIDD_PUT=             0.43 SEC,  LATENCY=     21.73 MICROSEC
+ ppidd_put:         total latency time=   0.0013 sec,  nopr=    20
+ ppidd_put:        cpu=   0.6480 sec,  elapsed=   1.2800 sec,  wtime=   1.2871 sec,  speed=      745.86 MB/sec
+ ppidd_put:        cpu=   0.6480 sec,  elapsed=   1.2800 sec,  wtime=   1.2871 sec,  latency=     21.73 microsec, bandwidth=      746.61 MB/sec
+ TIME FOR LATENCY TEST PPIDD_GET=             0.42 SEC,  LATENCY=     21.13 MICROSEC
+ ppidd_get:         total latency time=   0.0013 sec,  nopr=    20
+ ppidd_get:        cpu=   0.6840 sec,  elapsed=   1.3400 sec,  wtime=   1.3353 sec,  speed=      718.94 MB/sec
+ ppidd_get:        cpu=   0.6840 sec,  elapsed=   1.3400 sec,  wtime=   1.3353 sec,  latency=     21.13 microsec, bandwidth=      719.62 MB/sec
+ TIME FOR LATENCY TEST PPIDD_ACC=             0.44 SEC,  LATENCY=     21.89 MICROSEC
+ ppidd_acc:         total latency time=   0.0013 sec,  nopr=    20
+ ppidd_acc:        cpu=   2.3081 sec,  elapsed=   4.6200 sec,  wtime=   4.6161 sec,  speed=      207.97 MB/sec
+ ppidd_acc:        cpu=   2.3081 sec,  elapsed=   4.6200 sec,  wtime=   4.6161 sec,  latency=     21.89 microsec, bandwidth=      208.03 MB/sec
+ ppidd_zero:       cpu=   0.2640 sec,  elapsed=   0.4400 sec,  wtime=   0.4379 sec
+ ppidd_destroy:    cpu=   0.0240 sec,  elapsed=   0.0300 sec,  wtime=   0.0355 sec
+
+ TIME FOR LATENCY TEST PPIDD_SEND/RECV=       2.09 SEC,  LATENCY=     15.69 MICROSEC
+ ppidd_send/recv:   total latency time=   0.0003 sec,  nopr=    20
+ ppidd_send/recv:  cpu=   0.1680 sec,  elapsed=   0.3600 sec,  wtime=   0.3565 sec,  speed=      897.73 MB/sec
+ ppidd_send/recv:  cpu=   0.1680 sec,  elapsed=   0.3600 sec,  wtime=   0.3565 sec,  latency=     15.69 microsec, bandwidth=      898.52 MB/sec
+ TIME FOR LATENCY TEST PPIDD_BRDCST=          2.30 SEC,  LATENCY=     23.02 MICROSEC
+ ppidd_brdcst:      total latency time=   0.0041 sec,  nopr=   180
+ ppidd_brdcst:     cpu=   4.3563 sec,  elapsed=   9.7000 sec,  wtime=   9.7033 sec,  speed=      263.83 MB/sec
+ ppidd_brdcst:     cpu=   4.3563 sec,  elapsed=   9.7000 sec,  wtime=   9.7033 sec,  latency=     23.02 microsec, bandwidth=      263.94 MB/sec
+ TIME FOR LATENCY TEST PPIDD_GSUM=            3.13 SEC,  LATENCY=     46.88 MICROSEC
+ ppidd_gsum:        total latency time=   0.0009 sec,  nopr=    20
+ ppidd_gsum:       cpu=   2.9562 sec,  elapsed=   6.0000 sec,  wtime=   6.0009 sec,  speed=       53.32 MB/sec
+ ppidd_gsum:       cpu=   2.9562 sec,  elapsed=   6.0000 sec,  wtime=   6.0009 sec,  latency=     46.88 microsec, bandwidth=       53.33 MB/sec
+
+ Time spent on ppidd_basictest:                  cpu=         20.8213 sec, elapsed=         42.6700 sec, wtime=         42.6692 sec
+
+ PPIDD shared counter tests:
+ (1) PPIDD shared counter test with computing tasks:
+ Nprocs=         3  Total tasks=                 50
+  IPROC      TASKS      WTime/task(Sec)
+     0          14         0.564836996
+     1          18         0.423051953
+     2          18         0.426784992
+ Time spent for iprocs=0:                        cpu=        3.984247 sec, elapsed=        7.910000 sec, wtime=        7.907718 sec
+ Sum of time for all procs all tasks:            cpu=       11.476715 sec, elapsed=       23.220000 sec, wtime=       23.204783 sec
+ Sum of time for all procs all computations:                                                             wtime=       22.882249 sec
+ Sum of time for all procs all counter callings:                                                         wtime=        0.322534 sec
+ Average time per task:                          cpu=        0.229534 sec, elapsed=        0.464400 sec, wtime=        0.464096 sec
+ Average time per computation:                                                                           wtime=        0.457645 sec
+ Average time per shared counter calling:                                                                wtime=   6450686.5 nanosec
+
+ (2) Distribute computing tasks to processes without shared counter:
+ Nprocs=         3  Total tasks=                 50
+  IPROC      TASKS      WTime/task(Sec)
+     0          16         0.524131060
+     1          17         0.422406112
+     2          17         0.422423349
+ Time spent for iprocs=0:                        cpu=        4.252268 sec, elapsed=        8.390000 sec, wtime=        8.386097 sec
+ Sum of time for all procs all computing tasks:  cpu=       11.276709 sec, elapsed=       22.750000 sec, wtime=       22.748198 sec
+ Average time per computing task:                cpu=        0.225534 sec, elapsed=        0.455000 sec, wtime=        0.454964 sec
+
+ Comparing the times between (1) and (2), we also get the approximate average time per counter calling:  wtime=   9131703.4 nanosec
+ This data probably can not be used to evaluate the shared counter since some extra overhead is included.
+
+ (3) PPIDD shared counter test without computing tasks:
+ Nprocs=         3  Total tasks=            1000000
+  IPROC      TASKS      WTime/task(Sec)
+     0        2513         0.001017189
+     1      481408         0.000005310
+     2      516079         0.000004952
+ Time spent for iprocs=0:                        cpu=        1.148071 sec, elapsed=        2.550000 sec, wtime=        2.556197 sec
+ Sum of time for all procs all empty tasks:      cpu=        3.692230 sec, elapsed=        7.650000 sec, wtime=        7.667993 sec
+ Average time per shared counter calling:        cpu=      3692.2 nanosec, elapsed=      7650.0 nanosec, wtime=      7668.0 nanosec
+ The data in (3) probably can not be used to evaluate the shared counter since all callings may concentrate on some processes.
+ The data in (1) are much better.
+
+ Time spent on ppidd_sharedcounter_test:         cpu=          9.3846 sec, elapsed=         18.8700 sec, wtime=         18.8622 sec
+
+ All PPIDD tests successful.

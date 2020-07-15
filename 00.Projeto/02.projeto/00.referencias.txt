@@ -1,32 +1,222 @@
-﻿Sistema_Modelagem_predicao_analitica_desempenho_processamento_paralelo.pdf
-	http://bdtd.ibict.br/vufind/Record/CAMP_5c6fe450d0bb51b8a53be3a012a1bfc8
-	http://repositorio.unicamp.br/jspui/handle/REPOSIP/261811
-
-Desenvolvimento_modelo_sistema_multiagente_para_previsao_retorno_indices_de_acoes.pdf
-	http://bdtd.ibict.br/vufind/Record/UFSC_ad2b58f684c6bb8f76f667a59f1561a0
-	https://repositorio.ufsc.br/xmlui/handle/123456789/94103
-
-Modelagem_simulacao_secador_itermitente_fluxos_contracorrentes_frutos_cafeeiro.pdf
-	http://bdtd.ibict.br/vufind/Record/UFES_eb2d4b6236dcf4899fee50171e797c84
-	http://repositorio.ufes.br/handle/10/1689
-
-***
+﻿Referências para utilizar no trabalho:
+----------------------------------------------------------------------------------------------------------------------
+COMPUTACAO PARALELA
+----------------------------------------------------------------------------------------------------------------------
+00.
 Desenvolvimento_modelos_predicao_desempenho_programas_paralelos_MPI.pdf
 	https://repositorio.usp.br/item/001328203
 	https://teses.usp.br/teses/disponiveis/3/3141/tde-28082003-184400/pt-br.php
-	
-***
-Avaliacao_predicao_desempenho_programas paralelos_redes_estações_trabalho.pdf
+
+01.
+Analise_predicao_desempenho_programas paralelos_redes_estações_trabalho.pdf
 	https://teses.usp.br/teses/disponiveis/3/3141/tde-25012002-150022/pt-br.php
 
+02.	
+HybridMPI_uma_implementacao_MPI_para_ambientes_distribuidos_hibridos_Francisco_Isidro_Massetto
+	https://teses.usp.br/teses/disponiveis/3/3141/tde-08012008-100937/pt-br.php
 
+03.
+Introduction to Parallel Computing: a practical guide with examples in c
+
+04.
 Metodologia_desenvolvimento_programas_paralelos_eficientes_ambientes_homogeneos_heterogeneos.pdf
 	https://repositorio.usp.br/item/001696209
 	https://teses.usp.br/teses/disponiveis/3/3141/tde-29112016-085713/pt-br.php
 
+05.
 Modelagem_predicao_desempenho_primitivas_comunicacao_MPI.pdf
 	https://repositorio.usp.br/item/001328217
 	https://teses.usp.br/teses/disponiveis/3/3141/tde-26082003-113045/pt-br.php
 
+06.
+Modeling_message_passing_programs_with_PEVPM
+	https://www-sciencedirect.ez67.periodicos.capes.gov.br/science/article/pii/S0166531604001397?via%3Dihub
+
+07.
+MPI performance engineering with the MPI tool interface: The integration of MVAPICH and TAU
+	https://www-sciencedirect.ez67.periodicos.capes.gov.br/science/article/pii/S0167819118301479?via%3Dihub
+
+08.
+Parallel_Programming_Interface_Distributed_Data_PPIDD
+	https://www.sciencedirect.com/science/article/pii/S0010465509001611?via%3Dihub
+	base: aeef_v1_0.tar.gz
+
+09.
+Performance_Modelling_Message_Passing_Parallel_Programs
+	https://digital.library.adelaide.edu.au/dspace/handle/2440/37915
+
+10.
+Performance_MPI_Parallel_Applications
+	https://ieeexplore.ieee.org/document/4031844/
+
+11.
+PGMPI: Verifying Self-Consistent MPI Performance Guidelines
+	https://arxiv.org/abs/1606.00215
+
+12.
+Visual MPI Performance Analysis using Event Flow Graphs
+	https://www.sciencedirect.com/science/article/pii/S1877050915011308?via%3Dihub
+
+13.	
+MPI Documents
+	https://www.mpi-forum.org/docs/
+	
+14. Wikipedia
+https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_paralela
+
+15. 
+Sourcebook of Parallel Computing
+
+
+----------------------------------------------------------------------------------------------------------------------
+DESEMPENHO
+----------------------------------------------------------------------------------------------------------------------
+00.
+Sistema_Modelagem_predicao_analitica_desempenho_processamento_paralelo.pdf
+	http://bdtd.ibict.br/vufind/Record/CAMP_5c6fe450d0bb51b8a53be3a012a1bfc8
+	http://repositorio.unicamp.br/jspui/handle/REPOSIP/261811
+
+01.
+Distributed_Computing_Principles,_Algorithms,_and_437133_(z-lib.org)
+	https://www.cs.uic.edu/~ajayk/DCS-Book
+
+02.
+Swebook 3.0
+	https://www.computer.org/education/bodies-of-knowledge/software-engineering
+
+03.
+High Performance Computing Systems and Applications by Pollard et al. (eds.) (z-lib.org)
+
+04.
+Neil J. Gunther - Guerrilla Capacity Planning-Springer (2006)
+
+05.
+Performance Evaluation_Origins and Directions
+
+06.
+The Art of Computer Systems Performance Analysis Techniques for Experimental Design, Measurement, Simulation, and Modeling by Raj K. Jain (z-lib.org)
+
+07.
+Uso_tecnicas_aprendizado_de_maquina_na_predicao_desempenho_academico_alunos_cursos_superiores
+	http://www.cc.faccamp.br/Dissertacoes/MaiteMarquesCaetano.pdf
+
+08.	
+Teste de desempenho: Conceitos, Objetivos e Aplicação - Parte 1
+	http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx.
+09.
+TANENBAUM, Andrew. Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo: Pearson Prentice Hall, 2007. 402 p.
+
+
+----------------------------------------------------------------------------------------------------------------------
+MODELOS COM CIENCIA DE DADOS
+----------------------------------------------------------------------------------------------------------------------
+00.
+A_study_of_the_behavior_of_several_methods_for_balancing_machine_learning_training_data
+	https://dl.acm.org/doi/10.1145/1007730.1007735
+
+01.
+Analise_entre_algoritmos_aprendizado_maquina_para_predicao_do_posicionamento_do_jogador_de_futebol
+	http://seer.upf.br/index.php/rbca/article/view/6454
+
+02.
+Automated Performance Modeling of HPC Applications Using Machine Learning
+	https://ieeexplore-ieee-org.ez67.periodicos.capes.gov.br/document/8956059/references#references
+
+03.
+Bootstrap Tests for Regression Models-Palgrave Macmillan UK (2009)
+
+04.
 Contribution_High_Performance_Computing_Big_Data_Infrastructure_Convergence.pdf
 	https://hal.archives-ouvertes.fr/tel-02284996v2/document
+
+05.
+Critérios robustos de seleção de modelos de regressão e identificação de pontos aberrantes
+	https://teses.usp.br/teses/disponiveis/45/45133/tde-05042019-165356/pt-br.php
+
+06.
+Desenvolvimento_modelo_sistema_multiagente_para_previsao_retorno_indices_de_acoes.pdf
+	http://bdtd.ibict.br/vufind/Record/UFSC_ad2b58f684c6bb8f76f667a59f1561a0
+	https://repositorio.ufsc.br/xmlui/handle/123456789/94103
+
+07.
+Douglas C. Montgomery, Elizabeth A. Peck, G. Geoffrey Vining - Introduction to Linear Regression Analysis-Wiley (2012)
+
+08.
+DwarfCode_a_performance_prediction_tool_for_parallel_applications
+	https://ieeexplore.ieee.org/document/7098397
+
+09.
+Joel_Grus_Data_Science_do_zero_Primeiras
+
+10.
+Logistic regression and artificial neural network classification models: a methodology review
+	https://www.sciencedirect.com/science/article/pii/S1532046403000340
+
+11.
+Modelagem_simulacao_secador_itermitente_fluxos_contracorrentes_frutos_cafeeiro.pdf
+	http://bdtd.ibict.br/vufind/Record/UFES_eb2d4b6236dcf4899fee50171e797c84
+	http://repositorio.ufes.br/handle/10/1689
+
+12.
+Montgomery
+
+13.
+Parallel_application_signature_for_performance_analysis_and_prediction
+	https://ieeexplore.ieee.org/document/6827943
+
+14.
+Performance_modeling_and_workflow_scheduling_of_microservice_based_applications_in_clouds
+	https://ieeexplore-ieee-org.ez67.periodicos.capes.gov.br/document/8651324
+
+15.
+Prediction models for performance, power, and energy efficiency of software executed on heterogeneous hardware.
+	https://link-springer-com.ez67.periodicos.capes.gov.br/article/10.1007/s11227-018-2252-6
+
+16.
+Support_vector_machines
+	https://ieeexplore.ieee.org/abstract/document/708428
+
+17. 
+Monte_Carlo_Methods_Kalos
+https://onlinelibrary.wiley.com/doi/pdf/10.1002/9783527626212
+
+18.
+Article_AMachineLearningAlgorithmFrame
+https://link-springer-com.ez67.periodicos.capes.gov.br/article/10.1007/s10639-019-09946-8
+
+
+19.
+Análises Preditivas - O que são e qual sua importância?	https://www.sas.com/pt_br/insights/analytics/analises-preditivas.html#:~:text=An%C3%A1lises%20preditivas%20usam%20dados%2C%20algoritmos,que%20poder%C3%A1%20acontecer%20no%20futuro.
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+
+Outras:
+
+Performance_report_and_optimized_implementations_weather_climate_dwarfs_multi_node_systems
+	https://arxiv.org/abs/1908.06097
+
+
+Self-Consistent MPI Performance Guidelines
+	https://ieeexplore-ieee-org.ez67.periodicos.capes.gov.br/stamp/stamp.jsp?tp=&arnumber=5184825
+
+
+The MPBench Report
+	http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.51.213&rep=rep1&type=pdf
+
+
+------------------
+Apenas WEB:
+------------------
+
+
+
+
+Conceitos de teste de desempenho
+	http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx
+	
+Monte Carlo Methods	
+	https://books.google.com.br/books?hl=pt-BR&lr=&id=5z-AI0pbNsYC&oi=fnd&pg=PR5&ots=7pGR0hAzJk&sig=SIrpPsmmuVLG4jxLnFDBkWj-2QM&redir_esc=y#v=onepage&q&f=false
+	
