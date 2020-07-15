@@ -1,0 +1,68 @@
+﻿#####################################PROJETO DE PESQUISA#####################################
+---------------------------------------------------------------------------------------------
+Ciência de dados aplicada em programas paralelos MPI para modelagem e predição de desempenho
+
+Aluno: Benicio Ramos Magalhaes
+Orientador: Antonio Castelo Filho
+---------------------------------------------------------------------------------------------
+
+Indíce:
+
+1. Justificativa e importância
+2. Objetivos
+3. Metodologia
+4. Cronograma
+5. Resultados e impactos esperados
+6. Referências bibliográficas
+
+
+1. Justificativa e importância
+-----------------------------------------------------------------------------------------
+	Em um mundo tecnológico e moderno, onde os sistemas computacionais oferecem diversos benefícios à sociedade, existe uma necessidade cada vez maior de trabalhar com aplicações de alto desempenho e isso tornou-se viável por meio da utilização de sistemas distribuídos. De acordo com Tanenbaum (2007), um sistema distribuído é um conjunto de computadores independentes que se apresenta a seus usuários como um sistema único e coerente. Com isso os desenvolvedores começaram a procurar meios para escrever aplicações distribuídas com alta eficiência e isso resultou no MPI (Message Passing Interface) que é um padrão de comunicação de dados através de troca de mensagens para programas paralelos.
+	O objetivo de avaliar o desempenho de programas paralelos é melhorar a eficiência dos algoritmos para que seja viável resolvermos problemas de grande complexidade de forma mais rápida e barata. Segundo Laine (2003) pode-se utilizar duas abordagens para avaliar os fatores que influenciam no desempenho dos programas paralelos, sendo a primeira a aplicação de um conjunto sistemático de passos que conduz um estudo do sistema e a segunda sendo a elaboração de modelos matemáticos para representar seu comportamento. Ainda segundo Laine (2003), a primeira abordagem é mais difícil para identificar as razões ou fatores que influenciam o desempenho, por outro lado, a segunda permite um estudo mais detalhado sobre os fatores que contribuem para o mesmo.
+	A ciência de dados é uma área que tem-se mostrado promissora para resolver problemas reais de negócios, com o uso de métodos científicos e técnicas avançadas para captura, tratamento de dados, aprendizado de máquina, redes neurais e inteligência artificial. O intuito é aplicar os conhecimentos dessa área numa base de dados obtida através de testes de desempenho de um programa paralelo MPI para que seja possível modelar e prever o comportamento de programas sobre condições que ainda não foram testadas.
+
+2. Objetivos
+-----------------------------------------------------------------------------------------
+	Objetivos gerais:
+	
+	a) Estudar técnicas e metodologias de ciência de dados.
+
+	b) Estudar a metodologia de análise e predição de desempenho de programas paralelos MPI proposta por Laine (2003).
+
+	
+	Objetivos específicos:
+	
+	a) Montar um modelo representativo que explique as características principais de um sistema de T.I com relação as suas funções e seus parâmetros.
+	
+	b) Aplicar simulações no modelo e técnicas de ciência de dados para predizer seu comportamento com relação à métricas não conhecidas.
+	
+
+3. Metodologia
+-----------------------------------------------------------------------------------------
+	Primeiramente será feito um levantamento bibliográfico acerca das principais técnicas de predição de dados aplicados a sistemas de programas paralelos. Em seguida, mediante uso de programação paralela MPI e conceitos de execução de testes de desempenho, será obtida uma base de dados de métricas de desempenho do programa, como por exemplo, tempo de processamento dada uma variação nos parâmetros de entrada. Na sequência, será criado um modelo representativo com as principais características do sistema e a partir do modelo elaborado, será realizada predições de desempenho utilizando simulações e técnicas de ciência de dados.
+
+4. Cronograma
+-----------------------------------------------------------------------------------------
+	O tempo previsto para a realização do trabalho é de 9 meses, sendo que o plano de trabalho é composto pelas etapas a seguir:
+	
+	a) Estudo sobre técnicas de predição de dados aplicados a sistemas de programas paralelos (2 meses)
+	b) Programação paralela MPI e obtenção da base de dados de métricas de desempenho (2 meses)
+	c) Criação do modelo e aplicação das técnicas de predição com ciência de dados (3 meses)
+	d) Discussão dos resultados e confecção do TCC (2 meses)
+
+5. Resultados e impactos esperados
+-----------------------------------------------------------------------------------------
+	Dentre os resultados esperados, destacamos:
+	
+	a) Adquirir conhecimento para aprimoramento profissional com relação à análise e estimativas de comportamento de sistemas distribuídos utilizando técnicas de ciência de dados.
+	
+	b) A implementação de um modelo de predição de desempenho para sistemas distribuídos.
+
+6. Referências bibliográficas
+-----------------------------------------------------------------------------------------	
+	LAINE, Jean Marcos. Desenvolvimento de modelos para predição de desempenho de programas paralelos MPI. 2003. Dissertação (Mestrado em Sistemas Digitais) - Escola Politécnica, Universidade de São Paulo, São Paulo, 2003. doi:10.11606/D.3.2003.tde-28082003-184400. Acesso em: 2020-04-07.
+
+	TANENBAUM, Andrew. Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo: Pearson Prentice Hall, 2007. 402 p.
+	
+	
