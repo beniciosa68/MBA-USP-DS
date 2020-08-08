@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorldMPI", "HelloWorldMPI\HelloWorldMPI.vcxproj", "{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Debug|x64.ActiveCfg = Debug|x64
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Debug|x64.Build.0 = Debug|x64
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Debug|x86.Build.0 = Debug|Win32
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Release|x64.ActiveCfg = Release|x64
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Release|x64.Build.0 = Release|x64
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Release|x86.ActiveCfg = Release|Win32
+		{BF7D644D-603C-4F94-B7F0-A2B5ED832B51}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF76C9C3-D754-48E3-9C52-535E0E7F1F7B}
+	EndGlobalSection
+EndGlobal
