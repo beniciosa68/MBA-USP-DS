@@ -1,0 +1,9 @@
+﻿  MatrixMPI_Laine.cpp
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(119,17): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(159,17): warning C4018: '<': incompatibilidade de signed/unsigned
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(53,6): warning C4101: 'tid': variável local não referenciada
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(52,8): warning C4101: 'fp': variável local não referenciada
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(40,3): warning C4101: 'nbytes': variável local não referenciada
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(50,5): warning C4101: 'str': variável local não referenciada
+C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\MatrixMultiMPI\MatrixMPI_Laine.cpp(53,11): warning C4101: 'wid': variável local não referenciada
+  MatrixMultiMPI.vcxproj -> C:\Users\Beni\MBA-USP-DS\00.Projeto\01.mpi\source\repos\MatrixMultiMPI\Debug\MatrixMultiMPI.exe
