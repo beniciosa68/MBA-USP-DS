@@ -1,0 +1,32 @@
+1. Estão balanceados
+2. Multicolinearidade ???
+3. 
+
+
+Classificação:
+K-vizinhos
+K-médias
+Árvore de decisão
+Random Forest
+PCA
+SVM (support vector machines)
+
+
+
+Algoritimos de predição:
+Perceptron
+SARIMA
+Holt
+Holt-Winters
+Redes neurais LSTM
+Regressão Linear Simples
+Regressão Linear Múltipla
+Regressão Logistica
+Erro quadrático médio
+
+matriz esparsa (com muitos zeros)
+benchmark com processamento paralelo para matriz
+
+- algoritmo de sort
+- ordenação n log n (implementar) quick sort (ordena e tem comportamento na media tem comportamento logaritmo n log n)
+- benchmark (

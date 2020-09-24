@@ -1,0 +1,590 @@
+\hypertarget{ppidd__fortran_8c}{
+\section{src/ppidd\_\-fortran.c File Reference}
+\label{ppidd__fortran_8c}\index{src/ppidd\_\-fortran.c@{src/ppidd\_\-fortran.c}}
+}
+This file contains the Fortran interface routines to PPIDD.  
+
+
+\subsection*{Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{ppidd__fortran_8c_e2111411c6ceb9b07c572edaf0024614}{PPIDD\_\-Initialize} (void)
+\begin{CompactList}\small\item\em Initialize the PPIDD parallel environment. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_453e52422395245cfb1cf7eec07301aa}{PPIDD\_\-Finalize} (void)
+\begin{CompactList}\small\item\em Terminate the PPIDD parallel environment. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_5435ed4bb5938a418455f516363c13cb}{PPIDD\_\-Wtime} (double $\ast$ctime)
+\begin{CompactList}\small\item\em Return an elapsed time on the calling process. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_b153dc15427958a551b5a08f5b4f1db3}{PPIDD\_\-Error} (char $\ast$message, fortint $\ast$code)
+\begin{CompactList}\small\item\em Print an error message and abort the program execution. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_c09d18f19ab866416a36b4ff90595574}{PPIDD\_\-Nxtval} (fortint $\ast$numproc, fortint $\ast$val)
+\begin{CompactList}\small\item\em Get the next shared counter number(helper process should be enabled). \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_7eab090677f7b09bc6c498e4a0ad9b96}{PPIDD\_\-Size\_\-all} (fortint $\ast$np)
+\begin{CompactList}\small\item\em Determine the total number of processes available (including helper process if there is one). \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_ceda1944313e93356746c9cf17af07cb}{PPIDD\_\-Size} (fortint $\ast$np)
+\begin{CompactList}\small\item\em Determine the number of compute processes. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_2d3c72cba83ccd56269f38aaeff52d29}{PPIDD\_\-Rank} (fortint $\ast$me)
+\begin{CompactList}\small\item\em Determine the rank of the calling process. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_e1f0526d5d7500ffeddc057f8e177ca4}{PPIDD\_\-Init\_\-fence} (void)
+\begin{CompactList}\small\item\em Initialize tracing of completion status of data movement operations. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_3ac818b4519f767a44ae41a59d0107c8}{PPIDD\_\-Fence} (void)
+\begin{CompactList}\small\item\em Block the calling process until all data transfers complete. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_1fa4cbcbe395c2a5542ba612223afe53}{PPIDD\_\-Send} (void $\ast$buf, fortint $\ast$count, fortint $\ast$dtype, fortint $\ast$dest, fortint $\ast$sync)
+\begin{CompactList}\small\item\em Blocking/nonblocking send. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_524f2a92f0e743c4504752680bd75ca2}{PPIDD\_\-Recv} (void $\ast$buf, fortint $\ast$count, fortint $\ast$dtype, fortint $\ast$source, fortint $\ast$lenreal, fortint $\ast$sourcereal, fortint $\ast$sync)
+\begin{CompactList}\small\item\em Blocking/nonblocking receive. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_92570bd501f5414317175b99899b0186}{PPIDD\_\-Wait} (fortint $\ast$nodesel)
+\begin{CompactList}\small\item\em Wait for completion of all asynchronous send/receive. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_3db4fcc0d1ee743b3c2c8519717b7f43}{PPIDD\_\-Iprobe} (fortint $\ast$tag, fortint $\ast$source, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Detect whether a message of the specified type is available. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_6bb4a11828fe9f1eb02356b39d42e66c}{PPIDD\_\-BCast} (void $\ast$buffer, fortint $\ast$count, fortint $\ast$type, fortint $\ast$root)
+\begin{CompactList}\small\item\em Broadcast a message from the root process to all other processes. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_2112750e15b6a91ecc71655e5496aae9}{PPIDD\_\-Barrier} (void)
+\begin{CompactList}\small\item\em Synchronize processes and ensure all have reached this routine. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_5559357fd4ac55fe9688aeeacea84bb9}{PPIDD\_\-Gsum} (fortint $\ast$type, void $\ast$buffer, fortint $\ast$len, char $\ast$op)
+\begin{CompactList}\small\item\em Combine values from all processes and distribute the result back to all processes. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_c66e4c32eac7a5f301138d0c2798c8e3}{PPIDD\_\-Create\_\-irreg} (char $\ast$name, fortint $\ast$lenin, fortint $\ast$nchunk, fortint $\ast$datatype, fortint $\ast$handle, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Create an array by following the user-specified distribution and return integer handle representing the array. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_ea12fa05b1b83ebd0b21fdbb3cdd66fa}{PPIDD\_\-Create} (char $\ast$name, fortint $\ast$lentot, fortint $\ast$datatype, fortint $\ast$storetype, fortint $\ast$handle, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Create an array using the regular distribution model and return integer handle representing the array. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_13d4e0d9d1af1cc1048943f9fc62ee5f}{PPIDD\_\-Destroy} (fortint $\ast$handle, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Deallocate the array represented by handle and free any associated resources. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_0b6516e965e9c2c28db3d8e0ccb6de93}{PPIDD\_\-Distrib} (fortint $\ast$handle, fortint $\ast$rank, fortint $\ast$ilo, fortint $\ast$ihi, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Return the range of a distributed array held by a specified process. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_2e0e67f025fb7f43497aaeb3ff8644b7}{PPIDD\_\-Location} (fortint $\ast$handle, fortint $\ast$ilo, fortint $\ast$ihi, fortint $\ast$map, fortint $\ast$proclist, fortint $\ast$np, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Return a list of the processes that hold the data. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_4a9715b209eccdaccb91e9f3fa385aad}{PPIDD\_\-Get} (fortint $\ast$handle, fortint $\ast$ilo, fortint $\ast$ihi, void $\ast$buff, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Copies data from array section to the local array buffer according to starting and ending index. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_8a783d3238c117f29f604e18b3086f9e}{PPIDD\_\-Put} (fortint $\ast$handle, fortint $\ast$ilo, fortint $\ast$ihi, void $\ast$buff, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Put local buffer data into a section of a global array according to starting and ending index. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_1fa861f300f474f6cb10140468754792}{PPIDD\_\-Acc} (fortint $\ast$handle, fortint $\ast$ilo, fortint $\ast$ihi, void $\ast$buff, void $\ast$fac, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Accumulate data into a section of a global array. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_432034f4cc79f138464d31dc2c2fb4ce}{PPIDD\_\-Read\_\-inc} (fortint $\ast$ihandle, fortint $\ast$inum, fortint $\ast$incr, fortint $\ast$returnval)
+\begin{CompactList}\small\item\em Atomically read and increment an element in an integer array. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_7940ea0bbf3719121fb67050ab0c0b87}{PPIDD\_\-Zero\_\-patch} (fortint $\ast$ihandle, fortint $\ast$ilo, fortint $\ast$ihi)
+\begin{CompactList}\small\item\em Set all the elements in an array patch to zero. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_ccc618ac9c2772687674356a5422df90}{PPIDD\_\-Zero} (fortint $\ast$handle, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Set all the elements of an array to zero. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_c41cb185006f041e0f83a5ddfb3f3fa4}{PPIDD\_\-Duplicate} (fortint $\ast$handlei, fortint $\ast$handlej, char $\ast$name)
+\begin{CompactList}\small\item\em Create a new array by applying all the properties of another existing array. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_3df3da6b456ea47133efacbbf19d66a1}{PPIDD\_\-Inquire\_\-name} (fortint $\ast$handle, char $\ast$name)
+\begin{CompactList}\small\item\em Returns the name of a global array represented by the handle. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_cf8db87f5feb17e4c085bbb0103bf238}{PPIDD\_\-Inquire\_\-stype} (fortint $\ast$handle, fortint $\ast$storetype)
+\begin{CompactList}\small\item\em Returns the storetype of a global array represented by the handle. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_88df8da6ad71d0e6262b1fcb69c528dd}{PPIDD\_\-Inquire\_\-mem} (fortint $\ast$mem\_\-used)
+\begin{CompactList}\small\item\em Get the amount of memory (in bytes) used in the allocated distributed arrays on the calling processor. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_81ff95709d814289f3005506acedfa98}{PPIDD\_\-Create\_\-mutexes} (fortint $\ast$storetype, fortint $\ast$number, fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Create a set of mutex variables that can be used for mutual exclusion. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_b72365026621a4f6d0e38d0f234c2312}{PPIDD\_\-Lock\_\-mutex} (fortint $\ast$inum)
+\begin{CompactList}\small\item\em Lock a mutex object identified by a given mutex number. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_6f490ccb3e6f78ccbb7c5d195da3362f}{PPIDD\_\-Unlock\_\-mutex} (fortint $\ast$inum)
+\begin{CompactList}\small\item\em Unlock a mutex object identified by a given mutex number. \item\end{CompactList}\item 
+void \hyperlink{ppidd__fortran_8c_f6de80f819a38e7b5100d8e7fd84da7b}{PPIDD\_\-Destroy\_\-mutexes} (fortlogical $\ast$ok)
+\begin{CompactList}\small\item\em Destroy the set of mutexes created with PPIDD\_\-Create\_\-mutexes. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+This file contains the Fortran interface routines to PPIDD. 
+
+
+
+Definition in file \hyperlink{ppidd__fortran_8c-source}{ppidd\_\-fortran.c}.
+
+\subsection{Function Documentation}
+\hypertarget{ppidd__fortran_8c_1fa861f300f474f6cb10140468754792}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Acc@{PPIDD\_\-Acc}}
+\index{PPIDD\_\-Acc@{PPIDD\_\-Acc}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Acc}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Acc (fortint $\ast$ {\em handle}, \/  fortint $\ast$ {\em ilo}, \/  fortint $\ast$ {\em ihi}, \/  void $\ast$ {\em buff}, \/  void $\ast$ {\em fac}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_1fa861f300f474f6cb10140468754792}
+
+
+Accumulate data into a section of a global array. 
+
+Atomic operation. global array section (ilo, ihi) += $\ast$fac $\ast$ buffer\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_acc}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-acc} \end{itemize}
+
+
+Definition at line 1329 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_2112750e15b6a91ecc71655e5496aae9}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Barrier@{PPIDD\_\-Barrier}}
+\index{PPIDD\_\-Barrier@{PPIDD\_\-Barrier}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Barrier}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Barrier (void)}}
+\label{ppidd__fortran_8c_2112750e15b6a91ecc71655e5496aae9}
+
+
+Synchronize processes and ensure all have reached this routine. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_sync}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-sync}\item {\bf MPI2} calls MPI\_\-Barrier \end{itemize}
+
+
+Definition at line 724 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_6bb4a11828fe9f1eb02356b39d42e66c}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-BCast@{PPIDD\_\-BCast}}
+\index{PPIDD\_\-BCast@{PPIDD\_\-BCast}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-BCast}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-BCast (void $\ast$ {\em buffer}, \/  fortint $\ast$ {\em count}, \/  fortint $\ast$ {\em type}, \/  fortint $\ast$ {\em root})}}
+\label{ppidd__fortran_8c_6bb4a11828fe9f1eb02356b39d42e66c}
+
+
+Broadcast a message from the root process to all other processes. 
+
+Collective operation.\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_brdcst}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-brdcst}\item {\bf MPI2} calls MPI\_\-Bcast\end{itemize}
+
+
+\begin{itemize}
+\item {\tt type=0} : fortran integer and logical types\item {\tt type=1} : fortran double precision type \end{itemize}
+
+
+Definition at line 680 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_ea12fa05b1b83ebd0b21fdbb3cdd66fa}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Create@{PPIDD\_\-Create}}
+\index{PPIDD\_\-Create@{PPIDD\_\-Create}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Create}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Create (char $\ast$ {\em name}, \/  fortint $\ast$ {\em lentot}, \/  fortint $\ast$ {\em datatype}, \/  fortint $\ast$ {\em storetype}, \/  fortint $\ast$ {\em handle}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_ea12fa05b1b83ebd0b21fdbb3cdd66fa}
+
+
+Create an array using the regular distribution model and return integer handle representing the array. 
+
+\begin{itemize}
+\item {\tt datatype=0} : fortran integer and logical types\item {\tt datatype=1} : fortran double precision type\item {\tt storetype=0} : Normal distributed array stored across the distributed processes\item {\tt storetype$>$=1}: Low-latency array stored on one or more helper processes (effective only when helper process is enabled). {\tt storetype} is advisory: the underlying implementation will use up to {\tt storetype} helpers.\end{itemize}
+
+
+\begin{itemize}
+\item For {\bf GA}, storetype doesn't take effect, and data are always stored across the distributed processes, analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_create}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-create}\item For {\bf MPI2}, the library can presently be built with zero or one (default) helpers. When helper process is disabled, {\tt storetype} doesn't take effect, and data are always stored across the distributed processes. \end{itemize}
+
+
+Definition at line 931 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_c66e4c32eac7a5f301138d0c2798c8e3}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Create\_\-irreg@{PPIDD\_\-Create\_\-irreg}}
+\index{PPIDD\_\-Create\_\-irreg@{PPIDD\_\-Create\_\-irreg}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Create\_\-irreg}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Create\_\-irreg (char $\ast$ {\em name}, \/  fortint $\ast$ {\em lenin}, \/  fortint $\ast$ {\em nchunk}, \/  fortint $\ast$ {\em datatype}, \/  fortint $\ast$ {\em handle}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_c66e4c32eac7a5f301138d0c2798c8e3}
+
+
+Create an array by following the user-specified distribution and return integer handle representing the array. 
+
+Irregular distributed array data are stored across the distributed processes.\begin{itemize}
+\item {\tt datatype=0} : fortran integer and logical types\item {\tt datatype=1} : fortran double precision type\end{itemize}
+
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_create_irreg}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-create\_\-irreg} \end{itemize}
+
+
+Definition at line 811 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_81ff95709d814289f3005506acedfa98}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Create\_\-mutexes@{PPIDD\_\-Create\_\-mutexes}}
+\index{PPIDD\_\-Create\_\-mutexes@{PPIDD\_\-Create\_\-mutexes}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Create\_\-mutexes}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Create\_\-mutexes (fortint $\ast$ {\em storetype}, \/  fortint $\ast$ {\em number}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_81ff95709d814289f3005506acedfa98}
+
+
+Create a set of mutex variables that can be used for mutual exclusion. 
+
+Returns {\tt .true.} if the operation succeeded or {\tt .false.} when failed. It is a collective operation.
+
+\begin{itemize}
+\item For {\bf GA}, {\tt storetype} doesn't take effect, analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_create_mutexes}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-create\_\-mutexes}\item For {\bf MPI2}, there are two kinds of mutexes:\begin{itemize}
+\item (1) {\tt storetype=0}: mutex data will be stored by a global array across the distributed processes. Due to the poor performance of MPI-2 one-sided communication, this kind of mutex is very slow.\item (2) {\tt storetype=1}: mutex data will be stored on the helper process. Improve the performance of (1), but still use MPI-2 one-sided communication. It might still be slow when remote process is busy.\end{itemize}
+\end{itemize}
+
+
+When helper process is disabled, {\tt storetype} doesn't take effect, and mutex data are always stored across the distributed processes. 
+
+Definition at line 1636 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_13d4e0d9d1af1cc1048943f9fc62ee5f}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Destroy@{PPIDD\_\-Destroy}}
+\index{PPIDD\_\-Destroy@{PPIDD\_\-Destroy}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Destroy}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Destroy (fortint $\ast$ {\em handle}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_13d4e0d9d1af1cc1048943f9fc62ee5f}
+
+
+Deallocate the array represented by handle and free any associated resources. 
+
+\begin{itemize}
+\item {\bf GA} analogous \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_destroy}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-destroy} \end{itemize}
+
+
+Definition at line 1043 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_f6de80f819a38e7b5100d8e7fd84da7b}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Destroy\_\-mutexes@{PPIDD\_\-Destroy\_\-mutexes}}
+\index{PPIDD\_\-Destroy\_\-mutexes@{PPIDD\_\-Destroy\_\-mutexes}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Destroy\_\-mutexes}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Destroy\_\-mutexes (fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_f6de80f819a38e7b5100d8e7fd84da7b}
+
+
+Destroy the set of mutexes created with PPIDD\_\-Create\_\-mutexes. 
+
+Returns {\tt .true.} if the operation succeeded or {\tt .false.} when failed. This is a collective operation.\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_destroy_mutexes}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-destroy\_\-mutexes} \end{itemize}
+
+
+Definition at line 1713 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_0b6516e965e9c2c28db3d8e0ccb6de93}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Distrib@{PPIDD\_\-Distrib}}
+\index{PPIDD\_\-Distrib@{PPIDD\_\-Distrib}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Distrib}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Distrib (fortint $\ast$ {\em handle}, \/  fortint $\ast$ {\em rank}, \/  fortint $\ast$ {\em ilo}, \/  fortint $\ast$ {\em ihi}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_0b6516e965e9c2c28db3d8e0ccb6de93}
+
+
+Return the range of a distributed array held by a specified process. 
+
+Return {\tt .true.} if successful, otherwise {\tt .false.} If no array elements are owned by the process, the range is returned as \mbox{[}0,-1\mbox{]}.\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_distribution}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-distribution} \end{itemize}
+
+
+Definition at line 1077 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_c41cb185006f041e0f83a5ddfb3f3fa4}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Duplicate@{PPIDD\_\-Duplicate}}
+\index{PPIDD\_\-Duplicate@{PPIDD\_\-Duplicate}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Duplicate}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Duplicate (fortint $\ast$ {\em handlei}, \/  fortint $\ast$ {\em handlej}, \/  char $\ast$ {\em name})}}
+\label{ppidd__fortran_8c_c41cb185006f041e0f83a5ddfb3f3fa4}
+
+
+Create a new array by applying all the properties of another existing array. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_duplicate}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-duplicate}\item {\bf MPI2} does nothing \end{itemize}
+
+
+Definition at line 1491 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_b153dc15427958a551b5a08f5b4f1db3}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Error@{PPIDD\_\-Error}}
+\index{PPIDD\_\-Error@{PPIDD\_\-Error}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Error}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Error (char $\ast$ {\em message}, \/  fortint $\ast$ {\em code})}}
+\label{ppidd__fortran_8c_b153dc15427958a551b5a08f5b4f1db3}
+
+
+Print an error message and abort the program execution. 
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Error, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_error}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-error}\item For {\bf MPI2}, prints error, and then calls MPI\_\-Abort. \end{itemize}
+
+
+Definition at line 261 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_3ac818b4519f767a44ae41a59d0107c8}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Fence@{PPIDD\_\-Fence}}
+\index{PPIDD\_\-Fence@{PPIDD\_\-Fence}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Fence}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Fence (void)}}
+\label{ppidd__fortran_8c_3ac818b4519f767a44ae41a59d0107c8}
+
+
+Block the calling process until all data transfers complete. 
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Fence, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_fence}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-fence}\item {\bf MPI2} does nothing \end{itemize}
+
+
+Definition at line 416 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_453e52422395245cfb1cf7eec07301aa}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Finalize@{PPIDD\_\-Finalize}}
+\index{PPIDD\_\-Finalize@{PPIDD\_\-Finalize}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Finalize}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Finalize (void)}}
+\label{ppidd__fortran_8c_453e52422395245cfb1cf7eec07301aa}
+
+
+Terminate the PPIDD parallel environment. 
+
+\begin{itemize}
+\item For {\bf GA}, tidy up global arrays and TCGMSG/MPI, analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_terminate}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-terminate}\item For {\bf MPI2}, tidy up some associated resources and call MPI\_\-Finalize. \end{itemize}
+
+
+Definition at line 164 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_4a9715b209eccdaccb91e9f3fa385aad}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Get@{PPIDD\_\-Get}}
+\index{PPIDD\_\-Get@{PPIDD\_\-Get}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Get}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Get (fortint $\ast$ {\em handle}, \/  fortint $\ast$ {\em ilo}, \/  fortint $\ast$ {\em ihi}, \/  void $\ast$ {\em buff}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_4a9715b209eccdaccb91e9f3fa385aad}
+
+
+Copies data from array section to the local array buffer according to starting and ending index. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_get}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-get} \end{itemize}
+
+
+Definition at line 1205 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_5559357fd4ac55fe9688aeeacea84bb9}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Gsum@{PPIDD\_\-Gsum}}
+\index{PPIDD\_\-Gsum@{PPIDD\_\-Gsum}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Gsum}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Gsum (fortint $\ast$ {\em type}, \/  void $\ast$ {\em buffer}, \/  fortint $\ast$ {\em len}, \/  char $\ast$ {\em op})}}
+\label{ppidd__fortran_8c_5559357fd4ac55fe9688aeeacea84bb9}
+
+
+Combine values from all processes and distribute the result back to all processes. 
+
+\begin{itemize}
+\item {\bf GA} analogous to GA\_\-dgop and GA\_\-igop, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_dgop}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-dgop}\item For {\bf MPI2}, it is realized by MPI\_\-Allreduce\end{itemize}
+
+
+\begin{itemize}
+\item {\tt type=0} : Fortran Integer\item {\tt type=1} : Fortran Double Precision \end{itemize}
+
+
+Definition at line 745 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_e1f0526d5d7500ffeddc057f8e177ca4}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Init\_\-fence@{PPIDD\_\-Init\_\-fence}}
+\index{PPIDD\_\-Init\_\-fence@{PPIDD\_\-Init\_\-fence}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Init\_\-fence}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Init\_\-fence (void)}}
+\label{ppidd__fortran_8c_e1f0526d5d7500ffeddc057f8e177ca4}
+
+
+Initialize tracing of completion status of data movement operations. 
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Init\_\-fence, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_init_fence}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-init\_\-fence}\item {\bf MPI2} does nothing \end{itemize}
+
+
+Definition at line 404 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_e2111411c6ceb9b07c572edaf0024614}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Initialize@{PPIDD\_\-Initialize}}
+\index{PPIDD\_\-Initialize@{PPIDD\_\-Initialize}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Initialize}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Initialize (void)}}
+\label{ppidd__fortran_8c_e2111411c6ceb9b07c572edaf0024614}
+
+
+Initialize the PPIDD parallel environment. 
+
+\begin{itemize}
+\item For {\bf GA}, includes initialization of TCGMSG/MPI and GA.\item For {\bf MPI2}, calls MPI\_\-Init. \end{itemize}
+
+
+Definition at line 64 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_88df8da6ad71d0e6262b1fcb69c528dd}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Inquire\_\-mem@{PPIDD\_\-Inquire\_\-mem}}
+\index{PPIDD\_\-Inquire\_\-mem@{PPIDD\_\-Inquire\_\-mem}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Inquire\_\-mem}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Inquire\_\-mem (fortint $\ast$ {\em mem\_\-used})}}
+\label{ppidd__fortran_8c_88df8da6ad71d0e6262b1fcb69c528dd}
+
+
+Get the amount of memory (in bytes) used in the allocated distributed arrays on the calling processor. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_inquire_memory}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-inquire\_\-memory} \end{itemize}
+
+
+Definition at line 1607 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_3df3da6b456ea47133efacbbf19d66a1}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Inquire\_\-name@{PPIDD\_\-Inquire\_\-name}}
+\index{PPIDD\_\-Inquire\_\-name@{PPIDD\_\-Inquire\_\-name}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Inquire\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Inquire\_\-name (fortint $\ast$ {\em handle}, \/  char $\ast$ {\em name})}}
+\label{ppidd__fortran_8c_3df3da6b456ea47133efacbbf19d66a1}
+
+
+Returns the name of a global array represented by the handle. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_inquire_name}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-inquire\_\-name}\item {\tt This} operation is local. \end{itemize}
+
+
+Definition at line 1527 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_cf8db87f5feb17e4c085bbb0103bf238}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Inquire\_\-stype@{PPIDD\_\-Inquire\_\-stype}}
+\index{PPIDD\_\-Inquire\_\-stype@{PPIDD\_\-Inquire\_\-stype}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Inquire\_\-stype}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Inquire\_\-stype (fortint $\ast$ {\em handle}, \/  fortint $\ast$ {\em storetype})}}
+\label{ppidd__fortran_8c_cf8db87f5feb17e4c085bbb0103bf238}
+
+
+Returns the storetype of a global array represented by the handle. 
+
+storetype: number of helper processes for storing this global array.\begin{itemize}
+\item {\tt storetype=0} : Normal distributed array stored across the distributed processes\item {\tt storetype$>$=1}: Low-latency array stored on one or more helper processes (effective only when helper process is enabled).\item {\tt This} operation is local. \end{itemize}
+
+
+Definition at line 1592 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_3db4fcc0d1ee743b3c2c8519717b7f43}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Iprobe@{PPIDD\_\-Iprobe}}
+\index{PPIDD\_\-Iprobe@{PPIDD\_\-Iprobe}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Iprobe}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Iprobe (fortint $\ast$ {\em tag}, \/  fortint $\ast$ {\em source}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_3db4fcc0d1ee743b3c2c8519717b7f43}
+
+
+Detect whether a message of the specified type is available. 
+
+\begin{itemize}
+\item {\bf GA} (with TCGMSG) analogous to PROBE\item {\bf MPI2} calls MPI\_\-Iprobe \end{itemize}
+
+
+Definition at line 643 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_2e0e67f025fb7f43497aaeb3ff8644b7}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Location@{PPIDD\_\-Location}}
+\index{PPIDD\_\-Location@{PPIDD\_\-Location}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Location}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Location (fortint $\ast$ {\em handle}, \/  fortint $\ast$ {\em ilo}, \/  fortint $\ast$ {\em ihi}, \/  fortint $\ast$ {\em map}, \/  fortint $\ast$ {\em proclist}, \/  fortint $\ast$ {\em np}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_2e0e67f025fb7f43497aaeb3ff8644b7}
+
+
+Return a list of the processes that hold the data. 
+
+Parts of the specified patch might be actually 'owned' by several processes. np is the number of processes hold tha data (return 0 if ilo/ihi are out of bounds \char`\"{}0\char`\"{}).\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_locate_region}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-locate\_\-region} \end{itemize}
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em handle}]array handle \item[{\em ilo}]lower element subscript, 1 (not 0) for fisrt element \item[{\em ihi}]higher element subscript \item[{\em map}]return start/end index for {\tt proclist} \item[{\em proclist}]proc id list \item[{\em np}]proc number \item[{\em ok}]return {\tt }.true. if successful; otherwise {\tt }.false. \end{description}
+\end{Desc}
+
+
+Definition at line 1126 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_b72365026621a4f6d0e38d0f234c2312}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Lock\_\-mutex@{PPIDD\_\-Lock\_\-mutex}}
+\index{PPIDD\_\-Lock\_\-mutex@{PPIDD\_\-Lock\_\-mutex}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Lock\_\-mutex}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Lock\_\-mutex (fortint $\ast$ {\em inum})}}
+\label{ppidd__fortran_8c_b72365026621a4f6d0e38d0f234c2312}
+
+
+Lock a mutex object identified by a given mutex number. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_lock}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-lock} \end{itemize}
+
+
+Definition at line 1670 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_c09d18f19ab866416a36b4ff90595574}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Nxtval@{PPIDD\_\-Nxtval}}
+\index{PPIDD\_\-Nxtval@{PPIDD\_\-Nxtval}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Nxtval}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Nxtval (fortint $\ast$ {\em numproc}, \/  fortint $\ast$ {\em val})}}
+\label{ppidd__fortran_8c_c09d18f19ab866416a36b4ff90595574}
+
+
+Get the next shared counter number(helper process should be enabled). 
+
+Increment a counter by 1 and returns the counter value (0, 1, ...). 
+
+Definition at line 310 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_8a783d3238c117f29f604e18b3086f9e}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Put@{PPIDD\_\-Put}}
+\index{PPIDD\_\-Put@{PPIDD\_\-Put}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Put}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Put (fortint $\ast$ {\em handle}, \/  fortint $\ast$ {\em ilo}, \/  fortint $\ast$ {\em ihi}, \/  void $\ast$ {\em buff}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_8a783d3238c117f29f604e18b3086f9e}
+
+
+Put local buffer data into a section of a global array according to starting and ending index. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_put}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-put} \end{itemize}
+
+
+Definition at line 1266 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_2d3c72cba83ccd56269f38aaeff52d29}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Rank@{PPIDD\_\-Rank}}
+\index{PPIDD\_\-Rank@{PPIDD\_\-Rank}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Rank}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Rank (fortint $\ast$ {\em me})}}
+\label{ppidd__fortran_8c_2d3c72cba83ccd56269f38aaeff52d29}
+
+
+Determine the rank of the calling process. 
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Nodeid, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_nodeid}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-nodeid}\item {\bf MPI2} calls MPI\_\-Comm\_\-rank in computational communicator. \end{itemize}
+
+
+Definition at line 382 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_432034f4cc79f138464d31dc2c2fb4ce}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Read\_\-inc@{PPIDD\_\-Read\_\-inc}}
+\index{PPIDD\_\-Read\_\-inc@{PPIDD\_\-Read\_\-inc}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Read\_\-inc}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Read\_\-inc (fortint $\ast$ {\em ihandle}, \/  fortint $\ast$ {\em inum}, \/  fortint $\ast$ {\em incr}, \/  fortint $\ast$ {\em returnval})}}
+\label{ppidd__fortran_8c_432034f4cc79f138464d31dc2c2fb4ce}
+
+
+Atomically read and increment an element in an integer array. 
+
+Reads data from the (inum) element of a global array of integers, returns that value, and increments the (inum) element by a given increment. This is a fetch-and-add operation.\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_read_inc}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-read\_\-inc} \end{itemize}
+
+
+Definition at line 1382 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_524f2a92f0e743c4504752680bd75ca2}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Recv@{PPIDD\_\-Recv}}
+\index{PPIDD\_\-Recv@{PPIDD\_\-Recv}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Recv}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Recv (void $\ast$ {\em buf}, \/  fortint $\ast$ {\em count}, \/  fortint $\ast$ {\em dtype}, \/  fortint $\ast$ {\em source}, \/  fortint $\ast$ {\em lenreal}, \/  fortint $\ast$ {\em sourcereal}, \/  fortint $\ast$ {\em sync})}}
+\label{ppidd__fortran_8c_524f2a92f0e743c4504752680bd75ca2}
+
+
+Blocking/nonblocking receive. 
+
+\begin{itemize}
+\item {\bf GA} calls RCV\_\-.\item {\bf MPI2} calls MPI\_\-Recv ( sync is 1) or MPI\_\-Irecv( sync is 0). \end{itemize}
+
+
+Definition at line 522 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_1fa4cbcbe395c2a5542ba612223afe53}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Send@{PPIDD\_\-Send}}
+\index{PPIDD\_\-Send@{PPIDD\_\-Send}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Send}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Send (void $\ast$ {\em buf}, \/  fortint $\ast$ {\em count}, \/  fortint $\ast$ {\em dtype}, \/  fortint $\ast$ {\em dest}, \/  fortint $\ast$ {\em sync})}}
+\label{ppidd__fortran_8c_1fa4cbcbe395c2a5542ba612223afe53}
+
+
+Blocking/nonblocking send. 
+
+\begin{itemize}
+\item {\bf GA} calls SND\_\-.\item {\bf MPI2} calls MPI\_\-Send ( sync is 1) or MPI\_\-Isend ( sync is 0). \end{itemize}
+
+
+Definition at line 449 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_ceda1944313e93356746c9cf17af07cb}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Size@{PPIDD\_\-Size}}
+\index{PPIDD\_\-Size@{PPIDD\_\-Size}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Size}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Size (fortint $\ast$ {\em np})}}
+\label{ppidd__fortran_8c_ceda1944313e93356746c9cf17af07cb}
+
+
+Determine the number of compute processes. 
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Nnodes, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_nnodes}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-nnodes}\item {\bf MPI2} calls MPI\_\-Comm\_\-size for computational communicator. \end{itemize}
+
+
+Definition at line 359 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_7eab090677f7b09bc6c498e4a0ad9b96}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Size\_\-all@{PPIDD\_\-Size\_\-all}}
+\index{PPIDD\_\-Size\_\-all@{PPIDD\_\-Size\_\-all}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Size\_\-all}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Size\_\-all (fortint $\ast$ {\em np})}}
+\label{ppidd__fortran_8c_7eab090677f7b09bc6c498e4a0ad9b96}
+
+
+Determine the total number of processes available (including helper process if there is one). 
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Nnodes, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_nnodes}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-nnodes}\item {\bf MPI2} calls MPI\_\-Comm\_\-size for communicator MPI\_\-COMM\_\-WORLD. \end{itemize}
+
+
+Definition at line 336 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_6f490ccb3e6f78ccbb7c5d195da3362f}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Unlock\_\-mutex@{PPIDD\_\-Unlock\_\-mutex}}
+\index{PPIDD\_\-Unlock\_\-mutex@{PPIDD\_\-Unlock\_\-mutex}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Unlock\_\-mutex}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Unlock\_\-mutex (fortint $\ast$ {\em inum})}}
+\label{ppidd__fortran_8c_6f490ccb3e6f78ccbb7c5d195da3362f}
+
+
+Unlock a mutex object identified by a given mutex number. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_unlock}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-unlock} \end{itemize}
+
+
+Definition at line 1691 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_92570bd501f5414317175b99899b0186}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Wait@{PPIDD\_\-Wait}}
+\index{PPIDD\_\-Wait@{PPIDD\_\-Wait}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Wait}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Wait (fortint $\ast$ {\em nodesel})}}
+\label{ppidd__fortran_8c_92570bd501f5414317175b99899b0186}
+
+
+Wait for completion of all asynchronous send/receive. 
+
+ignores nodesel !!
+
+\begin{itemize}
+\item {\bf GA} (with TCGMSG) analogous to WAITCOM\item {\bf MPI2} calls MPI\_\-Wait for all asynchronous requests. \end{itemize}
+
+
+Definition at line 616 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_5435ed4bb5938a418455f516363c13cb}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Wtime@{PPIDD\_\-Wtime}}
+\index{PPIDD\_\-Wtime@{PPIDD\_\-Wtime}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Wtime}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Wtime (double $\ast$ {\em ctime})}}
+\label{ppidd__fortran_8c_5435ed4bb5938a418455f516363c13cb}
+
+
+Return an elapsed time on the calling process. 
+
+Returns a floating-point number of seconds, representing elapsed wall-clock time since an arbitrary time in the past. The times returned are local to the node that called them. There is no requirement that different nodes return the same time. This is a local operation.
+
+\begin{itemize}
+\item {\bf GA} calls GA\_\-Wtime, which is available only in release 4.1 or greater, \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_wtime}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-wtime}\item {\bf MPI2} calls MPI\_\-Wtime \end{itemize}
+
+
+Definition at line 246 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_ccc618ac9c2772687674356a5422df90}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Zero@{PPIDD\_\-Zero}}
+\index{PPIDD\_\-Zero@{PPIDD\_\-Zero}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Zero}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Zero (fortint $\ast$ {\em handle}, \/  fortlogical $\ast$ {\em ok})}}
+\label{ppidd__fortran_8c_ccc618ac9c2772687674356a5422df90}
+
+
+Set all the elements of an array to zero. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_zero}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-zero} \end{itemize}
+
+
+Definition at line 1458 of file ppidd\_\-fortran.c.\hypertarget{ppidd__fortran_8c_7940ea0bbf3719121fb67050ab0c0b87}{
+\index{ppidd\_\-fortran.c@{ppidd\_\-fortran.c}!PPIDD\_\-Zero\_\-patch@{PPIDD\_\-Zero\_\-patch}}
+\index{PPIDD\_\-Zero\_\-patch@{PPIDD\_\-Zero\_\-patch}!ppidd_fortran.c@{ppidd\_\-fortran.c}}
+\subsubsection[{PPIDD\_\-Zero\_\-patch}]{\setlength{\rightskip}{0pt plus 5cm}void PPIDD\_\-Zero\_\-patch (fortint $\ast$ {\em ihandle}, \/  fortint $\ast$ {\em ilo}, \/  fortint $\ast$ {\em ihi})}}
+\label{ppidd__fortran_8c_7940ea0bbf3719121fb67050ab0c0b87}
+
+
+Set all the elements in an array patch to zero. 
+
+\begin{itemize}
+\item {\bf GA} analogous to \href{http://www.emsl.pnl.gov/docs/global/ga_ops.html#ga_zero_patch}{\tt http://www.emsl.pnl.gov/docs/global/ga\_\-ops.html\#ga\_\-zero\_\-patch} \end{itemize}
+
+
+Definition at line 1422 of file ppidd\_\-fortran.c.
