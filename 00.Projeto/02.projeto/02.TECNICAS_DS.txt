@@ -23,6 +23,8 @@ Regressão Linear Simples
 Regressão Linear Múltipla
 Regressão Logistica
 Erro quadrático médio
+- Gradient descent
+- Redes neurais perceptron
 
 matriz esparsa (com muitos zeros)
 benchmark com processamento paralelo para matriz
@@ -30,3 +32,4 @@ benchmark com processamento paralelo para matriz
 - algoritmo de sort
 - ordenação n log n (implementar) quick sort (ordena e tem comportamento na media tem comportamento logaritmo n log n)
 - benchmark (
+
