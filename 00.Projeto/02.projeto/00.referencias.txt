@@ -1,6 +1,6 @@
 ﻿Referências para utilizar no trabalho:
 ----------------------------------------------------------------------------------------------------------------------
-COMPUTACAO PARALELA
+01.COMPUTACAO PARALELA
 ----------------------------------------------------------------------------------------------------------------------
 00.
 Desenvolvimento_modelos_predicao_desempenho_programas_paralelos_MPI.pdf
@@ -69,7 +69,7 @@ Sourcebook of Parallel Computing
 
 
 ----------------------------------------------------------------------------------------------------------------------
-DESEMPENHO
+02.TECNICAS DE AVALIACAO DE DESEMPENHO
 ----------------------------------------------------------------------------------------------------------------------
 00.
 Sistema_Modelagem_predicao_analitica_desempenho_processamento_paralelo.pdf
@@ -106,9 +106,13 @@ Teste de desempenho: Conceitos, Objetivos e Aplicação - Parte 1
 09.
 TANENBAUM, Andrew. Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo: Pearson Prentice Hall, 2007. 402 p.
 
+10.
+Redes_Neurais_Artificiais_Para_Modelagem_Confiabilidade_de_Software
+SOUZA, Gustavo Alexandre de. Utilizando Redes Neurais Artificiais para Modelar a Confiabilidade de Software. 2004. 58 f. Dissertação (Mestrado) - Curso de Curso de Mestrado em Informática, Setor de Ciências Exatas da Universidade Federal do Paraná, Universidade Federal do Paraná, Curitiba - Paraná, 2004.
+
 
 ----------------------------------------------------------------------------------------------------------------------
-MODELOS COM CIENCIA DE DADOS
+03.ALGORITMOS DE PREDICAO DE CIENCIA DE DADOS
 ----------------------------------------------------------------------------------------------------------------------
 00.
 A_study_of_the_behavior_of_several_methods_for_balancing_machine_learning_training_data
@@ -188,7 +192,76 @@ https://link-springer-com.ez67.periodicos.capes.gov.br/article/10.1007/s10639-01
 19.
 Análises Preditivas - O que são e qual sua importância?	https://www.sas.com/pt_br/insights/analytics/analises-preditivas.html#:~:text=An%C3%A1lises%20preditivas%20usam%20dados%2C%20algoritmos,que%20poder%C3%A1%20acontecer%20no%20futuro.
 
+20.
+2016_Book_ProcessMining
+AALST, Wil van Der. Process Mining: data science in action. 2. ed. Eindhoven: Springer, 2016. 477 p.
 
+21.
+045116-t2
+CIRNE, Marcos Vinícius Mussel. Introdução à Arquitetura de GPUs. Campinas: Ic / Unicamp, 2019. 5 p.
+
+22.
+06506074
+GUO, Ping; WANG, Liqiang; CHEN, Po. A Performance Modeling and Optimization Analysis Tool for Sparse Matrix-Vector Multiplication on GPUs. Ieee Transactions On Parallel And Distributed Systems, China, v. 25, n. 5, p. 1112-1123, maio 2014. Mensal.
+
+23.
+andreasresios-msc
+RESIOS, Andreas. GPU Performance Prediction using Parametrized Models. 2011. 66 f. Tese (Doutorado) - Computer Science, Utrecht University, Utrecht, 2011.
+
+24.
+tese_Marcos_FINAL
+GONZÁLEZ, Marcos Tulio Amarís. Performance Prediction Of Applications Executed on GPUs using a Simple Analytical Model and Machine Learning Techniques. 2018. 109 f. Tese (Doutorado) - Curso de Mathematics And Statistics, Institute Of Mathematics And Statistics Of University Of São Paulo, Universidade de São Paulo, São Paulo, 2018.
+
+25.
+
+
+26.Wikipedia
+UNIDADE de Processamento Gráfico. 2020. Disponível em: https://pt.wikipedia.org/wiki/Unidade_de_processamento_gr%C3%A1fico. Acesso em: 30 set. 2020.
+
+27.
+COMPUTAÇÃO Paralela. 2020. Disponível em: https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_paralela. Acesso em: 30 set. 2020.
+
+28.
+SGEMM. 2020. Disponível em: https://github.com/NervanaSystems/maxas/wiki/SGEMM. Acesso em: 30 set. 2020.
+
+29.
+DETTMERS, Tim. Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning. 2020. Disponível em: https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/. Acesso em: 30 set. 2020.
+
+30.
+EXPLORING the GPU Architecture. 2019. Disponível em: https://nielshagoort.com/2019/03/12/exploring-the-gpu-architecture/. Acesso em: 30 set. 2020.
+
+31. Programação GPU GPGPU:
+https://pt.wikipedia.org/wiki/GPGPU
+GPGPU. 2020. Disponível em: https://pt.wikipedia.org/wiki/GPGPU. Acesso em: 03 out. 2020.
+
+
+32.
+clementine-analytical-performance-prediction
+M.J. Clement and M.J. Quinn. Analytical performance prediction on multicomputers. In Proceedings of the 1993 ACM/IEEE conference on Supercomputing, page 894. ACM, 1993.
+
+33.
+on-the-use-of-machine-learning-to-predict-the-time-applications
+Matsunaga and Fortes (2010)A. Matsunaga and J. Fortes. On the use of machine learning topredict the time and resources consumed by applications. InCluster, Cloud and Grid Computing(CCGrid), 2010 10th IEEE/ACM International Conference on, pages 495–504. doi: 10.1109/CCGRID.2010.98.
+
+34.
+Predicting-gpu-performance-from-cpu-runs-using-machine-learning
+Baldini et al.(2014)I. Baldini, S. J. Fink and E. Altman.  Predicting gpu performancefrom cpu runs using machine learning.  In Computer Architecture and High PerformanceComputing (SBAC-PAD), 2014 IEEE 26th International Symposium on, pages 254–261. doi:10.1109/SBAC-PAD.2014.30.
+
+35.
+GPGPU-performance-estimation
+WANG, Qiang; CHU, Xiaowen. GPGPU Performance Estimation With Core and Memory Frequency Scaling. Ieee Transactions On Parallel And Distributed Systems, [S.L.], v. 31, n. 12, p. 2865-2881, 1 dez. 2020. Institute of Electrical and Electronics Engineers (IEEE). http://dx.doi.org/10.1109/tpds.2020.3004623.
+
+36.
+A-statistical-performance-prediction-model-for-opencl-kernels-on-nvidia-gpus
+Karamiet al.(2013)A. Karami, S. A. Mirsoleimani and F. Khunjush. A statistical performanceprediction model for opencl kernels on nvidia gpus. InThe 17th CSI International Symposiumon Computer Architecture Digital Systems (CADS 2013), pages 15–22. doi: 10.1109/CADS.2013.6714232.
+
+37.
+sobols-tensor-train
+Rafael Ballester-Ripoll, Enrique G. Paredes, Renato Pajarola. Sobol Tensor Trains for Global Sensitivity Analysis. In arXiv Computer Science / Numerical Analysis e-prints, 2017
+
+38.
+CLTune-a-generic-auto-tuner
+Cedric Nugteren and Valeriu Codreanu. CLTune: A Generic Auto-Tuner for OpenCL Kernels. In: MCSoC: 9th International Symposium on Embedded Multicore/Many-core Systems-on-Chip. IEEE, 2015
 ----------------------------------------------------------------------------------------------------------------------
 
 

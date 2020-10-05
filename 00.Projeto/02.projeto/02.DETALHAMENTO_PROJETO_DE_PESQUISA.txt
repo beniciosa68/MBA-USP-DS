@@ -45,9 +45,10 @@ TÓPICOS TCC:
 -------------------------------------------------------
 BIBLIOGRAFIA
 -------------------------------------------------------
-		Antonello, Ricardo. Desenvolvimento De Um Modelo De Sistema Multiagente Para Previsão De Retorno Sobre Indices De Ações. 2012.
 		
-		L. Bao, C. Wu, X. Bu, N. Ren and M. Shen, "Performance Modeling and Workflow Scheduling of Microservice-Based Applications in Clouds," in IEEE Transactions on Parallel and Distributed Systems, vol. 30, no. 9, pp. 2114-2129, 1 Sept. 2019, doi: 10.1109/TPDS.2019.2901467.
+		AALST, Wil van Der. Process Mining: data science in action. 2. ed. Eindhoven: Springer, 2016. 477 p.
+		
+		Antonello, Ricardo. Desenvolvimento De Um Modelo De Sistema Multiagente Para Previsão De Retorno Sobre Indices De Ações. 2012.
 		
 		Bán, D., Ferenc, R., Siket, I. et al. Prediction models for performance, power, and energy efficiency of software executed on heterogeneous hardware. J Supercomput 75, 4001–4025 (2019). https://doi-org.ez67.periodicos.capes.gov.br/10.1007/s11227-018-2252-6
 		
@@ -55,9 +56,15 @@ BIBLIOGRAFIA
 		
 		CAMPOS, Fábio Martinho. Teste de desempenho: Conceitos, Objetivos e Aplicação - Parte 1. Disponível em: http://www.linhadecodigo.com.br/artigo/3256/teste-de-desempenho-conceitos-objetivos-e-aplicacao-parte-1.aspx Acesso em: 25 jun. 2020.
 		
-		P. Bourque and R.E. Fairley, eds., Guide to the Software Engineering Body of Knowledge, Version 3.0, IEEE Computer Society, 2014; www.swebok.org.
+		CIRNE, Marcos Vinícius Mussel. Introdução à Arquitetura de GPUs. Campinas: Ic / Unicamp, 2019. 5 p.
+		
+		COMPUTAÇÃO Paralela. 2020. Disponível em: https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_paralela. Acesso em: 30 set. 2020.
+		
+		DETTMERS, Tim. Which GPU(s) to Get for Deep Learning: My Experience and Advice for Using GPUs in Deep Learning. 2020. Disponível em: https://timdettmers.com/2020/09/07/which-gpu-for-deep-learning/. Acesso em: 30 set. 2020.
 		
 		DONGARRA, Jack; FOSTER, Ian; FOX, Geoffrey; GROPP, William; KENNEDY, Ken; TORCSON, Linda; WHITE, Andy. Sourcebook Of Parallel Computing. San Francisco: Morgan Kaufmann Publishers, 2003. 852 p.
+		
+		EXPLORING the GPU Architecture. 2019. Disponível em: https://nielshagoort.com/2019/03/12/exploring-the-gpu-architecture/. Acesso em: 30 set. 2020.
 		
 		Stephan Dreiseitl, Lucila Ohno-Machado, Logistic regression and artificial neural network classification models: a methodology review, Journal of Biomedical Informatics, Volume 35, Issues 5–6, 2002, Pages 352-359, ISSN 1532-0464, https://doi.org/10.1016/S1532-0464(03)00034-0. (http://www.sciencedirect.com/science/article/pii/S1532046403000340)
 		
@@ -66,12 +73,16 @@ BIBLIOGRAFIA
 		GODFREY, Leslie. Bootstrap Tests for Regression Models. London: Palgrave Macmillan, 2009. 342 p.
 		
 		GASPARINI, R.; ÁLVARO, A. Análise entre algoritmos de aprendizado de máquina para suportar a predição do posicionamento do jogador de futebol. Revista Brasileira de Computação Aplicada, v. 9, n. 2, p. 70-83, 28 jul. 2017.
-				
+		
+		GONZÁLEZ, Marcos Tulio Amarís. Performance Prediction Of Applications Executed on GPUs using a Simple Analytical Model and Machine Learning Techniques. 2018. 109 f. Tese (Doutorado) - Curso de Mathematics And Statistics, Institute Of Mathematics And Statistics Of University Of São Paulo, Universidade de São Paulo, São Paulo, 2018.
+		
 		GROVE, Duncan A. Performance Modelling of Message-Passing Parallel Programs. 2003. Disponível em: http://hdl.handle.net/2440/37915. Acesso em: 25 jun. 2020.
 		
 		GUIRADO, Alia Garrudo. Critérios robustos de seleção de modelos de regressão e identificação de pontos aberrantes. 2019. Dissertação (Mestrado em Estatística) - Instituto de Matemática e Estatística, Universidade de São Paulo, São Paulo, 2019. doi:10.11606/D.45.2019.tde-05042019-165356. Acesso em: 2020-06-26.
 		
 		GUNTHER, Neil J.. Guerrilla Capacity Planning: a tactical approach to planning for highly scalable applications and services. California: Springer, 2006. 262 p.
+		
+		GUO, Ping; WANG, Liqiang; CHEN, Po. A Performance Modeling and Optimization Analysis Tool for Sparse Matrix-Vector Multiplication on GPUs. Ieee Transactions On Parallel And Distributed Systems, China, v. 25, n. 5, p. 1112-1123, maio 2014. Mensal.
 		
 		Gustavo E. A. P. A. Batista, Ronaldo C. Prati, and Maria Carolina Monard. 2004. A study of the behavior of several methods for balancing machine learning training data. SIGKDD Explor. Newsl. 6, 1 (June 2004), 20–29. DOI:https://doi.org/10.1145/1007730.1007735
 		
@@ -93,6 +104,8 @@ BIBLIOGRAFIA
 		
 		KSHEMKALYANI, A.d.; SINGHAL, M.. Distributed Computing: Principles, Algorithms, and Systems. 2011. Disponível em: https://www.cs.uic.edu/~ajayk/DCS-Book. Acesso em: 25 jun. 2020.
 		
+		L. Bao, C. Wu, X. Bu, N. Ren and M. Shen, "Performance Modeling and Workflow Scheduling of Microservice-Based Applications in Clouds," in IEEE Transactions on Parallel and Distributed Systems, vol. 30, no. 9, pp. 2114-2129, 1 Sept. 2019, doi: 10.1109/TPDS.2019.2901467.
+		
 		LAINE, Jean Marcos. Desenvolvimento de modelos para predição de desempenho de programas paralelos MPI. 2003. Dissertação (Mestrado em Sistemas Digitais) - Escola Politécnica, Universidade de São Paulo, São Paulo, 2003. doi:10.11606/D.3.2003.tde-28082003-184400.
 
 		LAINE, Jean Marcos. Uma metodologia para desenvolvimento de programas paralelos eficientes em ambientes homogêneos e heterogêneos. 2008. Tese (Doutorado em Sistemas Digitais) - Escola Politécnica, Universidade de São Paulo, São Paulo, 2008. doi:10.11606/T.3.2016.tde-29112016-085713. Acesso em: 2020-06-25.
@@ -110,6 +123,8 @@ BIBLIOGRAFIA
 		MPI FORUM (org.). MPI Documents. Disponível em: https://www.mpi-forum.org/docs/. Acesso em: 25 jun. 2020.
 				
 		OLIVEIRA, Hélio Marci de. Modelagem e predição de desempenho de primitivas de comunicação MPI. 2003. Dissertação (Mestrado em Sistemas Digitais) - Escola Politécnica, Universidade de São Paulo, São Paulo, 2003. doi:10.11606/D.3.2003.tde-26082003-113045. Acesso em: 2020-06-25.
+		
+		P. Bourque and R.E. Fairley, eds., Guide to the Software Engineering Body of Knowledge, Version 3.0, IEEE Computer Society, 2014; www.swebok.org.
 				
 		PETERSEN, W. P.; ARBENZ, P. Introduction to Parallel Computing: a practical guide with examples in c. New York: Oxford University Press Inc., 2004. 278 p.
 		
@@ -117,15 +132,23 @@ BIBLIOGRAFIA
 		
 		QAZDAR, A., ER-RAHA, B., CHERKAOUI, C., MAMMASS, D. A machine learning algorithm framework for predicting students performance: A case study of baccalaureate students in Marocco. Springer Science+Business Media, LLC, part of Springer Nature, 2019.
 		
+		RESIOS, Andreas. GPU Performance Prediction using Parametrized Models. 2011. 66 f. Tese (Doutorado) - Computer Science, Utrecht University, Utrecht, 2011.
+		
 		S. Richard, B. Miegemolle, J. M. Garcia and T. Monteil, "Performance of MPI Parallel Applications," 2006 International Conference on Software Engineering Advances (ICSEA'06), Tahiti, 2006, pp. 59-59, doi: 10.1109/ICSEA.2006.261315.
 		
 		SAS. Análises Preditivas: o que são e qual sua importância?. O que são e qual sua importância?. Disponível em: https://www.sas.com/pt_br/insights/analytics/analises-preditivas.html#:~:text=An%C3%A1lises%20preditivas%20usam%20dados%2C%20algoritmos,que%20poder%C3%A1%20acontecer%20no%20futuro.. Acesso em: 26 jun. 2020.
+		
+		SGEMM. 2020. Disponível em: https://github.com/NervanaSystems/maxas/wiki/SGEMM. Acesso em: 30 set. 2020.
+		
+		SOUZA, Gustavo Alexandre de. Utilizando Redes Neurais Artificiais para Modelar a Confiabilidade de Software. 2004. 58 f. Dissertação (Mestrado) - Curso de Curso de Mestrado em Informática, Setor de Ciências Exatas da Universidade Federal do Paraná, Universidade Federal do Paraná, Curitiba - Paraná, 2004.
 		
 		J. Sun, G. Sun, S. Zhan, J. Zhang and Y. Chen, "Automated Performance Modeling of HPC Applications Using Machine Learning," in IEEE Transactions on Computers, vol. 69, no. 5, pp. 749-763, 1 May 2020, doi: 10.1109/TC.2020.2964767.
 		
 		Srinivasan Ramesh, Aurèle Mahéo, Sameer Shende, Allen D. Malony, Hari Subramoni, Amit Ruhela, Dhabaleswar K. (DK) Panda, MPI performance engineering with the MPI tool interface: The integration of MVAPICH and TAU, Parallel Computing, Volume 77, 2018, Pages 19-37, ISSN 0167-8191,https://doi.org/10.1016/j.parco.2018.05.003. (http://www.sciencedirect.com/science/article/pii/S0167819118301479)
 		
 		TANENBAUM, Andrew. Sistemas distribuídos: princípios e paradigmas. 2. ed. São Paulo: Pearson Prentice Hall, 2007. 402 p.
+
+		UNIDADE de Processamento Gráfico. 2020. Disponível em: https://pt.wikipedia.org/wiki/Unidade_de_processamento_gr%C3%A1fico. Acesso em: 30 set. 2020.
 
 		Xavier Aguilar, Karl Fürlinger, Erwin Laure, Visual MPI Performance Analysis using Event Flow Graphs, Procedia Computer Science, Volume 51, 2015, Pages 1353-1362, ISSN 1877-0509, https://doi.org/10.1016/j.procs.2015.05.322. (http://www.sciencedirect.com/science/article/pii/S1877050915011308)
 		
