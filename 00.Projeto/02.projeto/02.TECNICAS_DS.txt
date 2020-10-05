@@ -31,5 +31,11 @@ benchmark com processamento paralelo para matriz
 
 - algoritmo de sort
 - ordenação n log n (implementar) quick sort (ordena e tem comportamento na media tem comportamento logaritmo n log n)
-- benchmark (
+- benchmark
 
+meet.google.com/fyv-kpmi-ezx
+
+Trabalho Marcos:
+	Regressão
+	SVM
+	Random Forest
