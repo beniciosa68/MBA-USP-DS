@@ -246,6 +246,7 @@ Matsunaga and Fortes (2010)A. Matsunaga and J. Fortes. On the use of machine lea
 34.
 Predicting-gpu-performance-from-cpu-runs-using-machine-learning
 Baldini et al.(2014)I. Baldini, S. J. Fink and E. Altman.  Predicting gpu performancefrom cpu runs using machine learning.  In Computer Architecture and High PerformanceComputing (SBAC-PAD), 2014 IEEE 26th International Symposium on, pages 254–261. doi:10.1109/SBAC-PAD.2014.30.
+Baldini et al.(2014)I. Baldini, S. J. Fink and E. Altman.  Predicting gpu performancefrom cpu runs using machine learning.  In Computer Architecture and High PerformanceComputing (SBAC-PAD), 2014 IEEE 26th International Symposium on, pages 254–261. doi:10.1109/SBAC-PAD.2014.30.
 
 35.
 GPGPU-performance-estimation
@@ -262,6 +263,14 @@ Rafael Ballester-Ripoll, Enrique G. Paredes, Renato Pajarola. Sobol Tensor Train
 38.
 CLTune-a-generic-auto-tuner
 Cedric Nugteren and Valeriu Codreanu. CLTune: A Generic Auto-Tuner for OpenCL Kernels. In: MCSoC: 9th International Symposium on Embedded Multicore/Many-core Systems-on-Chip. IEEE, 2015
+
+39.
+machine-learning-based-auto-tunning
+FALCH, Thomas L.; ELSTER, Anne C.. Machine Learning Based Auto-Tuning for Enhanced OpenCL Performance Portability. 2015 Ieee International Parallel And Distributed Processing Symposium Workshop, [S.L.], v. [], n. [], p. 1231-1240, maio 2015. IEEE. http://dx.doi.org/10.1109/ipdpsw.2015.85.
+
+40.
+LOOP UNROLLING, 2020. Disponível em: https://en.wikipedia.org/wiki/Loop_unrolling. Acesso em: 05 out. 2020.
+
 ----------------------------------------------------------------------------------------------------------------------
 
 
